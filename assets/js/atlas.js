@@ -26,11 +26,11 @@ function Atlas(){
         pointToLayer: function (feature, latlng){
             return L.circleMarker(latlng, {
                 radius: feature.properties.TotalParticipants,
-                fillColor: "#ff7800",
-                color: "#000",
+                fillColor: "#4F4157",
+                color: "#4F4157",
                 weight: 1,
-                opacity: 1,
-                fillOpacity: 0.8
+                opacity: 0.6,
+                fillOpacity: 0.6
             });},
         onEachFeature: function (feature, layer){
             if (feature.properties && feature.properties.Country && feature.properties.TotalParticipants){
@@ -47,7 +47,6 @@ function Atlas(){
         popupAnchor: [1, -34],
         shadowSize: [41, 41]});
     
-    
     var nodcs = L.geoJSON(data_centres, {
         pointToLayer: function (feature, latlng){
             return L.marker(latlng, {
@@ -56,6 +55,19 @@ function Atlas(){
         onEachFeature: function (feature, layer){
             if (feature.properties && feature.properties.country && feature.properties.organisationName && feature.properties.website)
             layer.bindPopup(`<b>Country:</b> ${feature.properties.country}<br/><br/><b>Organisation Name:</b> ${feature.properties.organisationName}<br/><br/><b>Website:</b> <a href="${feature.properties.website}" target="_blank">Link</a><span class="material-icons" font-size="x-small">open_in_new</span>`);
+        }
+    });
+    
+    // Load the forecasting systems layer
+    var models = L.geoJSON(forecastingSystems, {
+        attribution: "Mercator Ocean International",
+        style: function(feature){
+            return{
+                fillColor: '#A0AAB6',
+                color: '#A0AAB6'
+        }},
+        onEachFeature: function (feature, layer){
+            layer.bindPopup(`<b>Name:</b> ${feature.properties.title}<br/><br/><b>Organisation Name:</b> ${feature.properties.organization}<br/><br/><b>Type of system:</b> ${feature.properties.typeOfSystem}<br/><br/><b>Numerical model:</b> ${feature.properties.numericalModel}`)
         }
     });
     
@@ -83,6 +95,7 @@ function Atlas(){
                 label: 'Digital Representation of the Ocean',
                 selectAllCheckbox: true,
                 children: [
+                    {label: 'Ocean forecasting systems', layer: models},
                     {label: 'National Oceanographic Data Centres', layer: nodcs}
                 ]
             },

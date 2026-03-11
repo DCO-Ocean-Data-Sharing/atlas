@@ -1,0 +1,14627 @@
+var forecastingSystems = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.0,
+              53.0
+            ],
+            [
+              40.0,
+              56.0
+            ],
+            [
+              180.0,
+              90.0
+            ],
+            [
+              -180.0,
+              90.0
+            ],
+            [
+              -100.0,
+              53.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "TOPAZ5",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Research",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "Nansen Environmental and Remote Sensing Center",
+          "Norwegian Meteorological Institute"
+        ],
+        "otherLinks": "https://github.com/nansencenter/NERSC-HYCOM-CICE",
+        "numericalModel": "HYCOM - HYbrid Coordinate Ocean Model",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea ice concentration",
+          "Sea surface height (sea level)",
+          "Temperature",
+          "Ice thickness"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.0,
+              48.0
+            ],
+            [
+              30.0,
+              48.0
+            ],
+            [
+              30.0,
+              67.0
+            ],
+            [
+              -4.0,
+              59.0
+            ],
+            [
+              -4.0,
+              48.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "DKSS - DMI storm surge",
+        "typeOfSystem": "Circulation",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Danmarks Meteorologiske Institut",
+        "otherLinks": null,
+        "numericalModel": "Other circulation or sea level model",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.42282,
+              40.4453
+            ],
+            [
+              1.09804,
+              40.4453
+            ],
+            [
+              1.09804,
+              40.9216
+            ],
+            [
+              0.42282,
+              40.9216
+            ],
+            [
+              0.42282,
+              40.4453
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "e3HOPE Forecast System - Ebro Delta",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Aquaculture",
+          "Tourism",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Nologin Oceanic Weather Systems",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.42282,
+              40.4453
+            ],
+            [
+              1.09804,
+              40.4453
+            ],
+            [
+              1.09804,
+              40.9216
+            ],
+            [
+              0.42282,
+              40.9216
+            ],
+            [
+              0.42282,
+              40.4453
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "e3HOPE Forecast System - Ebro Delta",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Aquaculture",
+          "Tourism",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Nologin Oceanic Weather Systems",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.69719,
+              40.7589
+            ],
+            [
+              0.81963,
+              40.7589
+            ],
+            [
+              0.81963,
+              40.8257
+            ],
+            [
+              0.69719,
+              40.8257
+            ],
+            [
+              0.69719,
+              40.7589
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "e3HOPE Forecast System - Fangar Bay",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Aquaculture",
+          "Tourism",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Nologin Oceanic Weather Systems",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.69719,
+              40.7589
+            ],
+            [
+              0.81963,
+              40.7589
+            ],
+            [
+              0.81963,
+              40.8257
+            ],
+            [
+              0.69719,
+              40.8257
+            ],
+            [
+              0.69719,
+              40.7589
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "e3HOPE Forecast System - Fangar Bay",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Aquaculture",
+          "Tourism",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Nologin Oceanic Weather Systems",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.14767,
+              30.2655
+            ],
+            [
+              36.20931,
+              30.2655
+            ],
+            [
+              36.20931,
+              45.7862
+            ],
+            [
+              -6.14767,
+              45.7862
+            ],
+            [
+              -6.14767,
+              30.2655
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Kassandra",
+        "typeOfSystem": null,
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Institute of Marine Sciences of the National Research Council of Italy",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.14767,
+              30.2655
+            ],
+            [
+              36.20931,
+              30.2655
+            ],
+            [
+              36.20931,
+              45.7862
+            ],
+            [
+              -6.14767,
+              45.7862
+            ],
+            [
+              -6.14767,
+              30.2655
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Kassandra",
+        "typeOfSystem": null,
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Institute of Marine Sciences of the National Research Council of Italy",
+        "otherLinks": null,
+        "numericalModel": "WWMIII - Wind Wave Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.463,
+              40.9166
+            ],
+            [
+              41.7696,
+              40.9166
+            ],
+            [
+              41.7696,
+              46.6491
+            ],
+            [
+              27.463,
+              46.6491
+            ],
+            [
+              27.463,
+              40.9166
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Kassandra Black sea",
+        "typeOfSystem": null,
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Institute of Marine Sciences of the National Research Council of Italy",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.463,
+              40.9166
+            ],
+            [
+              41.7696,
+              40.9166
+            ],
+            [
+              41.7696,
+              46.6491
+            ],
+            [
+              27.463,
+              46.6491
+            ],
+            [
+              27.463,
+              40.9166
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Kassandra Black sea",
+        "typeOfSystem": null,
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Institute of Marine Sciences of the National Research Council of Italy",
+        "otherLinks": null,
+        "numericalModel": "WWMIII - Wind Wave Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.0,
+              39.0
+            ],
+            [
+              21.0,
+              39.0
+            ],
+            [
+              21.0,
+              46.0
+            ],
+            [
+              12.0,
+              46.0
+            ],
+            [
+              12.0,
+              39.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "NEMO_Storm_Surge",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Port Management",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Slovenian Environment Agency",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.73,
+              45.55
+            ],
+            [
+              13.73,
+              45.55
+            ],
+            [
+              13.73,
+              45.55
+            ],
+            [
+              13.73,
+              45.55
+            ],
+            [
+              13.73,
+              45.55
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "HIDRA",
+        "typeOfSystem": "Sea level (storm surge)",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Slovenian Environment Agency",
+        "otherLinks": null,
+        "numericalModel": "Deep Learning",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              30.0
+            ],
+            [
+              24.0,
+              30.0
+            ],
+            [
+              24.0,
+              46.0
+            ],
+            [
+              10.0,
+              46.0
+            ],
+            [
+              10.0,
+              30.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "WAMADR",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Slovenian Environment Agency",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.705,
+              33.507
+            ],
+            [
+              27.798,
+              33.507
+            ],
+            [
+              27.798,
+              36.796
+            ],
+            [
+              22.705,
+              36.796
+            ],
+            [
+              22.705,
+              33.507
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Crete",
+        "typeOfSystem": null,
+        "applications": "Oil spill fight",
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Foundation for Research and Technology-Hellas",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Currents",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.705,
+              33.507
+            ],
+            [
+              27.798,
+              33.507
+            ],
+            [
+              27.798,
+              36.796
+            ],
+            [
+              22.705,
+              36.796
+            ],
+            [
+              22.705,
+              33.507
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Crete",
+        "typeOfSystem": null,
+        "applications": "Oil spill fight",
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Foundation for Research and Technology-Hellas",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.0,
+              30.7
+            ],
+            [
+              36.205,
+              30.7
+            ],
+            [
+              36.205,
+              41.2
+            ],
+            [
+              20.0,
+              41.2
+            ],
+            [
+              20.0,
+              30.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CYCOFOS - Cyprus coastal ocean forecasting and observing system",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Oil spill fight",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "ORION Research, Nicosia, Cyprus",
+        "otherLinks": null,
+        "numericalModel": "POM - Princeton Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0,
+              29.0
+            ],
+            [
+              41.7,
+              29.0
+            ],
+            [
+              41.7,
+              47.0
+            ],
+            [
+              -6.0,
+              47.0
+            ],
+            [
+              -6.0,
+              29.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CYCOFOS - Cyprus coastal ocean forecasting and observing system",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Offshore energy",
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "ORION Research, Nicosia, Cyprus",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.0,
+              46.0
+            ],
+            [
+              9.98,
+              46.0
+            ],
+            [
+              9.98,
+              61.28
+            ],
+            [
+              -16.0,
+              61.28
+            ],
+            [
+              -16.0,
+              46.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Atlantic - European North West Shelf - Ocean Biogeochemistry Analysis and Forecast",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Aquaculture",
+          "Harmful Algae Bloom",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Nologin Oceanic Weather Systems",
+        "otherLinks": null,
+        "numericalModel": "Biogeochemical models",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.29,
+              30.18
+            ],
+            [
+              36.3,
+              30.18
+            ],
+            [
+              36.3,
+              45.98
+            ],
+            [
+              -17.29,
+              45.98
+            ],
+            [
+              -17.29,
+              30.18
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "MedFS",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Recreational navigation",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.0,
+              30.0
+            ],
+            [
+              37.0,
+              30.0
+            ],
+            [
+              37.0,
+              46.0
+            ],
+            [
+              -9.0,
+              46.0
+            ],
+            [
+              -9.0,
+              30.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "MedBFM",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Aquaculture",
+          "Fisheries",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Institute of Oceanography and Applied Geophysics",
+        "otherLinks": null,
+        "numericalModel": "BFM - Biogeochemical Flux Model",
+        "eovs": [
+          "Nutrients",
+          "Ocean colour",
+          "Organic matter",
+          "Oxygen",
+          "Phytoplankton biomass"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              -75.0
+            ],
+            [
+              360.0,
+              -75.0
+            ],
+            [
+              360.0,
+              75.0
+            ],
+            [
+              0.0,
+              75.0
+            ],
+            [
+              0.0,
+              -75.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Japan Coastal Ocean Predictability Experiment (JCOPE)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Fisheries",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Japan Agency for Marine-Earth Science and Technology",
+        "otherLinks": null,
+        "numericalModel": "POM - Princeton Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.0,
+              -79.5
+            ],
+            [
+              45.0,
+              -79.5
+            ],
+            [
+              45.0,
+              50.3
+            ],
+            [
+              -98.0,
+              50.3
+            ],
+            [
+              -98.0,
+              -79.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "HYCOM-1/24-CHM",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Oil spill fight",
+          "Recreational navigation",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Centro de Hidrografia da Marinha do Brasil",
+        "otherLinks": null,
+        "numericalModel": "HYCOM - HYbrid Coordinate Ocean Model",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0,
+              -45.2
+            ],
+            [
+              -24.0,
+              -45.2
+            ],
+            [
+              -24.0,
+              10.2
+            ],
+            [
+              -68.0,
+              10.2
+            ],
+            [
+              -68.0,
+              -45.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "HYCOM-1/24-CHM",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Oil spill fight",
+          "Recreational navigation",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Centro de Hidrografia da Marinha do Brasil",
+        "otherLinks": null,
+        "numericalModel": "HYCOM - HYbrid Coordinate Ocean Model",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.75,
+              -5.0
+            ],
+            [
+              37.0,
+              -5.0
+            ],
+            [
+              37.0,
+              67.0
+            ],
+            [
+              -59.75,
+              67.0
+            ],
+            [
+              -59.75,
+              -5.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "ATLMED",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": [
+          "Ocean surface heat flux",
+          "Ocean surface stress"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.0,
+              -3.0
+            ],
+            [
+              -59.0,
+              -3.0
+            ],
+            [
+              -57.0,
+              21.0
+            ],
+            [
+              -89.0,
+              21.0
+            ],
+            [
+              -89.0,
+              -3.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SIPSEM",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Fisheries",
+          "Oil spill fight",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Directorate General of Maritime",
+        "otherLinks": null,
+        "numericalModel": "CROCO - Coastal and Regional Ocean COmmunity Model",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.402,
+              45.476
+            ],
+            [
+              13.803,
+              45.476
+            ],
+            [
+              13.803,
+              45.804
+            ],
+            [
+              13.402,
+              45.804
+            ],
+            [
+              13.402,
+              45.476
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Delft3D_TSGulf",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Oil spill fight",
+          "Port Management",
+          "Research",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "National Institute of Biology",
+        "otherLinks": null,
+        "numericalModel": "Delft3D",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -20.5,
+              25.0
+            ],
+            [
+              10.5,
+              25.0
+            ],
+            [
+              10.5,
+              56.0
+            ],
+            [
+              -20.5,
+              56.0
+            ],
+            [
+              -20.5,
+              25.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Waves Puertos at IBI",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12.5,
+              32.75
+            ],
+            [
+              9.0,
+              32.75
+            ],
+            [
+              9.0,
+              48.0
+            ],
+            [
+              -12.5,
+              48.0
+            ],
+            [
+              -12.5,
+              32.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "AIB (Peninsula and Balearic Islands)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.4167,
+              37.199
+            ],
+            [
+              -2.9945,
+              37.199
+            ],
+            [
+              -2.9945,
+              35.0
+            ],
+            [
+              -7.4167,
+              35.0
+            ],
+            [
+              -7.4167,
+              37.199
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMPA REG (Gibraltar)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Oil spill fight",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "MITgcm - M.I.T. General Circulation Model",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea State (waves)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.2,
+              35.6
+            ],
+            [
+              -5.1,
+              35.6
+            ],
+            [
+              -5.1,
+              36.2
+            ],
+            [
+              -6.2,
+              36.2
+            ],
+            [
+              -6.2,
+              35.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "GIB (Peninsula and Balearic Islands)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.3,
+              38.2
+            ],
+            [
+              4.7,
+              38.2
+            ],
+            [
+              4.7,
+              40.4
+            ],
+            [
+              0.3,
+              40.4
+            ],
+            [
+              0.3,
+              38.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "BAL (Baleares)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -19.0,
+              26.5
+            ],
+            [
+              -12.5,
+              26.5
+            ],
+            [
+              -12.5,
+              30.0
+            ],
+            [
+              -19.0,
+              30.0
+            ],
+            [
+              -19.0,
+              26.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CAN (Canarias)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.5,
+              42.0
+            ],
+            [
+              -8.5,
+              42.0
+            ],
+            [
+              -8.5,
+              43.1
+            ],
+            [
+              -9.5,
+              43.1
+            ],
+            [
+              -9.5,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "RBAI (Rias Baixas)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.2,
+              43.5
+            ],
+            [
+              -5.5,
+              43.5
+            ],
+            [
+              -5.5,
+              44.0
+            ],
+            [
+              -6.2,
+              44.0
+            ],
+            [
+              -6.2,
+              43.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Asturias",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0,
+              43.5
+            ],
+            [
+              -5.5,
+              43.5
+            ],
+            [
+              -5.5,
+              43.8
+            ],
+            [
+              -6.0,
+              43.8
+            ],
+            [
+              -6.0,
+              43.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Gijon",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1,
+              41.2
+            ],
+            [
+              2.4,
+              41.2
+            ],
+            [
+              2.4,
+              41.6
+            ],
+            [
+              2.1,
+              41.6
+            ],
+            [
+              2.1,
+              41.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Barcelona",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.3,
+              37.4
+            ],
+            [
+              -0.3,
+              37.4
+            ],
+            [
+              -0.3,
+              38.5
+            ],
+            [
+              -1.3,
+              38.5
+            ],
+            [
+              -1.3,
+              37.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Cartagena (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.2,
+              37.4
+            ],
+            [
+              -0.8,
+              37.4
+            ],
+            [
+              -0.8,
+              37.7
+            ],
+            [
+              -1.2,
+              37.7
+            ],
+            [
+              -1.2,
+              37.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Cartagena",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.7,
+              43.3
+            ],
+            [
+              -8.1,
+              43.3
+            ],
+            [
+              -8.1,
+              43.6
+            ],
+            [
+              -8.7,
+              43.6
+            ],
+            [
+              -8.7,
+              43.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Ferrol (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.5,
+              43.4
+            ],
+            [
+              -8.2,
+              43.4
+            ],
+            [
+              -8.2,
+              43.5
+            ],
+            [
+              -8.5,
+              43.5
+            ],
+            [
+              -8.5,
+              43.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Ferrol",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.0,
+              54.4
+            ],
+            [
+              -4.5,
+              54.4
+            ],
+            [
+              -4.5,
+              59.5
+            ],
+            [
+              -9.0,
+              59.5
+            ],
+            [
+              -9.0,
+              54.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "WeStCOMS",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Coastal Hazards",
+          "Harmful Algae Bloom",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Scottish Association for Marine Science",
+        "otherLinks": "https://github.com/dmitryale/fvcom-toolbox",
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea State (waves)",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.4,
+              38.7
+            ],
+            [
+              0.2,
+              38.7
+            ],
+            [
+              0.2,
+              39.8
+            ],
+            [
+              -0.4,
+              39.8
+            ],
+            [
+              -0.4,
+              38.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Valencia (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.4,
+              39.3
+            ],
+            [
+              -0.1,
+              39.3
+            ],
+            [
+              -0.1,
+              39.6
+            ],
+            [
+              -0.4,
+              39.6
+            ],
+            [
+              -0.4,
+              39.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Valencia",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.9,
+              36.4
+            ],
+            [
+              -1.5,
+              36.4
+            ],
+            [
+              -1.5,
+              37.2
+            ],
+            [
+              -2.9,
+              37.2
+            ],
+            [
+              -2.9,
+              36.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Almeria (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.1,
+              43.5
+            ],
+            [
+              -5.8,
+              43.5
+            ],
+            [
+              -5.8,
+              43.8
+            ],
+            [
+              -6.1,
+              43.8
+            ],
+            [
+              -6.1,
+              43.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Aviles",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.33,
+              28.3
+            ],
+            [
+              -16.08,
+              28.3
+            ],
+            [
+              -16.08,
+              28.54
+            ],
+            [
+              -16.33,
+              28.54
+            ],
+            [
+              -16.33,
+              28.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - S. C. de Tenerife",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SC - PR Coast",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Navigation support",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Empresa de Pesquisa Agropecu\u00e1ria e Extens\u00e3o Rural de Santa Catarina",
+        "otherLinks": null,
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.1,
+              -27.9
+            ],
+            [
+              -48.65,
+              -27.9
+            ],
+            [
+              -48.65,
+              -27.15
+            ],
+            [
+              -48.1,
+              -27.15
+            ],
+            [
+              -48.1,
+              -27.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Santa Catarina Island Bay",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Aquaculture",
+          "Navigation support",
+          "Recreational navigation"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Empresa de Pesquisa Agropecu\u00e1ria e Extens\u00e3o Rural de Santa Catarina",
+        "otherLinks": null,
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "BSH forecasting system",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Federal Maritime and Hydrographic Agency, BSH",
+        "otherLinks": null,
+        "numericalModel": "Other circulation or sea level model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.9587,
+              -34.8235
+            ],
+            [
+              27.7251,
+              -33.7413
+            ],
+            [
+              27.1438,
+              -33.0755
+            ],
+            [
+              24.9175,
+              -33.606
+            ],
+            [
+              24.9587,
+              -34.8235
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SACOFS - South East (South African Coastal Operational Forecast System - South East Coast)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "The South African Environmental Observation Network",
+        "otherLinks": "https://github.com/SAEON/somisana",
+        "numericalModel": "CROCO - Coastal and Regional Ocean COmmunity Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.89,
+              -35.05
+            ],
+            [
+              19.98,
+              -35.05
+            ],
+            [
+              19.98,
+              -33.61
+            ],
+            [
+              17.89,
+              -33.61
+            ],
+            [
+              17.89,
+              -35.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SACOFS - South West (South African Coastal Operational Forecast System - South West Coast)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Harmful Algae Bloom",
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "The South African Environmental Observation Network",
+        "otherLinks": "https://github.com/SAEON/somisana",
+        "numericalModel": "CROCO - Coastal and Regional Ocean COmmunity Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              -35.5
+            ],
+            [
+              21.0,
+              -35.5
+            ],
+            [
+              21.0,
+              -28.6
+            ],
+            [
+              15.0,
+              -28.6
+            ],
+            [
+              15.0,
+              -35.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SACOFS - West (South African Coastal Operational Forecast System - West Coast)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Harmful Algae Bloom",
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "The South African Environmental Observation Network",
+        "otherLinks": "https://github.com/SAEON/somisana",
+        "numericalModel": "CROCO - Coastal and Regional Ocean COmmunity Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.3,
+              39.5
+            ],
+            [
+              0.0,
+              39.5
+            ],
+            [
+              0.0,
+              39.8
+            ],
+            [
+              -0.3,
+              39.8
+            ],
+            [
+              -0.3,
+              39.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Sagunto",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.3,
+              38.9
+            ],
+            [
+              0.0,
+              38.9
+            ],
+            [
+              0.0,
+              39.1
+            ],
+            [
+              -0.3,
+              39.1
+            ],
+            [
+              -0.3,
+              38.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Gandia",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.7,
+              36.6
+            ],
+            [
+              -2.3,
+              36.6
+            ],
+            [
+              -2.3,
+              36.9
+            ],
+            [
+              -2.7,
+              36.9
+            ],
+            [
+              -2.7,
+              36.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Almeria",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0,
+              36.8
+            ],
+            [
+              -1.7,
+              36.8
+            ],
+            [
+              -1.7,
+              37.1
+            ],
+            [
+              -2.0,
+              37.1
+            ],
+            [
+              -2.0,
+              36.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Carboneras",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.9,
+              27.9
+            ],
+            [
+              -16.6,
+              27.9
+            ],
+            [
+              -16.6,
+              28.2
+            ],
+            [
+              -16.9,
+              28.2
+            ],
+            [
+              -16.9,
+              27.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Cristianos",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.9,
+              28.5
+            ],
+            [
+              -17.6,
+              28.5
+            ],
+            [
+              -17.6,
+              28.9
+            ],
+            [
+              -17.9,
+              28.9
+            ],
+            [
+              -17.9,
+              28.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - S. C. de la Palma",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -18.0,
+              27.5
+            ],
+            [
+              -17.8,
+              27.5
+            ],
+            [
+              -17.8,
+              28.0
+            ],
+            [
+              -18.0,
+              28.0
+            ],
+            [
+              -18.0,
+              27.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - La Estaca",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.7,
+              28.0
+            ],
+            [
+              -16.3,
+              28.0
+            ],
+            [
+              -16.3,
+              28.3
+            ],
+            [
+              -16.7,
+              28.3
+            ],
+            [
+              -16.7,
+              28.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Granadilla",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.3,
+              27.9
+            ],
+            [
+              -17.0,
+              27.9
+            ],
+            [
+              -17.0,
+              28.2
+            ],
+            [
+              -17.3,
+              28.2
+            ],
+            [
+              -17.3,
+              27.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Gomera",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.6,
+              38.1
+            ],
+            [
+              -0.3,
+              38.1
+            ],
+            [
+              -0.3,
+              38.5
+            ],
+            [
+              -0.6,
+              38.5
+            ],
+            [
+              -0.6,
+              38.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Alicante",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.0,
+              36.1
+            ],
+            [
+              -6.0,
+              36.1
+            ],
+            [
+              -6.0,
+              37.0
+            ],
+            [
+              -7.0,
+              37.0
+            ],
+            [
+              -7.0,
+              36.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Cadiz (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.6,
+              36.2
+            ],
+            [
+              -6.1,
+              36.2
+            ],
+            [
+              -6.1,
+              36.9
+            ],
+            [
+              -6.6,
+              36.9
+            ],
+            [
+              -6.6,
+              36.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Cadiz",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5,
+              36.0
+            ],
+            [
+              -5.3,
+              36.0
+            ],
+            [
+              -5.3,
+              36.2
+            ],
+            [
+              -5.5,
+              36.2
+            ],
+            [
+              -5.5,
+              36.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Algeciras",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1,
+              39.2
+            ],
+            [
+              2.9,
+              39.2
+            ],
+            [
+              2.9,
+              39.6
+            ],
+            [
+              2.1,
+              39.6
+            ],
+            [
+              2.1,
+              39.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Palma de Mallorca",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              40.6
+            ],
+            [
+              1.5,
+              40.6
+            ],
+            [
+              1.5,
+              41.2
+            ],
+            [
+              0.5,
+              41.2
+            ],
+            [
+              0.5,
+              40.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Tarragona (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.6,
+              43.3
+            ],
+            [
+              -2.6,
+              43.3
+            ],
+            [
+              -2.6,
+              43.7
+            ],
+            [
+              -3.6,
+              43.7
+            ],
+            [
+              -3.6,
+              43.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Bilbao",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -14.0,
+              28.2
+            ],
+            [
+              -13.6,
+              28.2
+            ],
+            [
+              -13.6,
+              28.7
+            ],
+            [
+              -14.0,
+              28.7
+            ],
+            [
+              -14.0,
+              28.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Pto del Rosario",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.5,
+              43.2
+            ],
+            [
+              -1.7,
+              43.2
+            ],
+            [
+              -1.7,
+              43.7
+            ],
+            [
+              -2.5,
+              43.7
+            ],
+            [
+              -2.5,
+              43.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Pasajes",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.1,
+              40.9
+            ],
+            [
+              1.5,
+              40.9
+            ],
+            [
+              1.5,
+              41.2
+            ],
+            [
+              1.1,
+              41.2
+            ],
+            [
+              1.1,
+              40.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Tarragona",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.7,
+              27.7
+            ],
+            [
+              -15.2,
+              27.7
+            ],
+            [
+              -15.2,
+              28.3
+            ],
+            [
+              -15.7,
+              28.3
+            ],
+            [
+              -15.7,
+              27.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Las Palmas",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -13.8,
+              28.8
+            ],
+            [
+              -13.4,
+              28.8
+            ],
+            [
+              -13.4,
+              29.1
+            ],
+            [
+              -13.8,
+              29.1
+            ],
+            [
+              -13.8,
+              28.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Arrecife",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.0,
+              -10.0
+            ],
+            [
+              280.0,
+              -10.0
+            ],
+            [
+              280.0,
+              10.0
+            ],
+            [
+              120.0,
+              10.0
+            ],
+            [
+              120.0,
+              -10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "IGP-UHM AI model v1.0",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Climate prediction",
+          "Disaster risk reduction"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Instituto Geof\u00edsico del Per\u00fa",
+        "otherLinks": null,
+        "numericalModel": "Deep Learning",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -130.0,
+              -65.0
+            ],
+            [
+              -50.0,
+              -70.0
+            ],
+            [
+              -50.0,
+              -15.0
+            ],
+            [
+              -130.0,
+              -15.0
+            ],
+            [
+              -130.0,
+              -65.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "MeteoMar",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Research",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Servicio Meteorol\u00f3gico de la Armada de Chile",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -18.0,
+              45.0
+            ],
+            [
+              13.0,
+              45.0
+            ],
+            [
+              13.0,
+              63.0
+            ],
+            [
+              -23.0,
+              63.0
+            ],
+            [
+              -18.0,
+              45.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "FOAM-Shelf",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Offshore energy",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Met Office",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.0,
+              -43.0
+            ],
+            [
+              120.0,
+              -43.0
+            ],
+            [
+              120.0,
+              30.0
+            ],
+            [
+              20.0,
+              30.0
+            ],
+            [
+              20.0,
+              -43.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "INCOIS INDIAN OCEAN HYCOM",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "INCOIS (INDIAN NATIONAL CENTRE FOR OCEAN INFORMATION SERVICES)",
+        "otherLinks": null,
+        "numericalModel": "HYCOM - HYbrid Coordinate Ocean Model",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.0,
+              39.0
+            ],
+            [
+              21.0,
+              39.0
+            ],
+            [
+              21.0,
+              46.0
+            ],
+            [
+              12.0,
+              46.0
+            ],
+            [
+              12.0,
+              39.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "NEMOADR",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Slovenian Environment Agency",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.0,
+              44.0
+            ],
+            [
+              15.0,
+              44.0
+            ],
+            [
+              15.0,
+              46.0
+            ],
+            [
+              12.0,
+              46.0
+            ],
+            [
+              12.0,
+              44.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "NEMONADR",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Slovenian Environment Agency",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.72,
+              45.545
+            ],
+            [
+              13.73,
+              45.545
+            ],
+            [
+              13.73,
+              45.555
+            ],
+            [
+              13.72,
+              45.555
+            ],
+            [
+              13.72,
+              45.545
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "HIDRA2",
+        "typeOfSystem": "Sea level (storm surge)",
+        "applications": [
+          "Disaster risk reduction",
+          "Coastal Hazards"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Slovenian Environment Agency",
+        "otherLinks": null,
+        "numericalModel": "Deep Learning",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.0,
+              39.5
+            ],
+            [
+              42.0,
+              39.5
+            ],
+            [
+              42.0,
+              47.0
+            ],
+            [
+              25.0,
+              47.0
+            ],
+            [
+              25.0,
+              39.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Black Sea analysis and Forecasting System",
+        "typeOfSystem": null,
+        "applications": [
+          "Aquaculture",
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Fisheries",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Recreational navigation",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.48,
+              43.2
+            ],
+            [
+              -0.98,
+              43.2
+            ],
+            [
+              -0.98,
+              45.0
+            ],
+            [
+              -4.48,
+              45.0
+            ],
+            [
+              -4.48,
+              43.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Euskalmet WAM Basque Coast",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "AZTI",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.15,
+              43.28
+            ],
+            [
+              -1.78,
+              43.28
+            ],
+            [
+              -1.78,
+              43.56
+            ],
+            [
+              -3.15,
+              43.56
+            ],
+            [
+              -3.15,
+              43.28
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Basque Maritime-Coastal Early Warning System",
+        "typeOfSystem": "Sea level (storm surge)",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "AZTI",
+        "otherLinks": null,
+        "numericalModel": "Wave models",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.5767,
+              38.40295
+            ],
+            [
+              -8.83494,
+              38.40295
+            ],
+            [
+              -8.83494,
+              39.03831
+            ],
+            [
+              -9.5767,
+              39.03831
+            ],
+            [
+              -9.5767,
+              38.40295
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CONNECT  Tagus 2D",
+        "typeOfSystem": "Circulation",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Laborat\u00f3rio Nacional de Engenharia Civil",
+        "otherLinks": null,
+        "numericalModel": "Other circulation or sea level model",
+        "eovs": [
+          "Sea State (waves)",
+          "Sea surface height (sea level)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.5767,
+              38.40295
+            ],
+            [
+              -8.83494,
+              38.40295
+            ],
+            [
+              -8.83494,
+              39.03831
+            ],
+            [
+              -9.5767,
+              39.03831
+            ],
+            [
+              -9.5767,
+              38.40295
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CONNECT Tagus 3D",
+        "typeOfSystem": "Biogeochemical",
+        "applications": "Enviromental management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Laborat\u00f3rio Nacional de Engenharia Civil",
+        "otherLinks": null,
+        "numericalModel": "Other Biogeochemical model",
+        "eovs": [
+          "Ocean colour",
+          "Oxygen",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.0,
+              30.25
+            ],
+            [
+              36.0,
+              30.25
+            ],
+            [
+              36.0,
+              45.75
+            ],
+            [
+              -7.0,
+              45.75
+            ],
+            [
+              -7.0,
+              30.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "POSEIDON Waves",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "HCMR",
+        "otherLinks": null,
+        "numericalModel": "WWMIII - Wind Wave Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.0,
+              30.25
+            ],
+            [
+              36.0,
+              30.25
+            ],
+            [
+              36.0,
+              45.75
+            ],
+            [
+              -7.0,
+              45.75
+            ],
+            [
+              -7.0,
+              30.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "POSEIDON Wave Forecasting System (WAM)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "HCMR",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.0,
+              30.187
+            ],
+            [
+              36.25,
+              30.187
+            ],
+            [
+              36.25,
+              45.937
+            ],
+            [
+              -15.0,
+              45.937
+            ],
+            [
+              -15.0,
+              30.187
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "MFS-LRESATM",
+        "typeOfSystem": null,
+        "applications": "Research",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Istituto Nazionale di Geofisica e Vulcanologia",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.0,
+              30.187
+            ],
+            [
+              36.25,
+              30.187
+            ],
+            [
+              36.25,
+              45.937
+            ],
+            [
+              -15.0,
+              45.937
+            ],
+            [
+              -15.0,
+              30.187
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "MFS-LRESATM",
+        "typeOfSystem": null,
+        "applications": "Research",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Istituto Nazionale di Geofisica e Vulcanologia",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.7542,
+              38.7803
+            ],
+            [
+              0.2188,
+              38.7803
+            ],
+            [
+              0.2188,
+              37.9719
+            ],
+            [
+              -0.7542,
+              37.9719
+            ],
+            [
+              -0.7542,
+              38.7803
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-ALI (Alicante)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.0,
+              43.5
+            ],
+            [
+              16.0,
+              43.5
+            ],
+            [
+              16.0,
+              46.0
+            ],
+            [
+              12.0,
+              46.0
+            ],
+            [
+              12.0,
+              43.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Northern Adriatic Sea Reanalysis and Forecasting system (NARF)",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Aquaculture",
+          "Enviromental management",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Institute of Oceanography and Applied Geophysics",
+        "otherLinks": null,
+        "numericalModel": "Coupled MITgcm-BFM",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.2,
+              45.4
+            ],
+            [
+              13.8,
+              45.4
+            ],
+            [
+              13.8,
+              45.8
+            ],
+            [
+              13.2,
+              45.8
+            ],
+            [
+              13.2,
+              45.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Gulf of Trieste Forecasting System",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Aquaculture",
+          "Enviromental management",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Institute of Oceanography and Applied Geophysics",
+        "otherLinks": null,
+        "numericalModel": "Coupled MITgcm-BFM",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.25,
+              40.5
+            ],
+            [
+              27.25,
+              47.0
+            ],
+            [
+              42.0,
+              47.0
+            ],
+            [
+              42.0,
+              40.5
+            ],
+            [
+              27.25,
+              40.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Black Sea Waves Analysis and Forecast",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Navigation support",
+          "Research",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Helmholtz-Zentrum hereon",
+        "otherLinks": null,
+        "numericalModel": "WAM - Wave model",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.25,
+              40.5
+            ],
+            [
+              27.25,
+              47.0
+            ],
+            [
+              32.0,
+              47.0
+            ],
+            [
+              32.0,
+              40.5
+            ],
+            [
+              27.25,
+              40.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Northwestern Black Sea operational model",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Helmholtz-Zentrum hereon",
+        "otherLinks": null,
+        "numericalModel": "SCHISM (Semi-implicit Cross-scale Hydroscience Integrated System Model)",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.25,
+              40.5
+            ],
+            [
+              27.25,
+              47.0
+            ],
+            [
+              32.0,
+              47.0
+            ],
+            [
+              32.0,
+              40.5
+            ],
+            [
+              27.25,
+              40.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Northwestern Black Sea operational model",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Helmholtz-Zentrum hereon",
+        "otherLinks": null,
+        "numericalModel": "WWMIII - Wind Wave Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.71501,
+              39.76235
+            ],
+            [
+              20.09153,
+              41.48727
+            ],
+            [
+              13.2034,
+              46.39161
+            ],
+            [
+              10.8437,
+              44.51117
+            ],
+            [
+              17.71501,
+              39.76235
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Adriac",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Regional Agency for Prevention, Environment and Energy of Emilia-Romagna",
+        "otherLinks": null,
+        "numericalModel": "Other circulation or sea level model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0,
+              30.0
+            ],
+            [
+              37.0,
+              30.0
+            ],
+            [
+              37.0,
+              46.0
+            ],
+            [
+              -6.0,
+              46.0
+            ],
+            [
+              -6.0,
+              30.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SWAN  MEDITERRANEO (Simulating WAve Nearshore)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Navigation support",
+          "Offshore energy",
+          "Port Management",
+          "Recreational navigation",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Regional Agency for Prevention, Environment and Energy of Emilia-Romagna",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.88,
+              39.0
+            ],
+            [
+              21.65,
+              40.0
+            ],
+            [
+              13.86,
+              45.98
+            ],
+            [
+              10.28,
+              45.8
+            ],
+            [
+              16.88,
+              39.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "AdriFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Research",
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "AdriFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Research",
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": [
+          "Sea State (waves)",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.9,
+              41.8
+            ],
+            [
+              12.24,
+              42.0
+            ],
+            [
+              11.71,
+              42.37
+            ],
+            [
+              11.39,
+              42.19
+            ],
+            [
+              11.9,
+              41.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CivitavecchiaFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.93,
+              42.0
+            ],
+            [
+              12.24,
+              42.0
+            ],
+            [
+              11.62,
+              42.47
+            ],
+            [
+              11.15,
+              42.15
+            ],
+            [
+              11.93,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CivitavecchiaFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.4,
+              38.89
+            ],
+            [
+              18.35,
+              39.85
+            ],
+            [
+              17.17,
+              40.75
+            ],
+            [
+              16.16,
+              39.7
+            ],
+            [
+              16.4,
+              38.89
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "TarantoFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.4,
+              38.89
+            ],
+            [
+              18.35,
+              39.85
+            ],
+            [
+              17.17,
+              40.75
+            ],
+            [
+              16.16,
+              39.7
+            ],
+            [
+              16.4,
+              38.89
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "TarantoFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.28,
+              41.4
+            ],
+            [
+              12.6,
+              41.56
+            ],
+            [
+              12.16,
+              42.04
+            ],
+            [
+              11.79,
+              41.83
+            ],
+            [
+              12.28,
+              41.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "FiumicinoFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Port Management",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.28,
+              41.4
+            ],
+            [
+              12.6,
+              41.56
+            ],
+            [
+              12.16,
+              42.04
+            ],
+            [
+              11.79,
+              41.83
+            ],
+            [
+              12.28,
+              41.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "FiumicinoFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Port Management",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.45,
+              40.05
+            ],
+            [
+              18.59,
+              40.05
+            ],
+            [
+              18.6,
+              40.23
+            ],
+            [
+              18.43,
+              40.22
+            ],
+            [
+              18.45,
+              40.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "OtrantoFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Port Management",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.45,
+              40.05
+            ],
+            [
+              18.59,
+              40.05
+            ],
+            [
+              18.6,
+              40.23
+            ],
+            [
+              18.43,
+              40.22
+            ],
+            [
+              18.45,
+              40.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "OtrantoFS",
+        "typeOfSystem": null,
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Port Management",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.33,
+              39.8
+            ],
+            [
+              21.36,
+              40.68
+            ],
+            [
+              16.35,
+              43.73
+            ],
+            [
+              14.51,
+              42.03
+            ],
+            [
+              18.33,
+              39.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Soap",
+        "typeOfSystem": null,
+        "applications": [
+          "Research",
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.33,
+              39.8
+            ],
+            [
+              21.36,
+              40.68
+            ],
+            [
+              16.35,
+              43.73
+            ],
+            [
+              14.51,
+              42.03
+            ],
+            [
+              18.33,
+              39.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Soap",
+        "typeOfSystem": null,
+        "applications": [
+          "Research",
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "CMCC",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.806,
+              39.986
+            ],
+            [
+              3.836,
+              39.986
+            ],
+            [
+              3.836,
+              40.002
+            ],
+            [
+              3.806,
+              40.002
+            ],
+            [
+              3.806,
+              39.986
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Balearic Rissaga Forecasting System (BRIFS)",
+        "typeOfSystem": null,
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": [
+          "Balearic Islands Coastal Observing and Forecasting System",
+          "Mediterranean Institute for Advanced Studies (IMEDEA, CSIC-UIB)"
+        ],
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.005,
+              39.004
+            ],
+            [
+              4.495,
+              39.004
+            ],
+            [
+              4.495,
+              40.495
+            ],
+            [
+              2.005,
+              40.495
+            ],
+            [
+              2.005,
+              39.004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Balearic Rissaga Forecasting System (BRIFS)",
+        "typeOfSystem": null,
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": [
+          "Balearic Islands Coastal Observing and Forecasting System",
+          "Mediterranean Institute for Advanced Studies (IMEDEA, CSIC-UIB)"
+        ],
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.4,
+              43.24
+            ],
+            [
+              -1.3,
+              43.24
+            ],
+            [
+              -1.3,
+              44.0
+            ],
+            [
+              -3.4,
+              44.0
+            ],
+            [
+              -3.4,
+              43.24
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "EUSCOMvu",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Harmful Algae Bloom",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "AZTI",
+        "otherLinks": null,
+        "numericalModel": "CROCO - Coastal and Regional Ocean COmmunity Model",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.45,
+              36.1849
+            ],
+            [
+              -5.34,
+              36.1849
+            ],
+            [
+              -5.34,
+              36.063
+            ],
+            [
+              -5.45,
+              36.063
+            ],
+            [
+              -5.45,
+              36.1849
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMPA BAL (Bah\u00eda de Algeciras)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "MITgcm - M.I.T. General Circulation Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.41,
+              36.15
+            ],
+            [
+              -5.44,
+              36.15
+            ],
+            [
+              -5.44,
+              36.11
+            ],
+            [
+              -5.41,
+              36.11
+            ],
+            [
+              -5.41,
+              36.15
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMPA ALG (Puerto Algeciras)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "MITgcm - M.I.T. General Circulation Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.35,
+              36.18
+            ],
+            [
+              -5.43,
+              36.18
+            ],
+            [
+              -5.43,
+              36.15
+            ],
+            [
+              -5.35,
+              36.15
+            ],
+            [
+              -5.35,
+              36.18
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMPA CAM (Puerto Campamento)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "MITgcm - M.I.T. General Circulation Model",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.36,
+              38.38
+            ],
+            [
+              -0.54,
+              38.38
+            ],
+            [
+              -0.54,
+              38.24
+            ],
+            [
+              -0.36,
+              38.24
+            ],
+            [
+              -0.36,
+              38.38
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-ALI (Puerto Alicante)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.65,
+              38.16
+            ],
+            [
+              -8.656,
+              38.16
+            ],
+            [
+              -8.656,
+              38.958
+            ],
+            [
+              -9.65,
+              38.958
+            ],
+            [
+              -9.65,
+              38.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "LisOcean",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Port Management",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "+ATLANTIC CoLAB",
+        "otherLinks": "https://github.com/Mohid-Water-Modelling-System",
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.0,
+              10.0
+            ],
+            [
+              50.0,
+              10.0
+            ],
+            [
+              50.0,
+              30.0
+            ],
+            [
+              30.0,
+              30.0
+            ],
+            [
+              30.0,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "The high-resoultion Red Sea forecasting system",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Climate prediction",
+          "Coastal Hazards",
+          "Harmful Algae Bloom",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia",
+        "otherLinks": null,
+        "numericalModel": "MITgcm - M.I.T. General Circulation Model",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.73,
+              43.6
+            ],
+            [
+              -5.64,
+              43.6
+            ],
+            [
+              -5.64,
+              43.54
+            ],
+            [
+              -5.73,
+              43.54
+            ],
+            [
+              -5.73,
+              43.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Gij\u00f3n",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5678,
+              45.5225
+            ],
+            [
+              13.7468,
+              45.5225
+            ],
+            [
+              13.7468,
+              45.603
+            ],
+            [
+              13.5678,
+              45.603
+            ],
+            [
+              13.5678,
+              45.5225
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Delft3D_KPGulf",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Institute of Biology",
+        "otherLinks": null,
+        "numericalModel": "Delft3D",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.0,
+              -7.0
+            ],
+            [
+              30.0,
+              20.0
+            ],
+            [
+              180.0,
+              90.0
+            ],
+            [
+              -180.0,
+              90.0
+            ],
+            [
+              -65.0,
+              -7.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "DMI-Arctic",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Danmarks Meteorologiske Institut",
+        "otherLinks": null,
+        "numericalModel": "HYCOM-CICE-ESMF",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea ice concentration",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.6,
+              58.0
+            ],
+            [
+              10.0,
+              54.0
+            ],
+            [
+              37.6,
+              70.0
+            ],
+            [
+              17.0,
+              76.0
+            ],
+            [
+              -4.6,
+              58.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "NORKYST",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Offshore energy",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Norwegian Meteorological Institute",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.0,
+              -45.5
+            ],
+            [
+              -24.0,
+              -45.2
+            ],
+            [
+              -24.0,
+              10.2
+            ],
+            [
+              -68.0,
+              10.2
+            ],
+            [
+              -68.0,
+              -45.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "HYCOM",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Centro de Hidrografia da Marinha do Brasil",
+        "otherLinks": null,
+        "numericalModel": "HYCOM",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.0,
+              -30.0
+            ],
+            [
+              120.0,
+              -30.0
+            ],
+            [
+              120.0,
+              30.0
+            ],
+            [
+              30.0,
+              30.0
+            ],
+            [
+              30.0,
+              -30.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "INCOIS-Regional-ROMS",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Navigation support",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "INCOIS (INDIAN NATIONAL CENTRE FOR OCEAN INFORMATION SERVICES)",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -110.0,
+              24.0
+            ],
+            [
+              -125.0,
+              24.0
+            ],
+            [
+              -135.0,
+              54.0
+            ],
+            [
+              -120.0,
+              54.0
+            ],
+            [
+              -110.0,
+              24.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "West Coast Operational Ocean Forecast System (WCOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Enviromental management",
+          "Coastal Hazards",
+          "Navigation support",
+          "Port Management",
+          "Recreational navigation",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Currents"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -18.125,
+              30.1875
+            ],
+            [
+              36.2917,
+              30.1875
+            ],
+            [
+              36.2917,
+              45.9792
+            ],
+            [
+              -18.125,
+              45.9792
+            ],
+            [
+              -18.125,
+              30.1875
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Mediterranean Sea Waves Analysis and Forecast (CMEMS)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Disaster risk reduction",
+          "Coastal Hazards",
+          "Fisheries",
+          "Navigation support",
+          "Offshore energy",
+          "Recreational navigation",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "HCMR",
+        "otherLinks": "https://github.com/mywave/WAM",
+        "numericalModel": "WAM - Wave model",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.0,
+              30.25
+            ],
+            [
+              36.0,
+              30.25
+            ],
+            [
+              36.0,
+              45.75
+            ],
+            [
+              -7.0,
+              45.75
+            ],
+            [
+              -7.0,
+              30.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "POSEIDON MED Circulation",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Research",
+          "Search and rescue",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "HCMR",
+        "otherLinks": null,
+        "numericalModel": "POM - Princeton Ocean Model",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.0,
+              22.0
+            ],
+            [
+              -86.0,
+              27.0
+            ],
+            [
+              -85.0,
+              31.0
+            ],
+            [
+              -98.0,
+              29.5
+            ],
+            [
+              -98.0,
+              22.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Northern Gulf Operational Forecast System (NGOFS2)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.26061,
+              25.76995
+            ],
+            [
+              -65.6217,
+              18.30332
+            ],
+            [
+              -66.99324,
+              44.90593
+            ],
+            [
+              -73.80104,
+              42.64515
+            ],
+            [
+              -100.26061,
+              25.76995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Ocean Reanalysis (CORA) for the Gulf of Mexico, Atlantic, and Caribbean",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": "https://github.com/RENCI/edsreanalysisdoc",
+        "numericalModel": "ADCIRC - ADvanced CIRCulation model",
+        "eovs": [
+          "Sea State (waves)",
+          "Sea surface height (sea level)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -56.0,
+              68.0
+            ],
+            [
+              -48.0,
+              68.0
+            ],
+            [
+              -50.0,
+              72.0
+            ],
+            [
+              -58.0,
+              72.0
+            ],
+            [
+              -56.0,
+              68.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "DMI - Disko",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Enviromental management",
+          "Navigation support",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Danmarks Meteorologiske Institut",
+        "otherLinks": null,
+        "numericalModel": "HYCOM-CICE-ESMF",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea ice concentration",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.8,
+              34.9
+            ],
+            [
+              9.2,
+              34.9
+            ],
+            [
+              9.2,
+              44.7
+            ],
+            [
+              -5.8,
+              44.7
+            ],
+            [
+              -5.8,
+              34.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Western Mediterranean Operational Forecasting System (WMOP)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Enviromental management",
+          "Fisheries",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "Balearic Islands Coastal Observing and Forecasting System",
+          "Mediterranean Institute for Advanced Studies (IMEDEA, CSIC-UIB)"
+        ],
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.0,
+              10.0
+            ],
+            [
+              60.0,
+              10.0
+            ],
+            [
+              60.0,
+              30.0
+            ],
+            [
+              46.0,
+              30.0
+            ],
+            [
+              46.0,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "High resolution Arabian Gulf reanalysis and forecasting system",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Climate prediction",
+          "Coastal Hazards",
+          "Harmful Algae Bloom",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia",
+        "otherLinks": null,
+        "numericalModel": "MITgcm - M.I.T. General Circulation Model",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.0,
+              35.0
+            ],
+            [
+              -74.0,
+              35.0
+            ],
+            [
+              -74.0,
+              40.0
+            ],
+            [
+              -78.0,
+              40.0
+            ],
+            [
+              -78.0,
+              35.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Chesapeake Bay Operational Forecast System (CBOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.0,
+              37.5
+            ],
+            [
+              -73.0,
+              37.5
+            ],
+            [
+              -73.0,
+              40.0
+            ],
+            [
+              -76.0,
+              40.0
+            ],
+            [
+              -76.0,
+              37.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Delaware Bay Operational Forecast System (DBOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2,
+              38.0
+            ],
+            [
+              -60.0,
+              38.0
+            ],
+            [
+              -60.0,
+              46.5
+            ],
+            [
+              -72.2,
+              46.55
+            ],
+            [
+              -72.2,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Gulf of Maine Operational Forecast System (GoMOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.2,
+              27.0
+            ],
+            [
+              -82.0,
+              27.0
+            ],
+            [
+              -82.0,
+              28.1
+            ],
+            [
+              -83.2,
+              28.1
+            ],
+            [
+              -83.2,
+              27.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Tampa Bay Operational Forecast System (TBOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -157.0,
+              53.0
+            ],
+            [
+              -147.0,
+              53.0
+            ],
+            [
+              -147.0,
+              62.0
+            ],
+            [
+              -157.0,
+              62.0
+            ],
+            [
+              -157.0,
+              53.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Cook Inlet Operational Forecast System (CIOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -130.0,
+              44.0
+            ],
+            [
+              -122.0,
+              44.0
+            ],
+            [
+              -122.0,
+              52.0
+            ],
+            [
+              -130.0,
+              52.0
+            ],
+            [
+              -130.0,
+              44.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Salish Sea and Columbia River Operational Forecast System (SSCOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.1,
+              37.3
+            ],
+            [
+              -121.5,
+              37.3
+            ],
+            [
+              -121.5,
+              38.2
+            ],
+            [
+              -123.1,
+              38.2
+            ],
+            [
+              -123.1,
+              37.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "San Francisco Bay Operational Forecast System (SFBOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0,
+              41.0
+            ],
+            [
+              -78.0,
+              41.0
+            ],
+            [
+              -78.0,
+              43.0
+            ],
+            [
+              -84.0,
+              43.0
+            ],
+            [
+              -84.0,
+              41.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Lake Erie Operational Forecast System (LEOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.0,
+              41.5
+            ],
+            [
+              -79.0,
+              41.55
+            ],
+            [
+              -79.0,
+              47.0
+            ],
+            [
+              -88.5,
+              47.0
+            ],
+            [
+              -88.0,
+              41.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Lake Michigan and Huron Operational Forecast System (LMHOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.0,
+              42.8
+            ],
+            [
+              -76.0,
+              42.8
+            ],
+            [
+              -76.0,
+              44.6
+            ],
+            [
+              -80.0,
+              44.6
+            ],
+            [
+              -80.0,
+              42.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Lake Ontario Operational Forecast System (LOOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.0,
+              46.0
+            ],
+            [
+              -84.0,
+              46.0
+            ],
+            [
+              -84.0,
+              49.0
+            ],
+            [
+              -93.0,
+              49.0
+            ],
+            [
+              -93.0,
+              46.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Lake Superior Operational Forecast System (LSOFS)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "National Oceanic and Atmospheric Administration",
+        "otherLinks": null,
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12.0,
+              48.0
+            ],
+            [
+              13.0,
+              48.0
+            ],
+            [
+              13.0,
+              62.0
+            ],
+            [
+              -12.0,
+              62.0
+            ],
+            [
+              -12.0,
+              48.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "OPTOS (version 1)",
+        "typeOfSystem": "Sea level (storm surge)",
+        "applications": [
+          "Aquaculture",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Recreational navigation",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Royal Belgian Institute of Natural Sciences",
+        "otherLinks": null,
+        "numericalModel": "COHERENS - COupled Hydrodynamical Ecological model for REgioNal Shelf seas",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.81,
+              49.72
+            ],
+            [
+              -3.8,
+              49.72
+            ],
+            [
+              -3.8,
+              50.52
+            ],
+            [
+              -4.81,
+              50.52
+            ],
+            [
+              -4.81,
+              49.72
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "WCOOF - Western Channel Observatory Operational Forecast",
+        "typeOfSystem": "Circulation",
+        "applications": "Research",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Plymouth Marine Laboratory",
+        "otherLinks": null,
+        "numericalModel": "FVCOM - Finite Volume Community Ocean Model",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.2,
+              42.0
+            ],
+            [
+              28.8,
+              42.0
+            ],
+            [
+              31.4,
+              46.3
+            ],
+            [
+              30.4,
+              46.3
+            ],
+            [
+              27.2,
+              42.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Morphodynamic Model Chain for the Coastal Northwestern Black Sea",
+        "typeOfSystem": [
+          "Circulation",
+          "Sea level (storm surge)",
+          "Waves"
+        ],
+        "applications": [
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Helmholtz-Zentrum hereon",
+        "otherLinks": null,
+        "numericalModel": "XBeach",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.0,
+              -3.0
+            ],
+            [
+              -59.0,
+              -3.0
+            ],
+            [
+              -57.0,
+              21.0
+            ],
+            [
+              -89.0,
+              21.0
+            ],
+            [
+              -89.0,
+              -3.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SIPSEM regional Caribe",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Fisheries",
+          "Oil spill fight",
+          "Search and rescue",
+          "Ship-routing"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Directorate General of Maritime",
+        "otherLinks": null,
+        "numericalModel": "CROCO - Coastal and Regional Ocean COmmunity Model",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4,
+              53.0
+            ],
+            [
+              5.1,
+              53.0
+            ],
+            [
+              5.1,
+              55.6
+            ],
+            [
+              10.4,
+              55.6
+            ],
+            [
+              10.4,
+              53.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "German Bight operational model",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Helmholtz-Zentrum hereon",
+        "otherLinks": null,
+        "numericalModel": "SCHISM (Semi-implicit Cross-scale Hydroscience Integrated System Model)",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4,
+              53.0
+            ],
+            [
+              5.1,
+              53.0
+            ],
+            [
+              5.1,
+              55.6
+            ],
+            [
+              10.4,
+              55.6
+            ],
+            [
+              10.4,
+              53.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "German Bight operational model",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Research"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Helmholtz-Zentrum hereon",
+        "otherLinks": null,
+        "numericalModel": "WWMIII - Wind Wave Model",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.5,
+              48.0
+            ],
+            [
+              -2.0,
+              48.0
+            ],
+            [
+              -2.0,
+              55.0
+            ],
+            [
+              9.5,
+              55.0
+            ],
+            [
+              9.5,
+              48.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Southern North Sea operational model",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Research",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Helmholtz-Zentrum hereon",
+        "otherLinks": null,
+        "numericalModel": "SCHISM (Semi-implicit Cross-scale Hydroscience Integrated System Model)",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.5,
+              48.0
+            ],
+            [
+              -2.0,
+              48.0
+            ],
+            [
+              -2.0,
+              55.0
+            ],
+            [
+              9.5,
+              55.0
+            ],
+            [
+              9.5,
+              48.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Southern North Sea operational model",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Research",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Helmholtz-Zentrum hereon",
+        "otherLinks": null,
+        "numericalModel": "WWMIII - Wind Wave Model",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -19.0,
+              26.0
+            ],
+            [
+              5.0,
+              26.0
+            ],
+            [
+              5.0,
+              56.0
+            ],
+            [
+              -19.0,
+              56.0
+            ],
+            [
+              -19.0,
+              26.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Atlantic-Iberian Biscay Irish- Ocean Physics Analysis and Forecast",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Enviromental management",
+          "Oil spill fight",
+          "Port Management",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "Mercator Ocean International",
+          "Nologin Oceanic Weather Systems"
+        ],
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -19.0,
+              26.0
+            ],
+            [
+              5.0,
+              26.0
+            ],
+            [
+              5.0,
+              56.0
+            ],
+            [
+              -19.0,
+              56.0
+            ],
+            [
+              -19.0,
+              26.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Atlantic-Iberian Biscay Irish- Ocean Wave Analysis and Forecast",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Navigation support",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "Nologin Oceanic Weather Systems",
+          "Mercator Ocean International",
+          "M\u00e9t\u00e9o-France"
+        ],
+        "otherLinks": null,
+        "numericalModel": "MFWAM",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -19.0,
+              26.0
+            ],
+            [
+              5.0,
+              26.0
+            ],
+            [
+              5.0,
+              56.0
+            ],
+            [
+              -19.0,
+              56.0
+            ],
+            [
+              -19.0,
+              26.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Atlantic-Iberian Biscay Irish- Ocean Biogeochemical Analysis and Forecast",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Enviromental management",
+          "Harmful Algae Bloom",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "Mercator Ocean International",
+          "Nologin Oceanic Weather Systems"
+        ],
+        "otherLinks": null,
+        "numericalModel": "PISCES - Pelagic Interactions Scheme for Carbon and Ecosystem Studies",
+        "eovs": "Ocean colour"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.0,
+              43.0
+            ],
+            [
+              2.98,
+              43.0
+            ],
+            [
+              2.98,
+              51.0
+            ],
+            [
+              -15.0,
+              51.0
+            ],
+            [
+              -15.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "HYCOM-MANGASC",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Recreational navigation",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Service hydrographique et Oc\u00e9anographique de la Marine / French Hydrographic and Oceanograhic Service",
+        "otherLinks": null,
+        "numericalModel": "HYCOM",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.0,
+              40.0
+            ],
+            [
+              5.0,
+              40.0
+            ],
+            [
+              5.0,
+              53.0
+            ],
+            [
+              -15.0,
+              53.0
+            ],
+            [
+              -15.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CROCO-MANGA",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Recreational navigation",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Service hydrographique et Oc\u00e9anographique de la Marine / French Hydrographic and Oceanograhic Service",
+        "otherLinks": null,
+        "numericalModel": "CROCO - Coastal and Regional Ocean COmmunity Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.6,
+              62.0
+            ],
+            [
+              60.0,
+              62.0
+            ],
+            [
+              79.0,
+              87.0
+            ],
+            [
+              -17.0,
+              87.0
+            ],
+            [
+              -4.6,
+              62.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Barents-2.5",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Offshore energy",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Iceberg drift"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Norwegian Meteorological Institute",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              127.0,
+              40.0
+            ],
+            [
+              166.0,
+              40.0
+            ],
+            [
+              166.0,
+              64.0
+            ],
+            [
+              127.0,
+              64.0
+            ],
+            [
+              127.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Okhotsk Sea Operational Forecast System (OS OFS)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Enviromental management",
+          "Navigation support",
+          "Research",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Marine Research Center Lomonosov Moscow State University",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Currents",
+          "Sea ice concentration",
+          "Sea surface height (sea level)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              127.0,
+              40.0
+            ],
+            [
+              166.0,
+              40.0
+            ],
+            [
+              166.0,
+              64.0
+            ],
+            [
+              127.0,
+              64.0
+            ],
+            [
+              127.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Okhotsk Sea Operational Forecast System (OS OFS)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Enviromental management",
+          "Navigation support",
+          "Research",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Marine Research Center Lomonosov Moscow State University",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              160.0,
+              50.0
+            ],
+            [
+              210.0,
+              50.0
+            ],
+            [
+              210.0,
+              72.0
+            ],
+            [
+              160.0,
+              72.0
+            ],
+            [
+              160.0,
+              50.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Bering Sea Wave Operational Forecast",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Navigation support",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Marine Research Center Lomonosov Moscow State University",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.0,
+              62.0
+            ],
+            [
+              180.0,
+              62.0
+            ],
+            [
+              180.0,
+              82.0
+            ],
+            [
+              84.0,
+              82.0
+            ],
+            [
+              84.0,
+              62.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Laptev-East Siberian-Chukchi Seas Operational Forecast System (LESC OFS)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Enviromental management",
+          "Navigation support",
+          "Research",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Marine Research Center Lomonosov Moscow State University",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Currents",
+          "Sea ice concentration",
+          "Sea surface height (sea level)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.0,
+              62.0
+            ],
+            [
+              180.0,
+              62.0
+            ],
+            [
+              180.0,
+              82.0
+            ],
+            [
+              84.0,
+              82.0
+            ],
+            [
+              84.0,
+              62.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Laptev-East Siberian-Chukchi Seas Operational Forecast System (LESC OFS)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Enviromental management",
+          "Navigation support",
+          "Research",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Marine Research Center Lomonosov Moscow State University",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.0,
+              62.0
+            ],
+            [
+              120.0,
+              62.0
+            ],
+            [
+              120.0,
+              82.0
+            ],
+            [
+              6.0,
+              82.0
+            ],
+            [
+              6.0,
+              62.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Barents-Kara Seas Operational Forecast System (BK OFS)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Enviromental management",
+          "Navigation support",
+          "Research",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Marine Research Center Lomonosov Moscow State University",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Currents",
+          "Sea ice concentration",
+          "Sea surface height (sea level)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.0,
+              62.0
+            ],
+            [
+              120.0,
+              62.0
+            ],
+            [
+              120.0,
+              82.0
+            ],
+            [
+              6.0,
+              82.0
+            ],
+            [
+              6.0,
+              62.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Barents-Kara Seas Operational Forecast System (BK OFS)",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Enviromental management",
+          "Navigation support",
+          "Research",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Marine Research Center Lomonosov Moscow State University",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.44,
+              43.46
+            ],
+            [
+              33.76,
+              43.46
+            ],
+            [
+              33.76,
+              46.69
+            ],
+            [
+              28.44,
+              46.69
+            ],
+            [
+              28.44,
+              43.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Syroco",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Defense applications",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Port Management",
+          "Recreational navigation",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "seamod.ro",
+          "National Institute for Marine Research and Development \u201cGrigore Antipa\u201d"
+        ],
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.39,
+              44.67
+            ],
+            [
+              30.04,
+              44.67
+            ],
+            [
+              30.04,
+              45.62
+            ],
+            [
+              29.39,
+              45.62
+            ],
+            [
+              29.39,
+              44.67
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Danube mouths",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Defense applications",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "seamod.ro",
+          "National Institute for Marine Research and Development \u201cGrigore Antipa\u201d"
+        ],
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.55,
+              43.59
+            ],
+            [
+              28.91,
+              43.59
+            ],
+            [
+              28.91,
+              44.44
+            ],
+            [
+              28.55,
+              44.44
+            ],
+            [
+              28.55,
+              43.59
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Southern Romanian Coast",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Defense applications",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Port Management",
+          "Recreational navigation",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "seamod.ro",
+          "National Institute for Marine Research and Development \u201cGrigore Antipa\u201d"
+        ],
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6,
+              40.0
+            ],
+            [
+              9.5,
+              51.2
+            ],
+            [
+              -15.6,
+              64.0
+            ],
+            [
+              -31.0,
+              56.0
+            ],
+            [
+              -5.6,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "NEA_ROMS",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy",
+          "Research",
+          "Search and rescue",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Marine Institute",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.0,
+              49.0
+            ],
+            [
+              -3.0,
+              49.0
+            ],
+            [
+              -3.0,
+              56.0
+            ],
+            [
+              -15.0,
+              56.0
+            ],
+            [
+              -15.0,
+              49.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SWAN Irish Shelf",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Offshore energy",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Marine Institute",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.8,
+              52.95
+            ],
+            [
+              -8.9,
+              52.95
+            ],
+            [
+              -8.9,
+              53.73
+            ],
+            [
+              -10.8,
+              53.73
+            ],
+            [
+              -10.8,
+              52.95
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "ROMS Connemara",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy",
+          "Research",
+          "Search and rescue",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Marine Institute",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.21,
+              53.11
+            ],
+            [
+              -8.88,
+              53.11
+            ],
+            [
+              -8.88,
+              53.28
+            ],
+            [
+              -9.21,
+              53.28
+            ],
+            [
+              -9.21,
+              53.11
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "ROMS Galway Bay",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy",
+          "Research",
+          "Search and rescue",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Marine Institute",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.7,
+              50.5
+            ],
+            [
+              -8.6,
+              51.3
+            ],
+            [
+              -9.9,
+              52.0
+            ],
+            [
+              -11.0,
+              51.3
+            ],
+            [
+              -9.7,
+              50.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "ROMS Bantry Bay",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy",
+          "Research",
+          "Search and rescue",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Marine Institute",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.8,
+              52.95
+            ],
+            [
+              -8.9,
+              52.95
+            ],
+            [
+              -8.9,
+              53.73
+            ],
+            [
+              -10.8,
+              53.73
+            ],
+            [
+              -10.8,
+              52.95
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SWAN Connemara",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Offshore energy",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Marine Institute",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              99.0,
+              5.0
+            ],
+            [
+              170.0,
+              5.0
+            ],
+            [
+              170.0,
+              63.0
+            ],
+            [
+              99.0,
+              63.0
+            ],
+            [
+              99.0,
+              5.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "The Korea Operational Oceanographic System - Ocean Predictability Experiment for Marine environment (KOOS-OPEM)",
+        "typeOfSystem": [
+          "Circulation",
+          "Sea Ice"
+        ],
+        "applications": [
+          "Disaster risk reduction",
+          "Fisheries",
+          "Navigation support",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Korea Institute of Ocean Science & Technology",
+        "otherLinks": null,
+        "numericalModel": "MOM - GFDL Modular Ocean Model",
+        "eovs": [
+          "Salinity",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -240.0,
+              26.0
+            ],
+            [
+              120.0,
+              26.0
+            ],
+            [
+              120.0,
+              90.0
+            ],
+            [
+              -240.0,
+              90.0
+            ],
+            [
+              -240.0,
+              26.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Regional Ice Ocean Prediction System",
+        "typeOfSystem": "Sea Ice",
+        "applications": [
+          "Navigation support",
+          "Coupled weather forecasting",
+          "Defense applications",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Iceberg drift",
+          "Fisheries",
+          "Offshore energy",
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environment and Climate Change Canada",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -240.0,
+              26.0
+            ],
+            [
+              120.0,
+              26.0
+            ],
+            [
+              120.0,
+              90.0
+            ],
+            [
+              -240.0,
+              90.0
+            ],
+            [
+              -240.0,
+              26.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Regional Ice Ocean Prediction System",
+        "typeOfSystem": "Sea Ice",
+        "applications": [
+          "Navigation support",
+          "Coupled weather forecasting",
+          "Defense applications",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Iceberg drift",
+          "Fisheries",
+          "Offshore energy",
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environment and Climate Change Canada",
+        "otherLinks": null,
+        "numericalModel": "CICE",
+        "eovs": "Sea ice concentration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.8,
+              34.9
+            ],
+            [
+              -37.7,
+              34.9
+            ],
+            [
+              -38.4,
+              54.0
+            ],
+            [
+              -80.0,
+              51.3
+            ],
+            [
+              -76.8,
+              34.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Ice Ocean Prediction System - East",
+        "typeOfSystem": "Sea Ice",
+        "applications": [
+          "Navigation support",
+          "Coupled weather forecasting",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environment and Climate Change Canada",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.8,
+              34.9
+            ],
+            [
+              -37.7,
+              34.9
+            ],
+            [
+              -38.4,
+              54.0
+            ],
+            [
+              -80.0,
+              51.3
+            ],
+            [
+              -76.8,
+              34.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Ice Ocean Prediction System - East",
+        "typeOfSystem": "Sea Ice",
+        "applications": [
+          "Navigation support",
+          "Coupled weather forecasting",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environment and Climate Change Canada",
+        "otherLinks": null,
+        "numericalModel": "CICE",
+        "eovs": "Sea ice concentration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.0,
+              34.9
+            ],
+            [
+              -38.2,
+              35.1
+            ],
+            [
+              -38.3,
+              53.8
+            ],
+            [
+              -93.0,
+              54.2
+            ],
+            [
+              -93.0,
+              34.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Water Cycle Prediction System",
+        "typeOfSystem": "Sea Ice",
+        "applications": [
+          "Navigation support",
+          "Enviromental management",
+          "Recreational navigation",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environment and Climate Change Canada",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.0,
+              34.9
+            ],
+            [
+              -38.3,
+              35.1
+            ],
+            [
+              -38.3,
+              53.8
+            ],
+            [
+              -93.0,
+              54.2
+            ],
+            [
+              -93.0,
+              34.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Water Cycle Prediction System",
+        "typeOfSystem": "Sea Ice",
+        "applications": [
+          "Navigation support",
+          "Enviromental management",
+          "Recreational navigation",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environment and Climate Change Canada",
+        "otherLinks": null,
+        "numericalModel": "CICE",
+        "eovs": "Sea ice concentration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -142.0,
+              45.0
+            ],
+            [
+              -122.7,
+              44.3
+            ],
+            [
+              -120.0,
+              56.9
+            ],
+            [
+              -138.0,
+              59.6
+            ],
+            [
+              -142.0,
+              45.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Ice Ocean Prediction System - West",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Coupled weather forecasting",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environment and Climate Change Canada",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -126.0,
+              47.1
+            ],
+            [
+              -122.0,
+              47.1
+            ],
+            [
+              -122.0,
+              56.0
+            ],
+            [
+              -126.0,
+              56.0
+            ],
+            [
+              -126.0,
+              47.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Coastal Ice Ocean Prediction System - Salish Seas",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Coupled weather forecasting",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environment and Climate Change Canada",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.0,
+              43.0
+            ],
+            [
+              13.0,
+              43.0
+            ],
+            [
+              13.0,
+              64.0
+            ],
+            [
+              -15.0,
+              64.0
+            ],
+            [
+              -15.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Dutch Continental Shelf Model",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Offshore energy",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Deltares",
+        "otherLinks": null,
+        "numericalModel": "Delft3D FM (D-FLOW FM)",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12.0,
+              48.0
+            ],
+            [
+              9.0,
+              48.0
+            ],
+            [
+              9.0,
+              64.0
+            ],
+            [
+              -12.0,
+              64.0
+            ],
+            [
+              -12.0,
+              48.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Dutch Continental Shelf Model",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Offshore energy",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Deltares",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.0,
+              43.0
+            ],
+            [
+              13.0,
+              43.0
+            ],
+            [
+              13.0,
+              64.0
+            ],
+            [
+              -15.0,
+              64.0
+            ],
+            [
+              -15.0,
+              43.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Dutch Continental Shelf Model",
+        "typeOfSystem": "Biogeochemical",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Offshore energy",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Deltares",
+        "otherLinks": null,
+        "numericalModel": "Delft3D FM (D-Water Quality)",
+        "eovs": [
+          "Nutrients",
+          "Ocean colour",
+          "Organic matter",
+          "Oxygen",
+          "Phytoplankton biomass",
+          "Suspended Matter"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              146.5,
+              -44.0
+            ],
+            [
+              148.0,
+              -43.625
+            ],
+            [
+              148.625,
+              -42.5
+            ],
+            [
+              146.5,
+              -42.5
+            ],
+            [
+              146.5,
+              -44.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Tasmanian Coastal Information System",
+        "typeOfSystem": [
+          "Biogeochemical",
+          "Circulation"
+        ],
+        "applications": [
+          "Aquaculture",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)",
+        "otherLinks": "https://github.com/csiro-coasts/EMS",
+        "numericalModel": "EMS (CSIRO Environmental Modelling Suite)",
+        "eovs": [
+          "Nutrients",
+          "Oxygen",
+          "Phytoplankton biomass",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature",
+          "Transient tracers"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.0,
+              3.0
+            ],
+            [
+              86.0,
+              3.0
+            ],
+            [
+              86.0,
+              12.0
+            ],
+            [
+              75.0,
+              12.0
+            ],
+            [
+              75.0,
+              3.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Sri Lanka Operational Ocean and Atmosphere System",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coupled weather forecasting",
+          "Disaster risk reduction",
+          "Plastic drift",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "The University of Western Australia",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.0,
+              -35.0
+            ],
+            [
+              118.0,
+              -35.0
+            ],
+            [
+              118.0,
+              -23.0
+            ],
+            [
+              105.0,
+              -23.0
+            ],
+            [
+              105.0,
+              -35.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Central Western Australia Ocean Atmosphere System",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Climate prediction",
+          "Coupled weather forecasting",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Coastal Hazards",
+          "Harmful Algae Bloom",
+          "Oil spill fight",
+          "Recreational navigation",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "The University of Western Australia",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.0,
+              40.0
+            ],
+            [
+              20.0,
+              40.0
+            ],
+            [
+              20.0,
+              46.0
+            ],
+            [
+              12.0,
+              46.0
+            ],
+            [
+              12.0,
+              40.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "BORA - Adriatic Sea Ocean Atmosphere Forecasting System",
+        "typeOfSystem": [
+          "Circulation",
+          "Ecosystem",
+          "Sea level (storm surge)",
+          "Waves"
+        ],
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Coupled weather forecasting",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Coastal Hazards",
+          "Fisheries",
+          "Harmful Algae Bloom",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Recreational navigation",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "GEKOM",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.0,
+              -26.0
+            ],
+            [
+              135.0,
+              -26.0
+            ],
+            [
+              135.0,
+              -6.0
+            ],
+            [
+              105.0,
+              -6.0
+            ],
+            [
+              105.0,
+              -26.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "North West Shelf of Western Australia  - operational ROMS system",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Climate prediction",
+          "Coupled weather forecasting",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Coastal Hazards",
+          "Fisheries",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "The University of Western Australia",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.44,
+              36.06
+            ],
+            [
+              -6.54,
+              36.06
+            ],
+            [
+              -6.54,
+              38.36
+            ],
+            [
+              -10.44,
+              38.36
+            ],
+            [
+              -10.44,
+              36.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SOMA - Operational System of the Coast of Algarve",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Centro de Investiga\u00e7\u00e3o Marinha e Ambiental",
+        "otherLinks": null,
+        "numericalModel": "SOMA-Level-1",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.69,
+              36.51
+            ],
+            [
+              -7.02,
+              36.51
+            ],
+            [
+              -7.02,
+              37.56
+            ],
+            [
+              -9.69,
+              37.56
+            ],
+            [
+              -9.69,
+              36.51
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SOMA - Operational System of the Coast of Algarve",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Centro de Investiga\u00e7\u00e3o Marinha e Ambiental",
+        "otherLinks": null,
+        "numericalModel": "SOMA-Level-2",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.44,
+              36.04
+            ],
+            [
+              -6.54,
+              36.04
+            ],
+            [
+              -6.54,
+              38.36
+            ],
+            [
+              -10.44,
+              38.36
+            ],
+            [
+              -10.44,
+              36.04
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SOMA Operational System of the Coast of Algarve (Level 1)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Oil spill fight",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Centro de Investiga\u00e7\u00e3o Marinha e Ambiental",
+        "otherLinks": null,
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.69,
+              36.51
+            ],
+            [
+              -7.02,
+              36.51
+            ],
+            [
+              -7.02,
+              37.56
+            ],
+            [
+              -9.69,
+              37.56
+            ],
+            [
+              -9.69,
+              36.51
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SOMA Operational System of the Coast of Algarve (Level 2)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Plastic drift",
+          "Oil spill fight",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Centro de Investiga\u00e7\u00e3o Marinha e Ambiental",
+        "otherLinks": null,
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.7,
+              36.5
+            ],
+            [
+              -4.2,
+              36.5
+            ],
+            [
+              -4.2,
+              36.8
+            ],
+            [
+              -4.7,
+              36.8
+            ],
+            [
+              -4.7,
+              36.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - M\u00e1laga",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.7,
+              35.9
+            ],
+            [
+              -5.5,
+              35.9
+            ],
+            [
+              -5.5,
+              36.1
+            ],
+            [
+              -5.7,
+              36.1
+            ],
+            [
+              -5.7,
+              35.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Tarifa",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.7,
+              43.3
+            ],
+            [
+              -8.3,
+              43.3
+            ],
+            [
+              -8.3,
+              43.5
+            ],
+            [
+              -8.7,
+              43.5
+            ],
+            [
+              -8.7,
+              43.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Coru\u00f1a",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.1,
+              42.2
+            ],
+            [
+              -8.6,
+              42.2
+            ],
+            [
+              -8.6,
+              42.5
+            ],
+            [
+              -9.1,
+              42.5
+            ],
+            [
+              -9.1,
+              42.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Marin",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.1,
+              42.1
+            ],
+            [
+              -8.6,
+              42.1
+            ],
+            [
+              -8.6,
+              42.4
+            ],
+            [
+              -9.1,
+              42.4
+            ],
+            [
+              -9.1,
+              42.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Vigo",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.8,
+              43.5
+            ],
+            [
+              -7.1,
+              43.5
+            ],
+            [
+              -7.1,
+              44.2
+            ],
+            [
+              -7.8,
+              44.2
+            ],
+            [
+              -7.8,
+              43.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - San Cipiran (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.5,
+              36.8
+            ],
+            [
+              -6.4,
+              36.8
+            ],
+            [
+              -6.4,
+              37.3
+            ],
+            [
+              -7.5,
+              37.3
+            ],
+            [
+              -7.5,
+              36.8
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Huelva",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.4,
+              35.0
+            ],
+            [
+              -2.5,
+              35.0
+            ],
+            [
+              -2.5,
+              35.7
+            ],
+            [
+              -3.4,
+              35.7
+            ],
+            [
+              -3.4,
+              35.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Melilla",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.4,
+              39.7
+            ],
+            [
+              0.5,
+              39.7
+            ],
+            [
+              0.5,
+              40.2
+            ],
+            [
+              -0.4,
+              40.2
+            ],
+            [
+              -0.4,
+              39.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Castell\u00f3n",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.0,
+              36.4
+            ],
+            [
+              -3.1,
+              36.4
+            ],
+            [
+              -3.1,
+              36.9
+            ],
+            [
+              -4.0,
+              36.9
+            ],
+            [
+              -4.0,
+              36.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Granada (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.6129,
+              10.257
+            ],
+            [
+              -75.4969,
+              10.257
+            ],
+            [
+              -75.4969,
+              10.4235
+            ],
+            [
+              -75.6129,
+              10.4235
+            ],
+            [
+              -75.6129,
+              10.257
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "BASIC-Cartagena",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Oil spill fight",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Centro de Investiga\u00e7\u00e3o Marinha e Ambiental",
+        "otherLinks": null,
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.6,
+              43.6
+            ],
+            [
+              -7.3,
+              43.6
+            ],
+            [
+              -7.3,
+              43.8
+            ],
+            [
+              -7.6,
+              43.8
+            ],
+            [
+              -7.6,
+              43.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - San Cipiran",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              109.9,
+              -44.7
+            ],
+            [
+              156.9,
+              -44.7
+            ],
+            [
+              156.9,
+              -6.5
+            ],
+            [
+              109.9,
+              -6.5
+            ],
+            [
+              109.9,
+              -44.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "CoCOMA",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)",
+        "otherLinks": "https://github.com/csiro-coasts/EMS",
+        "numericalModel": "EMS (CSIRO Environmental Modelling Suite)",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.7,
+              36.6
+            ],
+            [
+              -3.4,
+              36.6
+            ],
+            [
+              -3.4,
+              36.8
+            ],
+            [
+              -3.7,
+              36.8
+            ],
+            [
+              -3.7,
+              36.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Mortil",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2,
+              41.38
+            ],
+            [
+              2.14,
+              41.38
+            ],
+            [
+              2.14,
+              41.29
+            ],
+            [
+              2.2,
+              41.29
+            ],
+            [
+              2.2,
+              41.38
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Barcelona",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.02,
+              37.6
+            ],
+            [
+              -0.93,
+              37.6
+            ],
+            [
+              -0.93,
+              37.55
+            ],
+            [
+              -1.02,
+              37.55
+            ],
+            [
+              -1.02,
+              37.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Cartagena",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.36,
+              43.48
+            ],
+            [
+              -8.29,
+              43.48
+            ],
+            [
+              -8.29,
+              43.43
+            ],
+            [
+              -8.36,
+              43.43
+            ],
+            [
+              -8.36,
+              43.48
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Ferrol",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.33609,
+              39.47339
+            ],
+            [
+              -0.27384,
+              39.47339
+            ],
+            [
+              -0.27384,
+              39.41269
+            ],
+            [
+              -0.33609,
+              39.41269
+            ],
+            [
+              -0.33609,
+              39.47339
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Valencia",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.23,
+              39.65994
+            ],
+            [
+              -0.18,
+              39.65994
+            ],
+            [
+              -0.18,
+              39.61904
+            ],
+            [
+              -0.23,
+              39.61904
+            ],
+            [
+              -0.23,
+              39.65994
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Sagunto",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.16122,
+              39.0034
+            ],
+            [
+              -0.13437,
+              39.0034
+            ],
+            [
+              -0.13437,
+              38.98515
+            ],
+            [
+              -0.16122,
+              38.98515
+            ],
+            [
+              -0.16122,
+              39.0034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Gand\u00eda",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.4967,
+              36.83649
+            ],
+            [
+              -2.4517,
+              36.83649
+            ],
+            [
+              -2.4517,
+              36.81544
+            ],
+            [
+              -2.4967,
+              36.81544
+            ],
+            [
+              -2.4967,
+              36.83649
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Almer\u00eda",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.90159,
+              36.98232
+            ],
+            [
+              -1.88844,
+              36.98232
+            ],
+            [
+              -1.88844,
+              36.95682
+            ],
+            [
+              -1.90159,
+              36.95682
+            ],
+            [
+              -1.90159,
+              36.98232
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Carboneras",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.9015,
+              36.98232
+            ],
+            [
+              -1.8884,
+              36.98232
+            ],
+            [
+              -1.8884,
+              36.95682
+            ],
+            [
+              -1.9015,
+              36.95682
+            ],
+            [
+              -1.9015,
+              36.98232
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Carboneras",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.65,
+              43.45
+            ],
+            [
+              -1.5,
+              43.45
+            ],
+            [
+              -1.5,
+              43.525
+            ],
+            [
+              -1.65,
+              43.525
+            ],
+            [
+              -1.65,
+              43.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Storm impact monitoring and forecasting system of Biarritz city",
+        "typeOfSystem": [
+          "Sea level (storm surge)",
+          "Waves"
+        ],
+        "applications": "Coastal Hazards",
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Center Rivages Pro Tech of SUEZ",
+        "otherLinks": null,
+        "numericalModel": "BOSZ",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.7,
+              43.38
+            ],
+            [
+              -1.62,
+              43.38
+            ],
+            [
+              -1.62,
+              43.43
+            ],
+            [
+              -1.7,
+              43.43
+            ],
+            [
+              -1.7,
+              43.38
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Storm impact monitoring and forecasting system of Saint-Jean-de-Luz city",
+        "typeOfSystem": [
+          "Sea level (storm surge)",
+          "Waves"
+        ],
+        "applications": "Coastal Hazards",
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Center Rivages Pro Tech of SUEZ",
+        "otherLinks": null,
+        "numericalModel": "BOSZ",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.4,
+              43.25
+            ],
+            [
+              3.9,
+              43.25
+            ],
+            [
+              3.9,
+              43.5
+            ],
+            [
+              3.4,
+              43.5
+            ],
+            [
+              3.4,
+              43.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Storm impact monitoring and forecasting system of Thau shoreline",
+        "typeOfSystem": [
+          "Sea level (storm surge)",
+          "Waves"
+        ],
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Center Rivages Pro Tech of SUEZ",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.75,
+              43.4
+            ],
+            [
+              3.825,
+              43.4
+            ],
+            [
+              3.825,
+              43.45
+            ],
+            [
+              3.75,
+              43.45
+            ],
+            [
+              3.75,
+              43.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Storm impact monitoring and forecasting system of Thau shoreline",
+        "typeOfSystem": [
+          "Sea level (storm surge)",
+          "Waves"
+        ],
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Center Rivages Pro Tech of SUEZ",
+        "otherLinks": null,
+        "numericalModel": "BOSZ",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.2,
+              43.3
+            ],
+            [
+              -3.3,
+              43.3
+            ],
+            [
+              -3.3,
+              43.9
+            ],
+            [
+              -4.2,
+              43.9
+            ],
+            [
+              -4.2,
+              43.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Santander (coarse)",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.986,
+              43.61417
+            ],
+            [
+              -5.9155,
+              43.61417
+            ],
+            [
+              -5.9155,
+              43.5666
+            ],
+            [
+              -5.986,
+              43.5666
+            ],
+            [
+              -5.986,
+              43.61417
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Aviles",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.25279,
+              28.50434
+            ],
+            [
+              -16.18739,
+              28.50434
+            ],
+            [
+              -16.18739,
+              28.44834
+            ],
+            [
+              -16.25279,
+              28.44834
+            ],
+            [
+              -16.25279,
+              28.50434
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Tenerife",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.76924,
+              28.6812
+            ],
+            [
+              -17.75744,
+              28.6812
+            ],
+            [
+              -17.75744,
+              28.6646
+            ],
+            [
+              -17.76924,
+              28.6646
+            ],
+            [
+              -17.76924,
+              28.6812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n La Palma",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.91425,
+              27.79604
+            ],
+            [
+              -17.88545,
+              27.79604
+            ],
+            [
+              -17.88545,
+              27.76619
+            ],
+            [
+              -17.91425,
+              27.76619
+            ],
+            [
+              -17.91425,
+              27.79604
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n La Estaca",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.52637,
+              28.09407
+            ],
+            [
+              -16.47572,
+              28.09407
+            ],
+            [
+              -16.47572,
+              28.04167
+            ],
+            [
+              -16.52637,
+              28.04167
+            ],
+            [
+              -16.52637,
+              28.09407
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Granadilla",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.11869,
+              28.09372
+            ],
+            [
+              -17.09724,
+              28.09372
+            ],
+            [
+              -17.09724,
+              28.07292
+            ],
+            [
+              -17.11869,
+              28.07292
+            ],
+            [
+              -17.11869,
+              28.09372
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n La Gomera",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.51958,
+              38.35472
+            ],
+            [
+              -0.45728,
+              38.35472
+            ],
+            [
+              -0.45728,
+              38.29002
+            ],
+            [
+              -0.51958,
+              38.29002
+            ],
+            [
+              -0.51958,
+              38.35472
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Alicante",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.66663,
+              39.56885
+            ],
+            [
+              2.61458,
+              39.56885
+            ],
+            [
+              2.61458,
+              39.53125
+            ],
+            [
+              2.66663,
+              39.53125
+            ],
+            [
+              2.66663,
+              39.56885
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Palma Mallorca",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.25242,
+              41.11643
+            ],
+            [
+              1.19895,
+              41.11643
+            ],
+            [
+              1.19895,
+              41.06867
+            ],
+            [
+              1.25242,
+              41.06867
+            ],
+            [
+              1.25242,
+              41.11643
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Tarragona",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.11588,
+              43.42092
+            ],
+            [
+              -2.99063,
+              43.42092
+            ],
+            [
+              -2.99063,
+              43.30294
+            ],
+            [
+              -3.11588,
+              43.30294
+            ],
+            [
+              -3.11588,
+              43.42092
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Bilbao",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -13.86469,
+              28.49971
+            ],
+            [
+              -13.85069,
+              28.49971
+            ],
+            [
+              -13.85069,
+              28.48611
+            ],
+            [
+              -13.86469,
+              28.48611
+            ],
+            [
+              -13.86469,
+              28.49971
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Rosario",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.42884,
+              28.17012
+            ],
+            [
+              -15.38544,
+              28.17012
+            ],
+            [
+              -15.38544,
+              28.10417
+            ],
+            [
+              -15.42884,
+              28.10417
+            ],
+            [
+              -15.42884,
+              28.17012
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Las Palmas",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -13.54279,
+              28.97641
+            ],
+            [
+              -13.51739,
+              28.97641
+            ],
+            [
+              -13.51739,
+              28.95486
+            ],
+            [
+              -13.54279,
+              28.95486
+            ],
+            [
+              -13.54279,
+              28.97641
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Arrecife",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.42142,
+              27.85372
+            ],
+            [
+              -15.38892,
+              27.85372
+            ],
+            [
+              -15.38892,
+              27.82637
+            ],
+            [
+              -15.42142,
+              27.82637
+            ],
+            [
+              -15.42142,
+              27.85372
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Arinaga",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.94444,
+              43.3437
+            ],
+            [
+              -1.90189,
+              43.3437
+            ],
+            [
+              -1.90189,
+              43.31901
+            ],
+            [
+              -1.94444,
+              43.31901
+            ],
+            [
+              -1.94444,
+              43.3437
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Pasajes",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.43485,
+              36.71844
+            ],
+            [
+              -4.40625,
+              36.71844
+            ],
+            [
+              -4.40625,
+              36.69444
+            ],
+            [
+              -4.43485,
+              36.69444
+            ],
+            [
+              -4.43485,
+              36.71844
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n M\u00e1laga",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.54488,
+              43.36
+            ],
+            [
+              -8.48879,
+              43.36
+            ],
+            [
+              -8.48879,
+              43.34464
+            ],
+            [
+              -8.54488,
+              43.34464
+            ],
+            [
+              -8.54488,
+              43.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n Langosteira",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.48697,
+              43.73517
+            ],
+            [
+              -7.42577,
+              43.73517
+            ],
+            [
+              -7.42577,
+              43.69217
+            ],
+            [
+              -7.48697,
+              43.69217
+            ],
+            [
+              -7.48697,
+              43.73517
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Agitaci\u00f3n San Cibrao",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.64124,
+              43.60015
+            ],
+            [
+              -5.73144,
+              43.60015
+            ],
+            [
+              -5.73144,
+              43.54025
+            ],
+            [
+              -5.64124,
+              43.54025
+            ],
+            [
+              -5.64124,
+              43.60015
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Onda Larga Gij\u00f3n",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.18125,
+              43.49246
+            ],
+            [
+              -8.3491,
+              43.49246
+            ],
+            [
+              -8.3491,
+              43.43931
+            ],
+            [
+              -8.18125,
+              43.43931
+            ],
+            [
+              -8.18125,
+              43.49246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Onda Larga Ferrol",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.7542,
+              38.7803
+            ],
+            [
+              0.2188,
+              38.7803
+            ],
+            [
+              0.2188,
+              37.9719
+            ],
+            [
+              -0.7542,
+              37.9719
+            ],
+            [
+              -0.7542,
+              38.7803
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-ALM (Almer\u00eda)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.82841,
+              37.14833
+            ],
+            [
+              -1.49717,
+              37.14833
+            ],
+            [
+              -1.49717,
+              36.14177
+            ],
+            [
+              -2.82841,
+              36.14177
+            ],
+            [
+              -2.82841,
+              37.14833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-ALM (Almer\u00eda)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.80672,
+              41.54906
+            ],
+            [
+              2.53652,
+              41.54906
+            ],
+            [
+              2.53652,
+              41.01693
+            ],
+            [
+              1.80672,
+              41.01693
+            ],
+            [
+              1.80672,
+              41.54906
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-BCN (Barcelona)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.53697,
+              43.76962
+            ],
+            [
+              -2.69852,
+              43.76962
+            ],
+            [
+              -2.69852,
+              43.30622
+            ],
+            [
+              -3.53697,
+              43.30622
+            ],
+            [
+              -3.53697,
+              43.76962
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-BIL (Bilbao)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.4225,
+              37.67209
+            ],
+            [
+              -0.72398,
+              37.67209
+            ],
+            [
+              -0.72398,
+              37.22035
+            ],
+            [
+              -1.4225,
+              37.22035
+            ],
+            [
+              -1.4225,
+              37.67209
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-CAR (Cartagena)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.36337,
+              40.24778
+            ],
+            [
+              0.72521,
+              40.24778
+            ],
+            [
+              0.72521,
+              39.30775
+            ],
+            [
+              -0.36337,
+              39.30775
+            ],
+            [
+              -0.36337,
+              40.24778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-CAS (Castell\u00f3n)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.61111,
+              36.18905
+            ],
+            [
+              -4.95891,
+              36.18905
+            ],
+            [
+              -4.95891,
+              35.75441
+            ],
+            [
+              -5.61111,
+              35.75441
+            ],
+            [
+              -5.61111,
+              36.18905
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-CEU (Ceuta)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.66855,
+              43.51878
+            ],
+            [
+              -8.17048,
+              43.51878
+            ],
+            [
+              -8.17048,
+              43.29311
+            ],
+            [
+              -8.66855,
+              43.29311
+            ],
+            [
+              -8.66855,
+              43.51878
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-FER (Ferrol)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.56087,
+              28.34982
+            ],
+            [
+              -15.03442,
+              28.34982
+            ],
+            [
+              -15.03442,
+              27.58441
+            ],
+            [
+              -15.56087,
+              27.58441
+            ],
+            [
+              -15.56087,
+              28.34982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-GCN (Las Palmas)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.23695,
+              43.88017
+            ],
+            [
+              -5.29703,
+              43.88017
+            ],
+            [
+              -5.29703,
+              43.53315
+            ],
+            [
+              -6.23695,
+              43.53315
+            ],
+            [
+              -6.23695,
+              43.88017
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-GIJ (Gij\u00f3n)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.99041,
+              27.92106
+            ],
+            [
+              -17.80795,
+              27.92106
+            ],
+            [
+              -17.80795,
+              27.70443
+            ],
+            [
+              -17.99041,
+              27.70443
+            ],
+            [
+              -17.99041,
+              27.92106
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-HIE (Hierro)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.92921,
+              37.41082
+            ],
+            [
+              -6.6497,
+              37.41082
+            ],
+            [
+              -6.6497,
+              36.65463
+            ],
+            [
+              -7.92921,
+              36.65463
+            ],
+            [
+              -7.92921,
+              37.41082
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-HUE (Huelva)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.65188,
+              39.31651
+            ],
+            [
+              1.88254,
+              39.31651
+            ],
+            [
+              1.88254,
+              38.53171
+            ],
+            [
+              0.65188,
+              38.53171
+            ],
+            [
+              0.65188,
+              39.31651
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-IBS (Isla Ibiza)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -14.36396,
+              29.84049
+            ],
+            [
+              -12.88156,
+              29.84049
+            ],
+            [
+              -12.88156,
+              28.28112
+            ],
+            [
+              -14.36396,
+              28.28112
+            ],
+            [
+              -14.36396,
+              29.84049
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-LNZ (Isla Lanzarote)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.2241,
+              40.03231
+            ],
+            [
+              4.4292,
+              40.03231
+            ],
+            [
+              4.4292,
+              39.72947
+            ],
+            [
+              4.2241,
+              39.72947
+            ],
+            [
+              4.2241,
+              40.03231
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-MAO (Mah\u00f3n)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.65428,
+              36.87165
+            ],
+            [
+              -3.98474,
+              36.87165
+            ],
+            [
+              -3.98474,
+              36.36714
+            ],
+            [
+              -4.65428,
+              36.36714
+            ],
+            [
+              -4.65428,
+              36.87165
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-MLG (M\u00e1laga)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.79641,
+              28.79868
+            ],
+            [
+              -17.59529,
+              28.79868
+            ],
+            [
+              -17.59529,
+              28.54946
+            ],
+            [
+              -17.79641,
+              28.54946
+            ],
+            [
+              -17.79641,
+              28.79868
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-PAL (S. C. de la Palma)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.89941,
+              39.85857
+            ],
+            [
+              2.99222,
+              39.85857
+            ],
+            [
+              2.99222,
+              39.0609
+            ],
+            [
+              1.89941,
+              39.0609
+            ],
+            [
+              1.89941,
+              39.85857
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-PAM (Palma de Mallorca)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.31966,
+              43.79285
+            ],
+            [
+              -1.27382,
+              43.79285
+            ],
+            [
+              -1.27382,
+              43.24839
+            ],
+            [
+              -2.31966,
+              43.24839
+            ],
+            [
+              -2.31966,
+              43.79285
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-PAS (Pasajes)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.61109,
+              42.82704
+            ],
+            [
+              -8.60136,
+              42.82704
+            ],
+            [
+              -8.60136,
+              41.96265
+            ],
+            [
+              -9.61109,
+              41.96265
+            ],
+            [
+              -9.61109,
+              42.82704
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-RBX (Rias Baixas)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.0,
+              43.3
+            ],
+            [
+              -3.6,
+              43.3
+            ],
+            [
+              -3.6,
+              43.6
+            ],
+            [
+              -4.0,
+              43.6
+            ],
+            [
+              -4.0,
+              43.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO - Santander",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.19161,
+              28.5015
+            ],
+            [
+              -16.27201,
+              28.5015
+            ],
+            [
+              -16.27201,
+              28.44375
+            ],
+            [
+              -16.19161,
+              28.44375
+            ],
+            [
+              -16.19161,
+              28.5015
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Onda Larga Tenerife",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.18125,
+              43.49246
+            ],
+            [
+              -8.3491,
+              43.49246
+            ],
+            [
+              -8.3491,
+              43.43931
+            ],
+            [
+              -8.18125,
+              43.43931
+            ],
+            [
+              -8.18125,
+              43.49246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Onda Larga La Palma",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.47308,
+              28.09335
+            ],
+            [
+              -16.51258,
+              28.09335
+            ],
+            [
+              -16.51258,
+              28.0544
+            ],
+            [
+              -16.47308,
+              28.0544
+            ],
+            [
+              -16.47308,
+              28.09335
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Onda Larga Granadilla",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.09751,
+              28.09527
+            ],
+            [
+              -17.11786,
+              28.09527
+            ],
+            [
+              -17.11786,
+              28.07197
+            ],
+            [
+              -17.09751,
+              28.07197
+            ],
+            [
+              -17.09751,
+              28.09527
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Onda Larga La Gomera",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.7829,
+              37.27145
+            ],
+            [
+              -6.9761,
+              37.27145
+            ],
+            [
+              -6.9761,
+              37.09145
+            ],
+            [
+              -6.7829,
+              37.09145
+            ],
+            [
+              -6.7829,
+              37.27145
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Onda Larga Huelva",
+        "typeOfSystem": "Waves",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "Other wave model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.98274,
+              44.23808
+            ],
+            [
+              -7.16814,
+              44.23808
+            ],
+            [
+              -7.16814,
+              43.55499
+            ],
+            [
+              -7.98274,
+              43.55499
+            ],
+            [
+              -7.98274,
+              44.23808
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-SCI (San Cibrao)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.55745,
+              41.25013
+            ],
+            [
+              1.68767,
+              41.25013
+            ],
+            [
+              1.68767,
+              40.38317
+            ],
+            [
+              0.55745,
+              40.38317
+            ],
+            [
+              0.55745,
+              41.25013
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-TAR (Tarragona)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.42213,
+              28.56344
+            ],
+            [
+              -16.05436,
+              28.56344
+            ],
+            [
+              -16.05436,
+              28.23613
+            ],
+            [
+              -16.42213,
+              28.23613
+            ],
+            [
+              -16.42213,
+              28.56344
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-TEN (Tenerife)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.26409,
+              28.42159
+            ],
+            [
+              -16.29799,
+              28.42159
+            ],
+            [
+              -16.29799,
+              27.66966
+            ],
+            [
+              -17.26409,
+              27.66966
+            ],
+            [
+              -17.26409,
+              28.42159
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA CST-TNS (Tenerife Sur)",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Coastal Hazards",
+          "Oil spill fight"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.41859,
+              36.8538
+            ],
+            [
+              -2.52896,
+              36.8538
+            ],
+            [
+              -2.52896,
+              36.7701
+            ],
+            [
+              -2.41859,
+              36.7701
+            ],
+            [
+              -2.41859,
+              36.8538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-ALM (Puerto Almer\u00eda)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.0,
+              38.0
+            ],
+            [
+              12.0,
+              38.0
+            ],
+            [
+              12.0,
+              44.5
+            ],
+            [
+              2.0,
+              44.5
+            ],
+            [
+              2.0,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "HYCOM-MED",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Navigation support",
+          "Recreational navigation",
+          "Ship-routing"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "Service hydrographique et Oc\u00e9anographique de la Marine / French Hydrographic and Oceanograhic Service",
+        "otherLinks": null,
+        "numericalModel": "HYCOM-MED",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -34.0,
+              20.0
+            ],
+            [
+              36.09,
+              20.0
+            ],
+            [
+              36.09,
+              48.0
+            ],
+            [
+              -34.0,
+              48.0
+            ],
+            [
+              -34.0,
+              20.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "NIVMAR",
+        "typeOfSystem": "Sea level (storm surge)",
+        "applications": [
+          "Coastal Hazards",
+          "Port Management"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "HAMSOM",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.29671,
+              27.93464
+            ],
+            [
+              -15.45324,
+              27.93464
+            ],
+            [
+              -15.45324,
+              27.80297
+            ],
+            [
+              -15.29671,
+              27.80297
+            ],
+            [
+              -15.29671,
+              27.93464
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-ARI (Puerto Arinaga)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -13.48113,
+              29.01965
+            ],
+            [
+              -13.58877,
+              29.01965
+            ],
+            [
+              -13.58877,
+              28.92249
+            ],
+            [
+              -13.48113,
+              28.92249
+            ],
+            [
+              -13.48113,
+              29.01965
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-ARR (Puerto Arrecife)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.90613,
+              43.62213
+            ],
+            [
+              -6.0193,
+              43.62213
+            ],
+            [
+              -6.0193,
+              43.55145
+            ],
+            [
+              -5.90613,
+              43.55145
+            ],
+            [
+              -5.90613,
+              43.62213
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-AVI (Puerto Avil\u00e9s)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.26776,
+              41.40705
+            ],
+            [
+              2.10064,
+              41.40705
+            ],
+            [
+              2.10064,
+              41.25272
+            ],
+            [
+              2.26776,
+              41.25272
+            ],
+            [
+              2.26776,
+              41.40705
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-BCN (Puerto Barcelona)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.9264,
+              37.60994
+            ],
+            [
+              -1.13453,
+              37.60994
+            ],
+            [
+              -1.13453,
+              37.5033
+            ],
+            [
+              -0.9264,
+              37.5033
+            ],
+            [
+              -0.9264,
+              37.60994
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-CAR (Puerto Cartagena)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.10299,
+              40.00316
+            ],
+            [
+              -0.03745,
+              40.00316
+            ],
+            [
+              -0.03745,
+              39.88756
+            ],
+            [
+              0.10299,
+              39.88756
+            ],
+            [
+              0.10299,
+              40.00316
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-CAS (Puerto Castell\u00f3n)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.26073,
+              35.92157
+            ],
+            [
+              -5.34417,
+              35.92157
+            ],
+            [
+              -5.34417,
+              35.86256
+            ],
+            [
+              -5.26073,
+              35.86256
+            ],
+            [
+              -5.26073,
+              35.92157
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-CEU (Puerto Ceuta)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Temperature"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.83197,
+              37.02063
+            ],
+            [
+              -1.94055,
+              37.02063
+            ],
+            [
+              -1.94055,
+              36.9029
+            ],
+            [
+              -1.83197,
+              36.9029
+            ],
+            [
+              -1.83197,
+              37.02063
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-CRB (Puerto Carboneras)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.17308,
+              43.49109
+            ],
+            [
+              -8.33766,
+              43.49109
+            ],
+            [
+              -8.33766,
+              43.43623
+            ],
+            [
+              -8.17308,
+              43.43623
+            ],
+            [
+              -8.17308,
+              43.49109
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-FER (Puerto Ferrol)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.38194,
+              28.17092
+            ],
+            [
+              -15.43186,
+              28.17092
+            ],
+            [
+              -15.43186,
+              28.08973
+            ],
+            [
+              -15.38194,
+              28.08973
+            ],
+            [
+              -15.38194,
+              28.17092
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-GCN (Puerto Las Palmas)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.04842,
+              28.12905
+            ],
+            [
+              -17.15281,
+              28.12905
+            ],
+            [
+              -17.15281,
+              28.04826
+            ],
+            [
+              -17.04842,
+              28.04826
+            ],
+            [
+              -17.04842,
+              28.12905
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-GMR (Puerto La Gomera)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.59719,
+              43.62843
+            ],
+            [
+              -5.78433,
+              43.62843
+            ],
+            [
+              -5.78433,
+              43.54199
+            ],
+            [
+              -5.59719,
+              43.54199
+            ],
+            [
+              -5.59719,
+              43.62843
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-GIJ (Puerto Gij\u00f3n)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.43909,
+              28.11323
+            ],
+            [
+              -16.54194,
+              28.11323
+            ],
+            [
+              -16.54194,
+              28.02325
+            ],
+            [
+              -16.43909,
+              28.02325
+            ],
+            [
+              -16.43909,
+              28.11323
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-GRA (Puerto Granadilla)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.8694,
+              27.80848
+            ],
+            [
+              -17.91354,
+              27.80848
+            ],
+            [
+              -17.91354,
+              27.76208
+            ],
+            [
+              -17.8694,
+              27.76208
+            ],
+            [
+              -17.8694,
+              27.80848
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-HIE (Puerto El Hierro)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.71449,
+              37.30111
+            ],
+            [
+              -7.0431,
+              37.30111
+            ],
+            [
+              -7.0431,
+              37.05293
+            ],
+            [
+              -6.71449,
+              37.05293
+            ],
+            [
+              -6.71449,
+              37.30111
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-HUE (Puerto Huelva)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.50958,
+              38.93618
+            ],
+            [
+              1.40306,
+              38.93618
+            ],
+            [
+              1.40306,
+              38.86497
+            ],
+            [
+              1.50958,
+              38.86497
+            ],
+            [
+              1.50958,
+              38.93618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-IBS (Puerto La Savina)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.38023,
+              39.92379
+            ],
+            [
+              4.26108,
+              39.92379
+            ],
+            [
+              4.26108,
+              39.83925
+            ],
+            [
+              4.38023,
+              39.83925
+            ],
+            [
+              4.38023,
+              39.92379
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-MAO (Puerto Mah\u00f3n)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.3453,
+              36.73898
+            ],
+            [
+              -4.47882,
+              36.73898
+            ],
+            [
+              -4.47882,
+              36.63748
+            ],
+            [
+              -4.3453,
+              36.63748
+            ],
+            [
+              -4.3453,
+              36.73898
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-MLG (Puerto M\u00e1laga)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.67143,
+              42.43964
+            ],
+            [
+              -8.72268,
+              42.43964
+            ],
+            [
+              -8.72268,
+              42.3816
+            ],
+            [
+              -8.67143,
+              42.3816
+            ],
+            [
+              -8.67143,
+              42.43964
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-MRN (Puerto Marin)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -17.72811,
+              28.7337
+            ],
+            [
+              -17.77268,
+              28.7337
+            ],
+            [
+              -17.77268,
+              28.63969
+            ],
+            [
+              -17.72811,
+              28.63969
+            ],
+            [
+              -17.72811,
+              28.7337
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-PAL (Puerto S. C. de la Palma)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.80765,
+              39.58906
+            ],
+            [
+              2.58,
+              39.58906
+            ],
+            [
+              2.58,
+              39.42659
+            ],
+            [
+              2.80765,
+              39.42659
+            ],
+            [
+              2.80765,
+              39.58906
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-PAM (Puerto Palma de Mallorca)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.86907,
+              43.40786
+            ],
+            [
+              -1.98754,
+              43.40786
+            ],
+            [
+              -1.98754,
+              43.30788
+            ],
+            [
+              -1.86907,
+              43.30788
+            ],
+            [
+              -1.86907,
+              43.40786
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-PAS (Puerto Pasajes)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -13.78676,
+              28.53062
+            ],
+            [
+              -13.87993,
+              28.53062
+            ],
+            [
+              -13.87993,
+              28.44232
+            ],
+            [
+              -13.78676,
+              28.44232
+            ],
+            [
+              -13.78676,
+              28.53062
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-ROS (Puerto Rosario)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.40107,
+              43.76197
+            ],
+            [
+              -7.5194,
+              43.76197
+            ],
+            [
+              -7.5194,
+              43.6895
+            ],
+            [
+              -7.40107,
+              43.6895
+            ],
+            [
+              -7.40107,
+              43.76197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-SCI (Puerto San Cibrao)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.29814,
+              41.1245
+            ],
+            [
+              1.17517,
+              41.1245
+            ],
+            [
+              1.17517,
+              41.01178
+            ],
+            [
+              1.29814,
+              41.01178
+            ],
+            [
+              1.29814,
+              41.1245
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-TAR (Puerto Tarragona)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.18159,
+              28.51214
+            ],
+            [
+              -16.29913,
+              28.51214
+            ],
+            [
+              -16.29913,
+              28.4221
+            ],
+            [
+              -16.18159,
+              28.4221
+            ],
+            [
+              -16.18159,
+              28.51214
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-TEN (Puerto Tenerife)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.00522,
+              43.42253
+            ],
+            [
+              -3.12252,
+              43.42253
+            ],
+            [
+              -3.12252,
+              43.32239
+            ],
+            [
+              -3.00522,
+              43.32239
+            ],
+            [
+              -3.00522,
+              43.42253
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-BIL (Puerto Bilbao)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.70272,
+              42.28471
+            ],
+            [
+              -8.77514,
+              42.28471
+            ],
+            [
+              -8.77514,
+              42.21972
+            ],
+            [
+              -8.70272,
+              42.21972
+            ],
+            [
+              -8.70272,
+              42.28471
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-VIG (Puerto Vigo)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.75427,
+              42.68886
+            ],
+            [
+              -8.86307,
+              42.68886
+            ],
+            [
+              -8.86307,
+              42.56772
+            ],
+            [
+              -8.75427,
+              42.56772
+            ],
+            [
+              -8.75427,
+              42.68886
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAMOA PRT-VIL (Puerto Vilagarc\u00eda)",
+        "typeOfSystem": "Circulation",
+        "applications": "Port Management",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Puertos del Estado",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": "Sea surface height (sea level)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -36.39,
+              24.55
+            ],
+            [
+              8.25026,
+              24.55
+            ],
+            [
+              8.25026,
+              46.46998
+            ],
+            [
+              -36.39,
+              46.46998
+            ],
+            [
+              -36.39,
+              24.55
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Lusitania",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Port Management",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "+ATLANTIC CoLAB",
+        "otherLinks": "https://github.com/Mohid-Water-Modelling-System",
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.0,
+              42.3
+            ],
+            [
+              4.7,
+              42.3
+            ],
+            [
+              4.7,
+              52.9
+            ],
+            [
+              -7.0,
+              52.9
+            ],
+            [
+              -7.0,
+              42.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "WW3 NORGAS-UG",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Service hydrographique et Oc\u00e9anographique de la Marine / French Hydrographic and Oceanograhic Service",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.97222,
+              38.8333
+            ],
+            [
+              3.69443,
+              38.8333
+            ],
+            [
+              3.69443,
+              40.1111
+            ],
+            [
+              1.97222,
+              40.1111
+            ],
+            [
+              1.97222,
+              38.8333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO Mallorca Island",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Coastal Hazards",
+          "Recreational navigation",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "Balearic Islands Coastal Observing and Forecasting System",
+          "Puertos del Estado"
+        ],
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.61111,
+              39.62499
+            ],
+            [
+              4.45832,
+              39.62499
+            ],
+            [
+              4.45832,
+              40.19444
+            ],
+            [
+              3.61111,
+              40.19444
+            ],
+            [
+              3.61111,
+              39.62499
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO Menorca Island",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Recreational navigation",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "Balearic Islands Coastal Observing and Forecasting System",
+          "Puertos del Estado"
+        ],
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.97221,
+              38.4861
+            ],
+            [
+              0.97221,
+              39.3055
+            ],
+            [
+              1.81944,
+              39.3055
+            ],
+            [
+              1.81944,
+              38.4861
+            ],
+            [
+              0.97221,
+              38.4861
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SAPO Pitiuses Islands",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coastal Hazards",
+          "Recreational navigation",
+          "Research",
+          "Tourism"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": [
+          "Balearic Islands Coastal Observing and Forecasting System",
+          "Puertos del Estado"
+        ],
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": "Sea State (waves)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              161.0,
+              -52.0
+            ],
+            [
+              185.0,
+              -52.0
+            ],
+            [
+              185.0,
+              -31.0
+            ],
+            [
+              161.0,
+              -31.0
+            ],
+            [
+              161.0,
+              -52.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Moana Ocean Forecast",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Recreational navigation",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Meteorological Service of New Zealand Ltd",
+        "otherLinks": "https://github.com/metocean/moana-data-examples",
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -50.0,
+              -29.5
+            ],
+            [
+              -45.0,
+              -29.5
+            ],
+            [
+              -45.0,
+              -24.0
+            ],
+            [
+              -50.0,
+              -24.0
+            ],
+            [
+              -50.0,
+              -29.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "SC - PR Coast",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Coupled weather forecasting",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Empresa de Pesquisa Agropecu\u00e1ria e Extens\u00e3o Rural de Santa Catarina",
+        "otherLinks": null,
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.4,
+              -26.5
+            ],
+            [
+              -48.9,
+              -26.5
+            ],
+            [
+              -48.9,
+              -26.0
+            ],
+            [
+              -48.4,
+              -26.0
+            ],
+            [
+              -48.4,
+              -26.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Babitonga Bay",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Navigation support",
+          "Recreational navigation"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Empresa de Pesquisa Agropecu\u00e1ria e Extens\u00e3o Rural de Santa Catarina",
+        "otherLinks": null,
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -32.26,
+              36.24
+            ],
+            [
+              -24.1,
+              36.24
+            ],
+            [
+              -24.1,
+              40.74
+            ],
+            [
+              -32.26,
+              40.74
+            ],
+            [
+              -32.26,
+              36.24
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "OPERA - Operational Oceanographic model for the Azores Region",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Enviromental management",
+          "Fisheries",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "+ATLANTIC CoLAB",
+        "otherLinks": "https://github.com/Mohid-Water-Modelling-System",
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12.6,
+              34.38
+            ],
+            [
+              -5.1,
+              34.38
+            ],
+            [
+              -5.1,
+              44.76
+            ],
+            [
+              -12.6,
+              44.76
+            ],
+            [
+              -12.6,
+              34.38
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "PCOMS - Portuguese Coast Operational Modelling System",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Climate prediction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Port Management",
+          "Research",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "+ATLANTIC CoLAB",
+        "otherLinks": "https://github.com/Mohid-Water-Modelling-System",
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.02,
+              29.42
+            ],
+            [
+              -13.82001,
+              29.42
+            ],
+            [
+              -13.82001,
+              36.98
+            ],
+            [
+              -21.02,
+              36.98
+            ],
+            [
+              -21.02,
+              29.42
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "OPMadeira - Operational Model for the Madeira Arquipelago",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "+ATLANTIC CoLAB",
+        "otherLinks": "https://github.com/Mohid-Water-Modelling-System",
+        "numericalModel": "MOHID - MOdelo HIDrodin\u00e2mico",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.0,
+              40.7
+            ],
+            [
+              11.8,
+              40.7
+            ],
+            [
+              11.8,
+              44.4
+            ],
+            [
+              3.0,
+              44.4
+            ],
+            [
+              3.0,
+              40.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "WW3 NORMEDOC-UG",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Service hydrographique et Oc\u00e9anographique de la Marine / French Hydrographic and Oceanograhic Service",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.0,
+              4.1
+            ],
+            [
+              -50.2,
+              4.1
+            ],
+            [
+              -50.2,
+              19.0
+            ],
+            [
+              -64.0,
+              19.0
+            ],
+            [
+              -64.0,
+              4.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "WW3  ANTGUY-UG",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Service hydrographique et Oc\u00e9anographique de la Marine / French Hydrographic and Oceanograhic Service",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.7,
+              -22.5
+            ],
+            [
+              59.0,
+              -22.5
+            ],
+            [
+              59.0,
+              -10.8
+            ],
+            [
+              42.7,
+              -10.8
+            ],
+            [
+              42.7,
+              -22.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "WW3 INDIEN-UG",
+        "typeOfSystem": "Waves",
+        "applications": "Coastal Hazards",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Service hydrographique et Oc\u00e9anographique de la Marine / French Hydrographic and Oceanograhic Service",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115.0,
+              16.0
+            ],
+            [
+              200.0,
+              16.0
+            ],
+            [
+              200.0,
+              64.0
+            ],
+            [
+              115.0,
+              64.0
+            ],
+            [
+              115.0,
+              16.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "FRA-ROMSIIv2",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Fisheries",
+          "Research"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Japan Fisheries Research and Education Agency",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Salinity",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.75,
+              43.3
+            ],
+            [
+              -2.6,
+              43.3
+            ],
+            [
+              -2.6,
+              43.65
+            ],
+            [
+              -4.75,
+              43.65
+            ],
+            [
+              -4.75,
+              43.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "[CANTABRIA-OCFS] Cantabria Operational Coastal Forecast System",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Plastic drift",
+          "Navigation support",
+          "Oil spill fight",
+          "Search and rescue"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Environmental Hydraulics Institute of the University of Cantabria",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": [
+          "Currents",
+          "Sea surface height (sea level)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.0,
+              30.187
+            ],
+            [
+              36.25,
+              30.187
+            ],
+            [
+              36.25,
+              45.937
+            ],
+            [
+              -6.0,
+              45.937
+            ],
+            [
+              -6.0,
+              30.187
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "MFS-HRESATM",
+        "typeOfSystem": null,
+        "applications": "Research",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Istituto Nazionale di Geofisica e Vulcanologia",
+        "otherLinks": null,
+        "numericalModel": "NEMO - Nucleus for European Modelling of the Ocean",
+        "eovs": [
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.0,
+              30.187
+            ],
+            [
+              36.25,
+              30.187
+            ],
+            [
+              36.25,
+              45.937
+            ],
+            [
+              -15.0,
+              45.937
+            ],
+            [
+              -15.0,
+              30.187
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "MFS-HRESATM",
+        "typeOfSystem": null,
+        "applications": "Research",
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Istituto Nazionale di Geofisica e Vulcanologia",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.0,
+              -33.5
+            ],
+            [
+              -70.8,
+              -33.5
+            ],
+            [
+              -70.8,
+              -27.5
+            ],
+            [
+              -75.0,
+              -27.5
+            ],
+            [
+              -75.0,
+              -33.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Ceazamar forecasting system",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Aquaculture",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Fisheries"
+        ],
+        "dataPolicy": "All generated data is freely available",
+        "organization": "Centro de Estudios Avanzados en Zonas \u00c1ridas",
+        "otherLinks": null,
+        "numericalModel": "CROCO - Coastal and Regional Ocean COmmunity Model",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.43,
+              54.88
+            ],
+            [
+              21.42,
+              54.88
+            ],
+            [
+              21.42,
+              56.23
+            ],
+            [
+              20.43,
+              56.23
+            ],
+            [
+              20.43,
+              54.88
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "OPER-LIT",
+        "typeOfSystem": "Circulation",
+        "applications": [
+          "Enviromental management",
+          "Research"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "Klaipeda University",
+        "otherLinks": null,
+        "numericalModel": "SHYFEM - System of HydrodYnamic Finite Element Modules",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.0,
+              10.0
+            ],
+            [
+              50.0,
+              10.0
+            ],
+            [
+              50.0,
+              30.0
+            ],
+            [
+              30.0,
+              30.0
+            ],
+            [
+              30.0,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "High-resolution Red Sea Forecasting System for Waves",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.0,
+              10.0
+            ],
+            [
+              60.0,
+              10.0
+            ],
+            [
+              60.0,
+              30.0
+            ],
+            [
+              46.0,
+              30.0
+            ],
+            [
+              46.0,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "High-resolution Arabian Gulf Forecasting System for Waves",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Climate prediction",
+          "Coastal Hazards",
+          "Oil spill fight",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "The data is not available to third parties",
+        "organization": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia",
+        "otherLinks": null,
+        "numericalModel": "Wavewatch III - Wave Watch",
+        "eovs": [
+          "Currents",
+          "Salinity",
+          "Sea surface height (sea level)",
+          "Temperature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.0,
+              -15.0
+            ],
+            [
+              145.0,
+              -15.0
+            ],
+            [
+              145.0,
+              15.0
+            ],
+            [
+              90.0,
+              15.0
+            ],
+            [
+              90.0,
+              -15.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "BMKG-OFS",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coupled weather forecasting",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "The Indonesian Agency for Meteorology Climatology and Geophysics",
+        "otherLinks": null,
+        "numericalModel": "ROMS - The Regional Ocean Modeling System",
+        "eovs": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.0,
+              -15.0
+            ],
+            [
+              145.0,
+              -15.0
+            ],
+            [
+              145.0,
+              15.0
+            ],
+            [
+              90.0,
+              15.0
+            ],
+            [
+              90.0,
+              -15.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "title": "BMKG-OFS",
+        "typeOfSystem": "Waves",
+        "applications": [
+          "Coupled weather forecasting",
+          "Disaster risk reduction",
+          "Enviromental management",
+          "Coastal Hazards",
+          "Navigation support",
+          "Offshore energy",
+          "Oil spill fight",
+          "Port Management",
+          "Research",
+          "Search and rescue",
+          "Ship-routing",
+          "Tourism"
+        ],
+        "dataPolicy": "All or part of the data is available under some type of license that implies a cost or specific agreement",
+        "organization": "The Indonesian Agency for Meteorology Climatology and Geophysics",
+        "otherLinks": null,
+        "numericalModel": "SWAN - Simulating WAves Nearshore",
+        "eovs": null
+      }
+    }
+  ]
+};
