@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <!-- Boilerplate code for leaflet.js -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <!-- Esri Leaflet -->
+        <script src="https://unpkg.com/esri-leaflet@3.0.19/dist/esri-leaflet.js"></script>
+        <!-- Additional Leaflet plugin for layer control -->
+        <script src="./assets/js/L.Control.Layers.Tree.js"></script>
+        <link rel="stylesheet" href="./assets/css/L.Control.Layers.Tree.css" />
+        <!-- Google Material Icons Stylesheet -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+         <!-- Custom code for the UN Ocean Decade atlas -->
+         <link rel="stylesheet" href="./assets/atlas.css"/>
+         <script src="./assets/js/atlas.js"></script>
+         <style>
+             #banner { height: 5%; color: red; }
+             #map { height: 95%; }
+         </style>
+         <!-- Map layers stored as GeoJSON -->
+         <script src="./assets/js/capacitydevelopment.js"></script>
+         <script src="./assets/js/national_oceanographic_data_centres.js"></script>
+         <!-- Search Engine Optimisation -->
+         <title>Global Digital Atlas of the Ocean | UN Decade of Ocean Science for Sustainable Development</title>
+    </head>
+    <body onload="Atlas()">
+        <!-- Top banner -->
+        <div id="banner">
+            <p><bold>DEVELOPMENT WEB PAGE- FOR DEMONSTRATION PURPOSES ONLY</bold></p>
+        </div>
+        <!-- Map -->
+        <div id="map">
+            <!-- Add the UN Ocean Decade Logo -->
+            <div id="logoContainer" style="position: absolute; z-index: 1000; bottom: 10px; left: 10px;">
+                <img src="./assets/img/webp/decadelogo.webp" width="200">
+            </div>
+        </div>
+    </body>
+</html>
