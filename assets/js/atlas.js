@@ -86,7 +86,7 @@ async function Atlas(){
            return response.json();
        });
     
-    var models = L.geoJSON(forecastingSystems, {
+    var models = L.geoJSON(forecasting_systems, {
         attribution: "Mercator Ocean International",
         style: function(feature){
             return{
