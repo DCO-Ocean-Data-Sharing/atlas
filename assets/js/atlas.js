@@ -1,4 +1,4 @@
-function Atlas(){
+async function Atlas(){
     // Boilerplate to create the map
     var map = L.map('map').setView([35, 0], 2);
         
@@ -22,7 +22,16 @@ function Atlas(){
         url: "https://services9.arcgis.com/lm7wE8a9YA9rKfzy/arcgis/rest/services/Navigator_AllSites_010925_attributes/MapServer/0", attribution: 'ProtectedSeas'});
     
     // Load the Decade Capacity Development Layer
-    var capdev = L.geoJSON(capacitydevelopment, {
+    const capacity_development =
+        await fetch("./assets/json/capacitydevelopment.json", {mode: 'no-cors'}).
+        then(response=>{
+            if (!response.ok) {
+                throw new Error("HTTP error " + response.status);
+            }
+           return response.json();
+       });
+    
+    var capdev = L.geoJSON(capacity_development, {
         pointToLayer: function (feature, latlng){
             return L.circleMarker(latlng, {
                 radius: feature.properties.TotalParticipants,
@@ -47,6 +56,15 @@ function Atlas(){
         popupAnchor: [1, -34],
         shadowSize: [41, 41]});
     
+    const data_centres =
+        await fetch("./assets/json/national_oceanographic_data_centres.json", {mode: 'no-cors'}).
+        then(response=>{
+            if (!response.ok) {
+                throw new Error("HTTP error " + response.status);
+            }
+           return response.json();
+       });
+    
     var nodcs = L.geoJSON(data_centres, {
         pointToLayer: function (feature, latlng){
             return L.marker(latlng, {
@@ -59,6 +77,15 @@ function Atlas(){
     });
     
     // Load the forecasting systems layer
+    const forecasting_systems =
+        await fetch("./assets/json/forecasting_systems.json", {mode: 'no-cors'}).
+        then(response=>{
+            if (!response.ok) {
+                throw new Error("HTTP error " + response.status);
+            }
+           return response.json();
+       });
+    
     var models = L.geoJSON(forecastingSystems, {
         attribution: "Mercator Ocean International",
         style: function(feature){
