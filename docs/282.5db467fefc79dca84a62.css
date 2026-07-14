@@ -1,0 +1,3836 @@
+:root,
+:host {
+  --ol-background-color: white;
+  --ol-accent-background-color: #F5F5F5;
+  --ol-subtle-background-color: rgba(128, 128, 128, 0.25);
+  --ol-partial-background-color: rgba(255, 255, 255, 0.75);
+  --ol-foreground-color: #333333;
+  --ol-subtle-foreground-color: #666666;
+  --ol-brand-color: #00AAFF;
+}
+
+.ol-box {
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1.5px solid var(--ol-background-color);
+  background-color: var(--ol-partial-background-color);
+}
+
+.ol-mouse-position {
+  top: 8px;
+  right: 8px;
+  position: absolute;
+}
+
+.ol-scale-line {
+  background: var(--ol-partial-background-color);
+  border-radius: 4px;
+  bottom: 8px;
+  left: 8px;
+  padding: 2px;
+  position: absolute;
+}
+
+.ol-scale-line-inner {
+  border: 1px solid var(--ol-subtle-foreground-color);
+  border-top: none;
+  color: var(--ol-foreground-color);
+  font-size: 10px;
+  text-align: center;
+  margin: 1px;
+  will-change: contents, width;
+  transition: all 0.25s;
+}
+
+.ol-scale-bar {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+
+.ol-scale-bar-inner {
+  display: flex;
+}
+
+.ol-scale-step-marker {
+  width: 1px;
+  height: 15px;
+  background-color: var(--ol-foreground-color);
+  float: right;
+  z-index: 10;
+}
+
+.ol-scale-step-text {
+  position: absolute;
+  bottom: -5px;
+  font-size: 10px;
+  z-index: 11;
+  color: var(--ol-foreground-color);
+  text-shadow: -1.5px 0 var(--ol-partial-background-color), 0 1.5px var(--ol-partial-background-color), 1.5px 0 var(--ol-partial-background-color), 0 -1.5px var(--ol-partial-background-color);
+}
+
+.ol-scale-text {
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  bottom: 25px;
+  color: var(--ol-foreground-color);
+  text-shadow: -1.5px 0 var(--ol-partial-background-color), 0 1.5px var(--ol-partial-background-color), 1.5px 0 var(--ol-partial-background-color), 0 -1.5px var(--ol-partial-background-color);
+}
+
+.ol-scale-singlebar {
+  position: relative;
+  height: 10px;
+  z-index: 9;
+  box-sizing: border-box;
+  border: 1px solid var(--ol-foreground-color);
+}
+
+.ol-scale-singlebar-even {
+  background-color: var(--ol-subtle-foreground-color);
+}
+
+.ol-scale-singlebar-odd {
+  background-color: var(--ol-background-color);
+}
+
+.ol-unsupported {
+  display: none;
+}
+
+.ol-viewport,
+.ol-unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ol-viewport canvas {
+  all: unset;
+  overflow: hidden;
+}
+
+.ol-viewport {
+  touch-action: pan-x pan-y;
+}
+
+.ol-selectable {
+  -webkit-touch-callout: default;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
+}
+
+.ol-grabbing {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.ol-grab {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.ol-control {
+  position: absolute;
+  background-color: var(--ol-subtle-background-color);
+  border-radius: 4px;
+}
+
+.ol-zoom {
+  top: .5em;
+  left: .5em;
+}
+
+.ol-rotate {
+  top: .5em;
+  right: .5em;
+  transition: opacity .25s linear, visibility 0s linear;
+}
+
+.ol-rotate.ol-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .25s linear, visibility 0s linear .25s;
+}
+
+.ol-zoom-extent {
+  top: 4.643em;
+  left: .5em;
+}
+
+.ol-full-screen {
+  right: .5em;
+  top: .5em;
+}
+
+.ol-control button {
+  display: block;
+  margin: 1px;
+  padding: 0;
+  color: var(--ol-subtle-foreground-color);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: inherit;
+  text-align: center;
+  height: 1.375em;
+  width: 1.375em;
+  line-height: .4em;
+  background-color: var(--ol-background-color);
+  border: none;
+  border-radius: 2px;
+}
+
+.ol-control button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+
+.ol-zoom-extent button {
+  line-height: 1.4em;
+}
+
+.ol-compass {
+  display: block;
+  font-weight: normal;
+  will-change: transform;
+}
+
+.ol-touch .ol-control button {
+  font-size: 1.5em;
+}
+
+.ol-touch .ol-zoom-extent {
+  top: 5.5em;
+}
+
+.ol-control button:hover,
+.ol-control button:focus {
+  text-decoration: none;
+  outline: 1px solid var(--ol-subtle-foreground-color);
+  color: var(--ol-foreground-color);
+}
+
+.ol-zoom .ol-zoom-in {
+  border-radius: 2px 2px 0 0;
+}
+
+.ol-zoom .ol-zoom-out {
+  border-radius: 0 0 2px 2px;
+}
+
+.ol-attribution {
+  text-align: right;
+  bottom: .5em;
+  right: .5em;
+  max-width: calc(100% - 1.3em);
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+}
+
+.ol-attribution a {
+  color: var(--ol-subtle-foreground-color);
+  text-decoration: none;
+}
+
+.ol-attribution ul {
+  margin: 0;
+  padding: 1px .5em;
+  color: var(--ol-foreground-color);
+  text-shadow: 0 0 2px var(--ol-background-color);
+  font-size: 12px;
+}
+
+.ol-attribution li {
+  display: inline;
+  list-style: none;
+}
+
+.ol-attribution li:not(:last-child):after {
+  content: " ";
+}
+
+.ol-attribution img {
+  max-height: 2em;
+  max-width: inherit;
+  vertical-align: middle;
+}
+
+.ol-attribution button {
+  flex-shrink: 0;
+}
+
+.ol-attribution.ol-collapsed ul {
+  display: none;
+}
+
+.ol-attribution:not(.ol-collapsed) {
+  background: var(--ol-partial-background-color);
+}
+
+.ol-attribution.ol-uncollapsible {
+  bottom: 0;
+  right: 0;
+  border-radius: 4px 0 0;
+}
+
+.ol-attribution.ol-uncollapsible img {
+  margin-top: -.2em;
+  max-height: 1.6em;
+}
+
+.ol-attribution.ol-uncollapsible button {
+  display: none;
+}
+
+.ol-zoomslider {
+  top: 4.5em;
+  left: .5em;
+  height: 200px;
+}
+
+.ol-zoomslider button {
+  position: relative;
+  height: 10px;
+}
+
+.ol-touch .ol-zoomslider {
+  top: 5.5em;
+}
+
+.ol-overviewmap {
+  left: 0.5em;
+  bottom: 0.5em;
+}
+
+.ol-overviewmap.ol-uncollapsible {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 4px 0 0;
+}
+
+.ol-overviewmap .ol-overviewmap-map,
+.ol-overviewmap button {
+  display: block;
+}
+
+.ol-overviewmap .ol-overviewmap-map {
+  border: 1px solid var(--ol-subtle-foreground-color);
+  height: 150px;
+  width: 150px;
+}
+
+.ol-overviewmap:not(.ol-collapsed) button {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.ol-overviewmap.ol-collapsed .ol-overviewmap-map,
+.ol-overviewmap.ol-uncollapsible button {
+  display: none;
+}
+
+.ol-overviewmap:not(.ol-collapsed) {
+  background: var(--ol-subtle-background-color);
+}
+
+.ol-overviewmap-box {
+  border: 1.5px dotted var(--ol-subtle-foreground-color);
+}
+
+.ol-overviewmap .ol-overviewmap-box:hover {
+  cursor: move;
+}
+
+.ol-overviewmap .ol-viewport:hover {
+  cursor: pointer;
+}
+
+/* SPDX-License-Identifier: LicenseRef-Highcharts */
+
+/**
+ * @license Highcharts
+ *
+ * (c) 2009-2025 Highsoft AS
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */
+
+:root,
+.highcharts-light {
+    /* Colors for data series and points */
+    --highcharts-color-0: #2caffe;
+    --highcharts-color-1: #544fc5;
+    --highcharts-color-2: #00e272;
+    --highcharts-color-3: #fe6a35;
+    --highcharts-color-4: #6b8abc;
+    --highcharts-color-5: #d568fb;
+    --highcharts-color-6: #2ee0ca;
+    --highcharts-color-7: #fa4b42;
+    --highcharts-color-8: #feb56a;
+    --highcharts-color-9: #91e8e1;
+
+    /* Chart background, point stroke for markers and columns etc */
+    --highcharts-background-color: #ffffff;
+
+    /*
+    Neutral colors, grayscale by default. The default colors are defined by
+    mixing the background-color with neutral, with a weight corresponding to
+    the number in the name.
+
+    https://www.highcharts.com/samples/highcharts/css/palette-helper
+    */
+
+    /* Strong text. */
+    --highcharts-neutral-color-100: #000000;
+
+    /* Main text, axis labels and some strokes. */
+    --highcharts-neutral-color-80: #333333;
+
+    /* Axis title, connector fallback. */
+    --highcharts-neutral-color-60: #666666;
+
+    /* Credits text, export menu stroke. */
+    --highcharts-neutral-color-40: #999999;
+
+    /* Disabled texts, button strokes, crosshair etc. */
+    --highcharts-neutral-color-20: #cccccc;
+
+    /* Grid lines etc. */
+    --highcharts-neutral-color-10: #e6e6e6;
+
+    /* Minor grid lines etc. */
+    --highcharts-neutral-color-5: #f2f2f2;
+
+    /* Tooltip background, button fills, map null points. */
+    --highcharts-neutral-color-3: #f7f7f7;
+
+    /*
+    Highlights, shades of blue by default
+    */
+
+    /* Drilldown clickable labels, color axis max color. */
+    --highcharts-highlight-color-100: #0022ff;
+
+    /* Selection marker, menu hover, button hover, chart border, navigator
+    series. */
+    --highcharts-highlight-color-80: #334eff;
+
+    /* Navigator mask fill. */
+    --highcharts-highlight-color-60: #667aff;
+
+    /* Ticks and axis line. */
+    --highcharts-highlight-color-20: #ccd3ff;
+
+    /* Pressed button, color axis min color. */
+    --highcharts-highlight-color-10: #e6e9ff;
+
+    /* Indicators */
+    --highcharts-positive-color: #06b535;
+    --highcharts-negative-color: #f21313;
+
+    /* Transparent colors for annotations */
+    --highcharts-annotation-color-0: rgba(130, 170, 255, 0.4);
+    --highcharts-annotation-color-1: rgba(139, 191, 216, 0.4);
+    --highcharts-annotation-color-2: rgba(150, 216, 192, 0.4);
+    --highcharts-annotation-color-3: rgba(156, 229, 161, 0.4);
+    --highcharts-annotation-color-4: rgba(162, 241, 130, 0.4);
+    --highcharts-annotation-color-5: rgba(169, 255, 101, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Colors for data series and points */
+        --highcharts-color-1: #00e272;
+        --highcharts-color-2: #efdf00;
+
+        /* UI colors */
+        --highcharts-background-color: #141414;
+
+        /*
+            Neutral color variations
+            https://www.highcharts.com/samples/highcharts/css/palette-helper
+        */
+        --highcharts-neutral-color-100: #ffffff;
+        --highcharts-neutral-color-80: #d0d0d0;
+        --highcharts-neutral-color-60: #a1a1a1;
+        --highcharts-neutral-color-40: #727272;
+        --highcharts-neutral-color-20: #434343;
+        --highcharts-neutral-color-10: #2c2c2c;
+        --highcharts-neutral-color-5: #202020;
+        --highcharts-neutral-color-3: #1b1b1b;
+
+        /* Highlight color variations */
+        --highcharts-highlight-color-100: #2caffe;
+        --highcharts-highlight-color-80: #2790cf;
+        --highcharts-highlight-color-60: #2271a0;
+        --highcharts-highlight-color-20: #193343;
+        --highcharts-highlight-color-10: #16242b;
+    }
+}
+
+.highcharts-dark {
+    /* Colors for data series and points */
+    --highcharts-color-1: #00e272;
+    --highcharts-color-2: #efdf00;
+
+    /* UI colors */
+    --highcharts-background-color: #141414;
+
+    /* Neutral color variations */
+    --highcharts-neutral-color-100: #ffffff;
+    --highcharts-neutral-color-80: #d0d0d0;
+    --highcharts-neutral-color-60: #a1a1a1;
+    --highcharts-neutral-color-40: #727272;
+    --highcharts-neutral-color-20: #434343;
+    --highcharts-neutral-color-10: #2c2c2c;
+    --highcharts-neutral-color-5: #202020;
+    --highcharts-neutral-color-3: #1b1b1b;
+
+    /* Highlight color variations */
+    --highcharts-highlight-color-100: #2caffe;
+    --highcharts-highlight-color-80: #2790cf;
+    --highcharts-highlight-color-60: #2271a0;
+    --highcharts-highlight-color-20: #193343;
+    --highcharts-highlight-color-10: #16242b;
+}
+
+.highcharts-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: normal;
+    z-index: 0; /* #1072 */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color-scheme: light dark;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        sans-serif;
+    font-size: 1rem;
+    user-select: none;
+    touch-action: manipulation;
+    outline: none;
+}
+
+.highcharts-light .highcharts-container {
+    color-scheme: light;
+}
+
+.highcharts-dark .highcharts-container {
+    color-scheme: dark;
+}
+
+.highcharts-no-touch-action {
+    touch-action: none;
+}
+
+.highcharts-root {
+    display: block;
+}
+
+.highcharts-root text {
+    stroke-width: 0;
+}
+
+.highcharts-strong {
+    font-weight: bold;
+}
+
+.highcharts-emphasized {
+    font-style: italic;
+}
+
+.highcharts-anchor {
+    cursor: pointer;
+}
+
+.highcharts-background {
+    fill: var(--highcharts-background-color);
+}
+
+.highcharts-plot-border,
+.highcharts-plot-background {
+    fill: none;
+}
+
+.highcharts-label-box {
+    fill: none;
+}
+
+.highcharts-label text {
+    fill: var(--highcharts-neutral-color-80);
+    font-size: 0.8em;
+}
+
+.highcharts-button-box {
+    fill: inherit;
+}
+
+.highcharts-tracker-line {
+    stroke-linejoin: round;
+    stroke: rgba(192, 192, 192, 0.0001);
+    stroke-width: 22;
+    fill: none;
+}
+
+.highcharts-tracker-area {
+    fill: rgba(192, 192, 192, 0.0001);
+    stroke-width: 0;
+}
+
+/* Titles */
+.highcharts-title {
+    fill: var(--highcharts-neutral-color-80);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.highcharts-subtitle {
+    fill: var(--highcharts-neutral-color-60);
+    font-size: 0.8em;
+}
+
+/* Axes */
+.highcharts-axis-line {
+    fill: none;
+    stroke: var(--highcharts-neutral-color-80);
+}
+
+.highcharts-yaxis .highcharts-axis-line {
+    stroke-width: 0;
+}
+
+.highcharts-axis-title {
+    fill: var(--highcharts-neutral-color-60);
+    font-size: 0.8em;
+}
+
+.highcharts-axis-labels {
+    fill: var(--highcharts-neutral-color-80);
+    cursor: default;
+    font-size: 0.8em;
+}
+
+.highcharts-grid-line {
+    fill: none;
+    stroke: var(--highcharts-neutral-color-10);
+}
+
+.highcharts-xaxis-grid .highcharts-grid-line {
+    stroke-width: 0;
+}
+
+.highcharts-tick {
+    stroke: var(--highcharts-neutral-color-80);
+}
+
+.highcharts-yaxis .highcharts-tick {
+    stroke-width: 0;
+}
+
+.highcharts-minor-grid-line {
+    stroke: var(--highcharts-neutral-color-5);
+}
+
+.highcharts-crosshair-thin {
+    stroke-width: 1px;
+    stroke: var(--highcharts-neutral-color-20);
+}
+
+.highcharts-crosshair-category {
+    stroke: var(--highcharts-highlight-color-20);
+    stroke-opacity: 0.25;
+}
+
+/* Credits */
+.highcharts-credits {
+    cursor: pointer;
+    fill: var(--highcharts-neutral-color-40);
+    font-size: 0.6em;
+    transition: fill 250ms, font-size 250ms;
+}
+
+.highcharts-credits:hover {
+    fill: var(--highcharts-neutral-color-100);
+    font-size: 0.7em;
+}
+
+/* Tooltip */
+.highcharts-tooltip {
+    cursor: default;
+    pointer-events: none;
+    white-space: nowrap;
+    transition: stroke 150ms;
+}
+
+.highcharts-tooltip .highcharts-tracker {
+    fill: none;
+    stroke: none;
+}
+
+.highcharts-tooltip text,
+.highcharts-tooltip foreignObject span {
+    fill: var(--highcharts-neutral-color-80);
+    font-size: 0.8em;
+}
+
+.highcharts-tooltip .highcharts-header {
+    font-size: 0.8em;
+}
+
+.highcharts-tooltip-box {
+    stroke-width: 0;
+    fill: var(--highcharts-background-color);
+}
+
+.highcharts-tooltip-box .highcharts-label-box {
+    fill: var(--highcharts-background-color);
+}
+
+div.highcharts-tooltip {
+    filter: none;
+    font-size: 0.8em;
+}
+
+.highcharts-selection-marker {
+    fill: var(--highcharts-highlight-color-80);
+    fill-opacity: 0.25;
+}
+
+.highcharts-graph {
+    fill: none;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.highcharts-empty-series {
+    stroke-width: 1px;
+    fill: none;
+    stroke: var(--highcharts-neutral-color-20);
+}
+
+.highcharts-state-hover .highcharts-graph {
+    stroke-width: 3;
+}
+
+.highcharts-point-inactive {
+    opacity: 0.2;
+    transition: opacity 50ms; /* quick in */
+}
+
+.highcharts-series-inactive {
+    opacity: 0.2;
+    transition: opacity 50ms; /* quick in */
+}
+
+.highcharts-state-hover path {
+    transition: stroke-width 50ms; /* quick in */
+}
+
+.highcharts-state-normal path {
+    transition: stroke-width 250ms; /* slow out */
+}
+
+/* Legend hover affects points and series */
+g.highcharts-series,
+.highcharts-point,
+.highcharts-markers,
+.highcharts-data-labels {
+    transition: opacity 250ms;
+}
+
+.highcharts-legend-series-active g.highcharts-series:not(.highcharts-series-hover),
+.highcharts-legend-point-active .highcharts-point:not(.highcharts-point-hover, .highcharts-point-select),
+.highcharts-legend-series-active .highcharts-markers:not(.highcharts-series-hover),
+.highcharts-legend-series-active .highcharts-data-labels:not(.highcharts-series-hover) {
+    opacity: 0.2;
+}
+
+/* Series options */
+
+/* Default colors */
+.highcharts-color-0 {
+    fill: var(--highcharts-color-0);
+    stroke: var(--highcharts-color-0);
+}
+
+.highcharts-color-1 {
+    fill: var(--highcharts-color-1);
+    stroke: var(--highcharts-color-1);
+}
+
+.highcharts-color-2 {
+    fill: var(--highcharts-color-2);
+    stroke: var(--highcharts-color-2);
+}
+
+.highcharts-color-3 {
+    fill: var(--highcharts-color-3);
+    stroke: var(--highcharts-color-3);
+}
+
+.highcharts-color-4 {
+    fill: var(--highcharts-color-4);
+    stroke: var(--highcharts-color-4);
+}
+
+.highcharts-color-5 {
+    fill: var(--highcharts-color-5);
+    stroke: var(--highcharts-color-5);
+}
+
+.highcharts-color-6 {
+    fill: var(--highcharts-color-6);
+    stroke: var(--highcharts-color-6);
+}
+
+.highcharts-color-7 {
+    fill: var(--highcharts-color-7);
+    stroke: var(--highcharts-color-7);
+}
+
+.highcharts-color-8 {
+    fill: var(--highcharts-color-8);
+    stroke: var(--highcharts-color-8);
+}
+
+.highcharts-color-9 {
+    fill: var(--highcharts-color-9);
+    stroke: var(--highcharts-color-9);
+}
+
+/* Various series-specific */
+.highcharts-area {
+    fill-opacity: 0.75;
+    stroke-width: 0;
+}
+
+.highcharts-markers {
+    stroke-width: 1px;
+    stroke: var(--highcharts-background-color);
+}
+
+.highcharts-a11y-markers-hidden .highcharts-point:not(.highcharts-point-hover, .highcharts-a11y-marker-visible),
+.highcharts-a11y-marker-hidden {
+    opacity: 0;
+}
+
+.highcharts-point {
+    stroke-width: 1px;
+}
+
+.highcharts-dense-data .highcharts-point {
+    stroke-width: 0;
+}
+
+.highcharts-data-label text,
+.highcharts-data-label span,
+text.highcharts-data-label {
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.highcharts-data-label-box {
+    fill: none;
+    stroke-width: 0;
+}
+
+.highcharts-data-label text,
+text.highcharts-data-label {
+    fill: var(--highcharts-neutral-color-80);
+}
+
+.highcharts-data-label-connector {
+    fill: none;
+}
+
+.highcharts-data-label-hidden {
+    pointer-events: none;
+}
+
+.highcharts-halo {
+    fill-opacity: 0.25;
+    stroke-width: 0;
+}
+
+.highcharts-series-label text {
+    fill: inherit;
+    font-weight: bold;
+}
+
+.highcharts-series:not(.highcharts-pie-series) .highcharts-point-select,
+.highcharts-markers .highcharts-point-select {
+    fill: var(--highcharts-neutral-color-20);
+    stroke: var(--highcharts-neutral-color-100);
+}
+
+.highcharts-column-series path.highcharts-point,
+.highcharts-bar-series path.highcharts-point {
+    /* path to prevent stroke on 3D columns and bars */
+    stroke: var(--highcharts-background-color);
+}
+
+.highcharts-column-series .highcharts-point,
+.highcharts-bar-series .highcharts-point {
+    transition: fill-opacity 250ms;
+}
+
+.highcharts-column-series .highcharts-point-hover,
+.highcharts-bar-series .highcharts-point-hover {
+    fill-opacity: 0.75;
+    transition: fill-opacity 50ms;
+}
+
+.highcharts-pie-series .highcharts-point {
+    stroke-linejoin: round;
+    stroke: var(--highcharts-background-color);
+}
+
+.highcharts-pie-series .highcharts-point-hover {
+    fill-opacity: 0.75;
+    transition: fill-opacity 50ms;
+}
+
+.highcharts-funnel-series .highcharts-point {
+    stroke-linejoin: round;
+    stroke: var(--highcharts-background-color);
+}
+
+.highcharts-funnel-series .highcharts-point-hover {
+    fill-opacity: 0.75;
+    transition: fill-opacity 50ms;
+}
+
+.highcharts-funnel-series .highcharts-point-select {
+    fill: inherit;
+    stroke: inherit;
+}
+
+.highcharts-pyramid-series .highcharts-point {
+    stroke-linejoin: round;
+    stroke: var(--highcharts-background-color);
+}
+
+.highcharts-pyramid-series .highcharts-point-hover {
+    fill-opacity: 0.75;
+    transition: fill-opacity 50ms;
+}
+
+.highcharts-pyramid-series .highcharts-point-select {
+    fill: inherit;
+    stroke: inherit;
+}
+
+.highcharts-solidgauge-series .highcharts-point {
+    stroke-width: 0;
+}
+
+.highcharts-treemap-series .highcharts-point {
+    stroke-width: 1px;
+    stroke: var(--highcharts-neutral-color-10);
+    transition: stroke 250ms, fill 250ms, fill-opacity 250ms;
+}
+
+.highcharts-treemap-series .highcharts-point-hover {
+    stroke: var(--highcharts-neutral-color-40);
+    transition: stroke 25ms, fill 25ms, fill-opacity 25ms;
+}
+
+.highcharts-treemap-series .highcharts-above-level {
+    display: none;
+}
+
+.highcharts-treemap-series .highcharts-internal-node {
+    fill: none;
+}
+
+.highcharts-treemap-series .highcharts-internal-node-interactive {
+    fill-opacity: 0.15;
+    cursor: pointer;
+}
+
+.highcharts-treemap-series .highcharts-internal-node-interactive:hover {
+    fill-opacity: 0.75;
+}
+
+.highcharts-vector-series .highcharts-point {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.highcharts-windbarb-series .highcharts-point {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.highcharts-lollipop-stem {
+    stroke: var(--highcharts-neutral-color-100);
+}
+
+.highcharts-focus-border {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.highcharts-legend-item-hidden .highcharts-focus-border {
+    fill: none !important;
+}
+
+/* Legend */
+.highcharts-legend-box {
+    fill: none;
+    stroke-width: 0;
+}
+
+.highcharts-legend-item > text,
+.highcharts-legend-item span {
+    fill: var(--highcharts-neutral-color-80);
+    font-size: 0.8em;
+    cursor: pointer;
+    stroke-width: 0;
+}
+
+.highcharts-legend-item:hover text {
+    fill: var(--highcharts-neutral-color-100);
+}
+
+.highcharts-legend-item-hidden * {
+    fill: var(--highcharts-neutral-color-60) !important;
+    stroke: var(--highcharts-neutral-color-60) !important;
+    transition: fill 250ms;
+    text-decoration: line-through;
+}
+
+.highcharts-legend-nav-active {
+    fill: var(--highcharts-highlight-color-100);
+    cursor: pointer;
+}
+
+.highcharts-legend-nav-inactive {
+    fill: var(--highcharts-neutral-color-20);
+}
+
+circle.highcharts-legend-nav-active,
+circle.highcharts-legend-nav-inactive { /* tracker */
+    fill: rgba(192, 192, 192, 0.0001);
+}
+
+.highcharts-legend-title-box {
+    fill: none;
+    stroke-width: 0;
+}
+
+/* Bubble legend */
+.highcharts-bubble-legend-symbol {
+    stroke-width: 2;
+    fill-opacity: 0.5;
+}
+
+.highcharts-bubble-legend-connectors {
+    stroke-width: 1;
+}
+
+.highcharts-bubble-legend-labels {
+    fill: var(--highcharts-neutral-color-80);
+    font-size: 0.7em;
+}
+
+/* Loading */
+.highcharts-loading {
+    position: absolute;
+    background-color: var(--highcharts-background-color);
+    opacity: 0.5;
+    text-align: center;
+    z-index: 10;
+    transition: opacity 250ms;
+}
+
+.highcharts-loading-hidden {
+    height: 0 !important;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 250ms, height 250ms step-end;
+}
+
+.highcharts-loading-inner {
+    font-weight: bold;
+    position: relative;
+    top: 45%;
+}
+
+/* Plot bands and polar pane backgrounds */
+.highcharts-plot-band,
+.highcharts-pane {
+    fill: var(--highcharts-neutral-color-100);
+    fill-opacity: 0.05;
+}
+
+.highcharts-plot-line {
+    fill: none;
+    stroke: var(--highcharts-neutral-color-40);
+    stroke-width: 1px;
+}
+
+.highcharts-plot-line-label {
+    font-size: 0.8em;
+}
+
+/* Highcharts More and modules */
+.highcharts-boxplot-box {
+    fill: var(--highcharts-background-color);
+}
+
+.highcharts-boxplot-median {
+    stroke-width: 2px;
+}
+
+.highcharts-bubble-series .highcharts-point {
+    fill-opacity: 0.5;
+}
+
+.highcharts-errorbar-series .highcharts-point {
+    stroke: var(--highcharts-neutral-color-100);
+}
+
+.highcharts-gauge-series .highcharts-data-label-box {
+    stroke: var(--highcharts-neutral-color-20);
+    stroke-width: 1px;
+}
+
+.highcharts-gauge-series .highcharts-dial {
+    fill: var(--highcharts-neutral-color-100);
+    stroke-width: 0;
+}
+
+.highcharts-organization-series .highcharts-null-point {
+    fill: transparent;
+}
+
+.highcharts-polygon-series .highcharts-graph {
+    fill: inherit;
+    stroke-width: 0;
+}
+
+.highcharts-waterfall-series .highcharts-graph {
+    stroke: var(--highcharts-neutral-color-80);
+    stroke-dasharray: 1, 3;
+}
+
+.highcharts-sankey-series .highcharts-point {
+    stroke-width: 0;
+}
+
+.highcharts-sankey-series .highcharts-link {
+    transition: fill 250ms, fill-opacity 250ms;
+    fill-opacity: 0.5;
+}
+
+.highcharts-sankey-series .highcharts-point-hover.highcharts-link {
+    transition: fill 50ms, fill-opacity 50ms;
+    fill-opacity: 1;
+}
+
+.highcharts-venn-series .highcharts-point {
+    fill-opacity: 0.75;
+    stroke: var(--highcharts-neutral-color-20);
+    transition: stroke 250ms, fill-opacity 250ms;
+}
+
+.highcharts-venn-series .highcharts-point-hover {
+    fill-opacity: 1;
+    stroke: var(--highcharts-neutral-color-20);
+}
+
+.highcharts-timeline-series .highcharts-graph {
+    stroke: var(--highcharts-neutral-color-20);
+}
+
+/* Highstock */
+.highcharts-navigator-mask-outside {
+    fill-opacity: 0;
+}
+
+.highcharts-navigator-mask-inside {
+    fill: var(--highcharts-highlight-color-60); /* navigator.maskFill option */
+    fill-opacity: 0.25;
+    cursor: ew-resize;
+}
+
+.highcharts-navigator-outline {
+    stroke: var(--highcharts-neutral-color-40);
+    fill: none;
+}
+
+.highcharts-navigator-handle {
+    stroke: var(--highcharts-neutral-color-40);
+    fill: var(--highcharts-neutral-color-5);
+    cursor: ew-resize;
+}
+
+.highcharts-navigator-series {
+    fill: var(--highcharts-highlight-color-80);
+    stroke: var(--highcharts-highlight-color-80);
+}
+
+.highcharts-navigator-series .highcharts-graph {
+    stroke-width: 1px;
+}
+
+.highcharts-navigator-series .highcharts-area {
+    fill-opacity: 0.05;
+}
+
+.highcharts-navigator-xaxis .highcharts-axis-line {
+    stroke-width: 0;
+}
+
+.highcharts-navigator-xaxis .highcharts-grid-line {
+    stroke-width: 1px;
+    stroke: var(--highcharts-neutral-color-10);
+}
+
+.highcharts-navigator-xaxis.highcharts-axis-labels {
+    fill: var(--highcharts-neutral-color-100);
+    font-size: 0.7em;
+    opacity: 0.6;
+}
+
+.highcharts-navigator-yaxis .highcharts-grid-line {
+    stroke-width: 0;
+}
+
+.highcharts-scrollbar-thumb {
+    fill: var(--highcharts-neutral-color-20);
+    stroke: var(--highcharts-neutral-color-20);
+    stroke-width: 0;
+}
+
+.highcharts-scrollbar-button {
+    fill: var(--highcharts-neutral-color-10);
+    stroke: var(--highcharts-neutral-color-20);
+    stroke-width: 1px;
+}
+
+.highcharts-scrollbar-arrow {
+    fill: var(--highcharts-neutral-color-60);
+}
+
+.highcharts-scrollbar-rifles {
+    stroke: none;
+    stroke-width: 1px;
+}
+
+.highcharts-scrollbar-track {
+    fill: rgba(255, 255, 255, 0.001);
+    stroke: var(--highcharts-neutral-color-20);
+    stroke-width: 1px;
+}
+
+.highcharts-button {
+    fill: var(--highcharts-neutral-color-3);
+    stroke: var(--highcharts-neutral-color-20);
+    cursor: default;
+    stroke-width: 1px;
+    transition: fill 250ms;
+}
+
+.highcharts-button text {
+    fill: var(--highcharts-neutral-color-80);
+    font-size: 0.8em;
+}
+
+.highcharts-button-hover {
+    transition: fill 0ms;
+    fill: var(--highcharts-neutral-color-10);
+    stroke: var(--highcharts-neutral-color-20);
+}
+
+.highcharts-button-hover text {
+    fill: var(--highcharts-neutral-color-80);
+}
+
+.highcharts-button-pressed {
+    font-weight: bold;
+    fill: var(--highcharts-highlight-color-10);
+    stroke: var(--highcharts-neutral-color-20);
+}
+
+.highcharts-button-pressed text {
+    fill: var(--highcharts-neutral-color-80);
+    font-weight: bold;
+}
+
+.highcharts-button-disabled text {
+    fill: var(--highcharts-neutral-color-80);
+}
+
+.highcharts-range-selector-buttons .highcharts-button {
+    stroke-width: 0;
+}
+
+.highcharts-range-label rect {
+    fill: none;
+}
+
+.highcharts-range-label text {
+    fill: var(--highcharts-neutral-color-60);
+}
+
+.highcharts-range-input rect {
+    fill: none;
+}
+
+.highcharts-range-input text {
+    fill: var(--highcharts-neutral-color-80);
+    font-size: 0.8em;
+}
+
+.highcharts-range-input {
+    stroke-width: 1px;
+    stroke: var(--highcharts-neutral-color-20);
+}
+
+input.highcharts-range-selector {
+    position: absolute;
+    border: 0;
+    width: 1px; /* Chrome needs a pixel to see it */
+    height: 1px;
+    padding: 0;
+    text-align: center;
+    left: -9em; /* #4798 */
+}
+
+.highcharts-crosshair-label text {
+    fill: var(--highcharts-background-color);
+    font-size: 1em;
+}
+
+.highcharts-crosshair-label .highcharts-label-box {
+    fill: inherit;
+}
+
+.highcharts-candlestick-series .highcharts-point {
+    stroke: var(--highcharts-neutral-color-100);
+    stroke-width: 1px;
+}
+
+.highcharts-candlestick-series .highcharts-point-up {
+    fill: var(--highcharts-background-color);
+}
+
+.highcharts-renko-series .highcharts-point-down,
+.highcharts-hollowcandlestick-series .highcharts-point-down {
+    fill: var(--highcharts-negative-color);
+    stroke: var(--highcharts-negative-color);
+}
+
+.highcharts-renko-series .highcharts-point-up,
+.highcharts-hollowcandlestick-series .highcharts-point-down-bearish-up {
+    fill: var(--highcharts-positive-color);
+    stroke: var(--highcharts-positive-color);
+}
+
+.highcharts-hollowcandlestick-series .highcharts-point-up {
+    fill: transparent;
+    stroke: var(--highcharts-positive-color);
+}
+
+.highcharts-ohlc-series .highcharts-point-hover {
+    stroke-width: 3px;
+}
+
+.highcharts-flags-series .highcharts-point .highcharts-label-box {
+    stroke: var(--highcharts-neutral-color-40);
+    fill: var(--highcharts-background-color);
+    transition: fill 250ms;
+}
+
+.highcharts-flags-series .highcharts-point-hover .highcharts-label-box {
+    stroke: var(--highcharts-neutral-color-100);
+    fill: var(--highcharts-highlight-color-20);
+}
+
+.highcharts-flags-series .highcharts-point text {
+    fill: var(--highcharts-neutral-color-100);
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* Highcharts Maps */
+.highcharts-map-series .highcharts-point {
+    transition: fill 500ms, fill-opacity 500ms, stroke-width 250ms;
+    stroke: var(--highcharts-neutral-color-20);
+    stroke-width: inherit;
+}
+
+.highcharts-map-series .highcharts-point-hover {
+    transition: fill 0ms, fill-opacity 0ms;
+    fill-opacity: 0.5;
+}
+
+.highcharts-mapline-series .highcharts-point {
+    fill: none;
+}
+
+.highcharts-heatmap-series .highcharts-point {
+    stroke-width: 0;
+}
+
+.highcharts-map-navigation {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.highcharts-map-navigation.highcharts-button {
+    fill: var(--highcharts-background-color);
+    stroke: var(--highcharts-neutral-color-10);
+}
+
+.highcharts-map-navigation.highcharts-button:hover {
+    fill: var(--highcharts-neutral-color-10);
+}
+
+.highcharts-map-navigation.highcharts-button .highcharts-button-symbol {
+    stroke-width: 2px;
+}
+
+.highcharts-mapview-inset-border {
+    stroke: var(--highcharts-neutral-color-20);
+    stroke-width: 1px;
+    fill: none;
+}
+
+.highcharts-coloraxis {
+    stroke-width: 0;
+}
+
+.highcharts-coloraxis-marker {
+    fill: var(--highcharts-neutral-color-40);
+}
+
+.highcharts-null-point {
+    fill: var(--highcharts-neutral-color-3);
+}
+
+/* 3d charts */
+.highcharts-3d-frame {
+    fill: transparent;
+}
+
+/* Exporting module */
+.highcharts-contextbutton {
+    /* Fill is needed to capture hover */
+    fill: var(--highcharts-background-color);
+    stroke: none;
+    stroke-linecap: round;
+}
+
+.highcharts-contextbutton:hover {
+    fill: var(--highcharts-neutral-color-10);
+    stroke: var(--highcharts-neutral-color-10);
+}
+
+.highcharts-button-symbol {
+    stroke: var(--highcharts-neutral-color-60);
+    stroke-width: 3px;
+}
+
+.highcharts-menu {
+    border: none;
+    background: var(--highcharts-background-color);
+    border-radius: 3px;
+    padding: 0.5em;
+    box-shadow: 3px 3px 10px #888888;
+}
+
+.highcharts-menu-item {
+    background: none;
+    border-radius: 3px;
+    color: var(--highcharts-neutral-color-80);
+    cursor: pointer;
+    font-size: 0.8em;
+    list-style-type: none;
+    padding: 0.5em;
+    transition: background 250ms, color 250ms;
+}
+
+.highcharts-menu-item:hover {
+    background: var(--highcharts-neutral-color-5);
+}
+
+/* Breadcrumbs */
+.highcharts-breadcrumbs-button {
+    fill: none;
+    stroke-width: 0;
+    cursor: pointer;
+}
+
+.highcharts-breadcrumbs-separator {
+    fill: var(--highcharts-neutral-color-60);
+}
+
+/* Drilldown module */
+.highcharts-drilldown-point {
+    cursor: pointer;
+}
+
+.highcharts-drilldown-data-label text,
+text.highcharts-drilldown-data-label,
+.highcharts-drilldown-axis-label {
+    cursor: pointer;
+    fill: var(--highcharts-highlight-color-100);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* No-data module */
+.highcharts-no-data text {
+    font-weight: bold;
+    font-size: 0.8em;
+    fill: var(--highcharts-neutral-color-60);
+}
+
+/* Drag-panes module */
+.highcharts-axis-resizer {
+    cursor: ns-resize;
+    stroke: var(--highcharts-neutral-color-100);
+    stroke-width: 2px;
+}
+
+/* Bullet type series */
+.highcharts-bullet-target {
+    stroke-width: 0;
+}
+
+/* Lineargauge type series */
+.highcharts-lineargauge-target {
+    stroke-width: 1px;
+    stroke: var(--highcharts-neutral-color-80);
+}
+
+.highcharts-lineargauge-target-line {
+    stroke-width: 1px;
+    stroke: var(--highcharts-neutral-color-80);
+}
+
+/* Advanced annotations module */
+.highcharts-fibonacci-background-0,
+.highcharts-pitchfork-inner-background,
+.highcharts-measure-background {
+    fill: var(--highcharts-annotation-color-0);
+}
+
+.highcharts-fibonacci-background-1 {
+    fill: var(--highcharts-annotation-color-1);
+}
+
+.highcharts-fibonacci-background-2 {
+    fill: var(--highcharts-annotation-color-2);
+}
+
+.highcharts-fibonacci-background-3,
+.highcharts-pitchfork-outer-background {
+    fill: var(--highcharts-annotation-color-3);
+}
+
+.highcharts-fibonacci-background-4 {
+    fill: var(--highcharts-annotation-color-4);
+}
+
+.highcharts-fibonacci-background-5 {
+    fill: var(--highcharts-annotation-color-5);
+}
+
+.highcharts-fibonacci-line {
+    stroke: var(--highcharts-neutral-color-40);
+}
+
+.highcharts-crooked-lines,
+.highcharts-tunnel-lines,
+.highcharts-infinity-lines,
+.highcharts-timecycles-lines,
+.highcharts-fibonacci-timezones-lines,
+.highcharts-pitchfork-lines,
+.highcharts-vertical-line,
+.highcharts-measure-crosshair-x,
+.highcharts-measure-crosshair-y {
+    stroke: var(--highcharts-neutral-color-100);
+    stroke-opacity: 0.75;
+    fill: none;
+}
+
+.highcharts-measure-crosshair-x,
+.highcharts-measure-crosshair-y {
+    stroke-dasharray: 1, 3;
+}
+
+.highcharts-tunnel-background {
+    fill: var(--highcharts-color-0);
+}
+
+.highcharts-annotation-shapes {
+    cursor: move;
+}
+
+.highcharts-basic-shape {
+    fill: var(--highcharts-neutral-color-100);
+    stroke: var(--highcharts-neutral-color-100);
+    opacity: 0.74;
+}
+
+/* Annotations module */
+
+.highcharts-annotation-label-box {
+    stroke-width: 1px;
+    stroke: var(--highcharts-neutral-color-100);
+    fill: var(--highcharts-neutral-color-100);
+    fill-opacity: 0.75;
+}
+
+.highcharts-annotation-label text {
+    fill: var(--highcharts-neutral-color-10);
+    font-size: 0.8em;
+}
+
+/* A11y module */
+.highcharts-a11y-proxy-element {
+    border-width: 0;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.001;
+    z-index: 999;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+}
+
+.highcharts-a11y-proxy-group li {
+    list-style: none;
+}
+
+.highcharts-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(1px, 1px, 1px, 1px);
+    margin-top: -3px;
+    opacity: 0.01;
+}
+
+.highcharts-a11y-invisible {
+    visibility: hidden;
+}
+
+.highcharts-a11y-proxy-container,
+.highcharts-a11y-proxy-container-before,
+.highcharts-a11y-proxy-container-after {
+    position: absolute;
+    white-space: nowrap;
+}
+
+g.highcharts-series,
+.highcharts-markers,
+.highcharts-point {
+    outline: none;
+}
+
+/* Gantt */
+.highcharts-treegrid-node-collapsed,
+.highcharts-treegrid-node-expanded {
+    cursor: pointer;
+}
+
+.highcharts-point-connecting-path {
+    fill: none;
+}
+
+.highcharts-grid-axis .highcharts-tick {
+    stroke: var(--highcharts-neutral-color-20);
+    stroke-width: 1px;
+}
+
+.highcharts-grid-axis .highcharts-axis-line {
+    stroke: var(--highcharts-neutral-color-20);
+    stroke-width: 1px;
+}
+
+.highcharts-gantt-series .highcharts-partfill-overlay {
+    fill: hsla(0, 0%, 0%, 0.3);
+    stroke: hsla(0, 0%, 0%, 0.3);
+}
+
+/* packages/widgets/Source/shared.css */
+.cesium-svgPath-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.cesium-button {
+  display: inline-block;
+  position: relative;
+  background: #303336;
+  border: 1px solid #444;
+  color: #edffff;
+  fill: #edffff;
+  border-radius: 4px;
+  padding: 5px 12px;
+  margin: 2px 3px;
+  cursor: pointer;
+  overflow: hidden;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cesium-button:focus {
+  color: #fff;
+  fill: #fff;
+  border-color: #ea4;
+  outline: none;
+}
+.cesium-button:hover {
+  color: #fff;
+  fill: #fff;
+  background: #48b;
+  border-color: #aef;
+  box-shadow: 0 0 8px #fff;
+}
+.cesium-button:active {
+  color: #000;
+  fill: #000;
+  background: #adf;
+  border-color: #fff;
+  box-shadow: 0 0 8px #fff;
+}
+.cesium-button:disabled,
+.cesium-button-disabled,
+.cesium-button-disabled:focus,
+.cesium-button-disabled:hover,
+.cesium-button-disabled:active {
+  background: #303336;
+  border-color: #444;
+  color: #646464;
+  fill: #646464;
+  box-shadow: none;
+  cursor: default;
+}
+.cesium-button option {
+  background-color: #000;
+  color: #eee;
+}
+.cesium-button option:disabled {
+  color: #777;
+}
+.cesium-button input,
+.cesium-button label {
+  cursor: pointer;
+}
+.cesium-button input {
+  vertical-align: sub;
+}
+.cesium-toolbar-button {
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  border-radius: 14%;
+  padding: 0;
+  vertical-align: middle;
+  z-index: 0;
+}
+.cesium-performanceDisplay-defaultContainer {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  text-align: right;
+}
+.cesium-performanceDisplay {
+  background-color: rgba(40, 40, 40, 0.7);
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  font: bold 12px sans-serif;
+}
+.cesium-performanceDisplay-fps {
+  color: #e52;
+}
+.cesium-performanceDisplay-throttled {
+  color: #a42;
+}
+.cesium-performanceDisplay-ms {
+  color: #de3;
+}
+
+/* packages/widgets/Source/Animation/Animation.css */
+.cesium-animation-theme {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  z-index: -100;
+}
+.cesium-animation-themeNormal {
+  color: #222;
+}
+.cesium-animation-themeHover {
+  color: #4488b0;
+}
+.cesium-animation-themeSelect {
+  color: #242;
+}
+.cesium-animation-themeDisabled {
+  color: #333;
+}
+.cesium-animation-themeKnob {
+  color: #222;
+}
+.cesium-animation-themePointer {
+  color: #2e2;
+}
+.cesium-animation-themeSwoosh {
+  color: #8ac;
+}
+.cesium-animation-themeSwooshHover {
+  color: #aef;
+}
+.cesium-animation-svgText {
+  fill: #edffff;
+  font-family: Sans-Serif;
+  font-size: 15px;
+  text-anchor: middle;
+}
+.cesium-animation-blank {
+  fill: #000;
+  fill-opacity: 0.01;
+  stroke: none;
+}
+.cesium-animation-rectButton {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cesium-animation-rectButton .cesium-animation-buttonGlow {
+  fill: #fff;
+  stroke: none;
+  display: none;
+}
+.cesium-animation-rectButton:hover .cesium-animation-buttonGlow {
+  display: block;
+}
+.cesium-animation-rectButton .cesium-animation-buttonPath {
+  fill: #edffff;
+}
+.cesium-animation-rectButton .cesium-animation-buttonMain {
+  stroke: #444;
+  stroke-width: 1.2;
+}
+.cesium-animation-rectButton:hover .cesium-animation-buttonMain {
+  stroke: #aef;
+}
+.cesium-animation-rectButton:active .cesium-animation-buttonMain {
+  fill: #abd6ff;
+}
+.cesium-animation-buttonDisabled {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cesium-animation-buttonDisabled .cesium-animation-buttonMain {
+  stroke: #555;
+}
+.cesium-animation-buttonDisabled .cesium-animation-buttonPath {
+  fill: #818181;
+}
+.cesium-animation-buttonDisabled .cesium-animation-buttonGlow {
+  display: none;
+}
+.cesium-animation-buttonToggled .cesium-animation-buttonGlow {
+  display: block;
+  fill: #2e2;
+}
+.cesium-animation-buttonToggled .cesium-animation-buttonMain {
+  stroke: #2e2;
+}
+.cesium-animation-buttonToggled:hover .cesium-animation-buttonGlow {
+  fill: #fff;
+}
+.cesium-animation-buttonToggled:hover .cesium-animation-buttonMain {
+  stroke: #2e2;
+}
+.cesium-animation-shuttleRingG {
+  cursor: pointer;
+}
+.cesium-animation-shuttleRingPointer {
+  cursor: pointer;
+}
+.cesium-animation-shuttleRingPausePointer {
+  cursor: pointer;
+}
+.cesium-animation-shuttleRingBack {
+  fill: #181818;
+  fill-opacity: 0.8;
+  stroke: #333;
+  stroke-width: 1.2;
+}
+.cesium-animation-shuttleRingSwoosh line {
+  stroke: #8ac;
+  stroke-width: 3;
+  stroke-opacity: 0.2;
+  stroke-linecap: round;
+}
+.cesium-animation-knobOuter {
+  cursor: pointer;
+  stroke: #444;
+  stroke-width: 1.2;
+}
+.cesium-animation-knobInner {
+  cursor: pointer;
+}
+
+/* packages/widgets/Source/BaseLayerPicker/BaseLayerPicker.css */
+.cesium-baseLayerPicker-selected {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.cesium-baseLayerPicker-dropDown {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  top: auto;
+  right: 0;
+  width: 320px;
+  max-height: 500px;
+  margin-top: 5px;
+  background-color: rgba(38, 38, 38, 0.75);
+  border: 1px solid #444;
+  padding: 6px;
+  overflow: auto;
+  border-radius: 10px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transform: translate(0, -20%);
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    visibility 0s 0.2s,
+    opacity 0.2s ease-in,
+    transform 0.2s ease-in;
+}
+.cesium-baseLayerPicker-dropDown-visible {
+  transform: translate(0, 0);
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+.cesium-baseLayerPicker-sectionTitle {
+  display: block;
+  font-family: sans-serif;
+  font-size: 16pt;
+  text-align: left;
+  color: #edffff;
+  margin-bottom: 4px;
+}
+.cesium-baseLayerPicker-choices {
+  margin-bottom: 5px;
+}
+.cesium-baseLayerPicker-categoryTitle {
+  color: #edffff;
+  font-size: 11pt;
+}
+.cesium-baseLayerPicker-choices {
+  display: block;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+.cesium-baseLayerPicker-item {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2px 5px;
+  width: 64px;
+  text-align: center;
+  cursor: pointer;
+}
+.cesium-baseLayerPicker-itemLabel {
+  display: block;
+  font-family: sans-serif;
+  font-size: 8pt;
+  text-align: center;
+  vertical-align: middle;
+  color: #edffff;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+.cesium-baseLayerPicker-item:hover .cesium-baseLayerPicker-itemLabel,
+.cesium-baseLayerPicker-item:focus .cesium-baseLayerPicker-itemLabel {
+  text-decoration: underline;
+}
+.cesium-baseLayerPicker-itemIcon {
+  display: inline-block;
+  position: relative;
+  width: inherit;
+  height: auto;
+  background-size: 100% 100%;
+  border: solid 1px #444;
+  border-radius: 9px;
+  color: #edffff;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.cesium-baseLayerPicker-item:hover .cesium-baseLayerPicker-itemIcon {
+  border-color: #fff;
+  box-shadow: 0 0 8px #fff, 0 0 8px #fff;
+}
+.cesium-baseLayerPicker-selectedItem .cesium-baseLayerPicker-itemLabel {
+  color: rgb(189, 236, 248);
+}
+.cesium-baseLayerPicker-selectedItem .cesium-baseLayerPicker-itemIcon {
+  border: double 4px rgb(189, 236, 248);
+}
+
+/* packages/engine/Source/Widget/CesiumWidget.css */
+.cesium-widget {
+  font-family: sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cesium-widget,
+.cesium-widget canvas {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+.cesium-widget-credits {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-size: 10px;
+  text-shadow: 0px 0px 2px #000000;
+  padding-right: 5px;
+}
+.cesium-widget-errorPanel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+}
+.cesium-widget-errorPanel:before {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  content: "";
+}
+.cesium-widget-errorPanel-content {
+  width: 75%;
+  max-width: 500px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid #510c00;
+  border-radius: 7px;
+  background-color: #f0d9d5;
+  font-size: 14px;
+  color: #510c00;
+}
+.cesium-widget-errorPanel-content.expanded {
+  max-width: 75%;
+}
+.cesium-widget-errorPanel-header {
+  font-size: 18px;
+  font-family:
+    "Open Sans",
+    Verdana,
+    Geneva,
+    sans-serif;
+  background: #d69d93;
+  border-bottom: 2px solid #510c00;
+  padding-bottom: 10px;
+  border-radius: 3px 3px 0 0;
+  padding: 15px;
+}
+.cesium-widget-errorPanel-scroll {
+  overflow: auto;
+  font-family:
+    "Open Sans",
+    Verdana,
+    Geneva,
+    sans-serif;
+  white-space: pre-wrap;
+  padding: 0 15px;
+  margin: 10px 0 20px 0;
+}
+.cesium-widget-errorPanel-buttonPanel {
+  padding: 0 15px;
+  margin: 10px 0 20px 0;
+  text-align: right;
+}
+.cesium-widget-errorPanel-buttonPanel button {
+  border-color: #510c00;
+  background: #d69d93;
+  color: #202020;
+  margin: 0;
+}
+.cesium-widget-errorPanel-buttonPanel button:focus {
+  border-color: #510c00;
+  background: #f0d9d5;
+  color: #510c00;
+}
+.cesium-widget-errorPanel-buttonPanel button:hover {
+  border-color: #510c00;
+  background: #f0d9d5;
+  color: #510c00;
+}
+.cesium-widget-errorPanel-buttonPanel button:active {
+  border-color: #510c00;
+  background: #b17b72;
+  color: #510c00;
+}
+.cesium-widget-errorPanel-more-details {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cesium-widget-errorPanel-more-details:hover {
+  color: #2b0700;
+}
+
+/* packages/widgets/Source/CesiumInspector/CesiumInspector.css */
+.cesium-cesiumInspector {
+  border-radius: 5px;
+  transition: width ease-in-out 0.25s;
+  background: rgba(48, 51, 54, 0.8);
+  border: 1px solid #444;
+  color: #edffff;
+  display: inline-block;
+  position: relative;
+  padding: 4px 12px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+.cesium-cesiumInspector-button {
+  text-align: center;
+  font-size: 11pt;
+}
+.cesium-cesiumInspector-visible .cesium-cesiumInspector-button {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 3px;
+}
+.cesium-cesiumInspector input:enabled,
+.cesium-cesiumInspector-button {
+  cursor: pointer;
+}
+.cesium-cesiumInspector-visible {
+  width: 185px;
+  height: auto;
+}
+.cesium-cesiumInspector-hidden {
+  width: 122px;
+  height: 17px;
+}
+.cesium-cesiumInspector-sectionContent {
+  max-height: 600px;
+}
+.cesium-cesiumInspector-section-collapsed .cesium-cesiumInspector-sectionContent {
+  max-height: 0;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.cesium-cesiumInspector-dropDown {
+  margin: 5px 0;
+  font-family: sans-serif;
+  font-size: 10pt;
+  width: 185px;
+}
+.cesium-cesiumInspector-frustumStatistics {
+  padding-left: 10px;
+  padding: 5px;
+  background-color: rgba(80, 80, 80, 0.75);
+}
+.cesium-cesiumInspector-pickButton {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid #444;
+  color: #edffff;
+  border-radius: 5px;
+  padding: 3px 7px;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0 auto;
+}
+.cesium-cesiumInspector-pickButton:focus {
+  outline: none;
+}
+.cesium-cesiumInspector-pickButton:active,
+.cesium-cesiumInspector-pickButtonHighlight {
+  color: #000;
+  background: #adf;
+  border-color: #fff;
+  box-shadow: 0 0 8px #fff;
+}
+.cesium-cesiumInspector-center {
+  text-align: center;
+}
+.cesium-cesiumInspector-sectionHeader {
+  font-weight: bold;
+  font-size: 10pt;
+  margin: 0;
+  cursor: pointer;
+}
+.cesium-cesiumInspector-pickSection {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+.cesium-cesiumInspector-sectionContent {
+  margin-bottom: 10px;
+  transition: max-height 0.25s;
+}
+.cesium-cesiumInspector-tileText {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.cesium-cesiumInspector-relativeText {
+  padding-top: 10px;
+}
+.cesium-cesiumInspector-sectionHeader::before {
+  margin-right: 5px;
+  content: "-";
+  width: 1ch;
+  display: inline-block;
+}
+.cesium-cesiumInspector-section-collapsed .cesium-cesiumInspector-sectionHeader::before {
+  content: "+";
+}
+
+/* packages/widgets/Source/Cesium3DTilesInspector/Cesium3DTilesInspector.css */
+ul.cesium-cesiumInspector-statistics {
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+ul.cesium-cesiumInspector-statistics + ul.cesium-cesiumInspector-statistics {
+  border-top: 1px solid #aaa;
+}
+.cesium-cesiumInspector-slider {
+  margin-top: 5px;
+}
+.cesium-cesiumInspector-slider input[type=number] {
+  text-align: left;
+  background-color: #222;
+  outline: none;
+  border: 1px solid #444;
+  color: #edffff;
+  width: 100px;
+  border-radius: 3px;
+  padding: 1px;
+  margin-left: 10px;
+  cursor: auto;
+}
+.cesium-cesiumInspector-slider input[type=number]::-webkit-outer-spin-button,
+.cesium-cesiumInspector-slider input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.cesium-cesiumInspector-slider input[type=range] {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.cesium-cesiumInspector-hide .cesium-cesiumInspector-styleEditor {
+  display: none;
+}
+.cesium-cesiumInspector-styleEditor {
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(48, 51, 54, 0.8);
+  border: 1px solid #444;
+}
+.cesium-cesiumInspector-styleEditor textarea {
+  width: 100%;
+  height: 300px;
+  background: transparent;
+  color: #edffff;
+  border: none;
+  padding: 0;
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: auto;
+}
+.cesium-3DTilesInspector {
+  width: 300px;
+  pointer-events: all;
+}
+.cesium-3DTilesInspector-statistics {
+  font-size: 11px;
+}
+.cesium-3DTilesInspector-disabledElementsInfo {
+  margin: 5px 0 0 0;
+  padding: 0 0 0 20px;
+  color: #eed202;
+}
+.cesium-3DTilesInspector div,
+.cesium-3DTilesInspector input[type=range] {
+  width: 100%;
+  box-sizing: border-box;
+}
+.cesium-cesiumInspector-error {
+  color: #ff9e9e;
+  overflow: auto;
+}
+.cesium-3DTilesInspector .cesium-cesiumInspector-section {
+  margin-top: 3px;
+}
+.cesium-3DTilesInspector .cesium-cesiumInspector-sectionHeader + .cesium-cesiumInspector-show {
+  border-top: 1px solid white;
+}
+input.cesium-cesiumInspector-url {
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-x: scroll;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  height: 1em;
+  width: 100%;
+}
+.cesium-cesiumInspector .field-group {
+  display: table;
+}
+.cesium-cesiumInspector .field-group > label {
+  display: table-cell;
+  font-weight: bold;
+}
+.cesium-cesiumInspector .field-group > .field {
+  display: table-cell;
+  width: 100%;
+}
+
+/* packages/widgets/Source/VoxelInspector/VoxelInspector.css */
+.cesium-VoxelInspector {
+  width: 300px;
+  pointer-events: all;
+}
+.cesium-VoxelInspector div,
+.cesium-VoxelInspector input[type=range] {
+  width: 100%;
+  box-sizing: border-box;
+}
+.cesium-VoxelInspector .cesium-cesiumInspector-section {
+  margin-top: 3px;
+}
+.cesium-VoxelInspector .cesium-cesiumInspector-sectionHeader + .cesium-cesiumInspector-show {
+  border-top: 1px solid white;
+}
+
+/* packages/widgets/Source/FullscreenButton/FullscreenButton.css */
+.cesium-button.cesium-fullscreenButton {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* packages/widgets/Source/VRButton/VRButton.css */
+.cesium-button.cesium-vrButton {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* packages/widgets/Source/Geocoder/Geocoder.css */
+.cesium-viewer-geocoderContainer .cesium-geocoder-input {
+  border: solid 1px #444;
+  background-color: rgba(40, 40, 40, 0.7);
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 32px;
+  margin: 0;
+  padding: 0 32px 0 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  transition: width ease-in-out 0.25s, background-color 0.2s ease-in-out;
+  -webkit-appearance: none;
+}
+.cesium-viewer-geocoderContainer:hover .cesium-geocoder-input {
+  border-color: #aef;
+  box-shadow: 0 0 8px #fff;
+}
+.cesium-viewer-geocoderContainer .cesium-geocoder-input:focus {
+  border-color: #ea4;
+  background-color: rgba(15, 15, 15, 0.9);
+  box-shadow: none;
+  outline: none;
+}
+.cesium-viewer-geocoderContainer:hover .cesium-geocoder-input,
+.cesium-viewer-geocoderContainer .cesium-geocoder-input:focus,
+.cesium-viewer-geocoderContainer .cesium-geocoder-input-wide {
+  padding-left: 4px;
+  width: 250px;
+}
+.cesium-viewer-geocoderContainer .search-results {
+  position: absolute;
+  background-color: #000;
+  color: #eee;
+  overflow-y: auto;
+  opacity: 0.8;
+  width: 100%;
+}
+.cesium-viewer-geocoderContainer .search-results ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cesium-viewer-geocoderContainer .search-results ul li {
+  font-size: 14px;
+  padding: 3px 10px;
+}
+.cesium-viewer-geocoderContainer .search-results ul li:hover {
+  cursor: pointer;
+}
+.cesium-viewer-geocoderContainer .search-results ul li.active {
+  background: #48b;
+}
+.cesium-geocoder-searchButton {
+  background-color: #303336;
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  width: 32px;
+  top: 1px;
+  right: 1px;
+  height: 30px;
+  vertical-align: middle;
+  fill: #edffff;
+}
+.cesium-geocoder-searchButton:hover {
+  background-color: #48b;
+}
+
+/* packages/widgets/Source/InfoBox/InfoBox.css */
+.cesium-infoBox {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 40%;
+  max-width: 480px;
+  background: rgba(38, 38, 38, 0.95);
+  color: #edffff;
+  border: 1px solid #444;
+  border-right: none;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  box-shadow: 0 0 10px 1px #000;
+  transform: translate(100%, 0);
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    visibility 0s 0.2s,
+    opacity 0.2s ease-in,
+    transform 0.2s ease-in;
+}
+.cesium-infoBox-visible {
+  transform: translate(0, 0);
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+.cesium-infoBox-title {
+  display: block;
+  height: 20px;
+  padding: 5px 30px 5px 25px;
+  background: rgba(84, 84, 84, 1);
+  border-top-left-radius: 7px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+.cesium-infoBox-bodyless .cesium-infoBox-title {
+  border-bottom-left-radius: 7px;
+}
+button.cesium-infoBox-camera {
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 22px;
+  height: 22px;
+  background: transparent;
+  border-color: transparent;
+  border-radius: 3px;
+  padding: 0 5px;
+  margin: 0;
+}
+button.cesium-infoBox-close {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 5px;
+  margin: 0;
+  color: #edffff;
+}
+button.cesium-infoBox-close:focus {
+  background: rgba(238, 136, 0, 0.44);
+  outline: none;
+}
+button.cesium-infoBox-close:hover {
+  background: #888;
+  color: #000;
+}
+button.cesium-infoBox-close:active {
+  background: #a00;
+  color: #000;
+}
+.cesium-infoBox-bodyless .cesium-infoBox-iframe {
+  display: none;
+}
+.cesium-infoBox-iframe {
+  border: none;
+  width: 100%;
+  width: calc(100% - 2px);
+}
+
+/* packages/widgets/Source/SceneModePicker/SceneModePicker.css */
+span.cesium-sceneModePicker-wrapper {
+  display: inline-block;
+  position: relative;
+  margin: 0 3px;
+}
+.cesium-sceneModePicker-visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.25s linear;
+}
+.cesium-sceneModePicker-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.25s, opacity 0.25s linear;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-none {
+  display: none;
+}
+.cesium-sceneModePicker-slide-svg {
+  transition: left 2s;
+  top: 0;
+  left: 0;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-dropDown-icon {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 3px 0;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-button3D,
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-buttonColumbusView,
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-button2D {
+  margin: 0 0 3px 0;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-button3D .cesium-sceneModePicker-icon2D {
+  left: 100%;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-button3D .cesium-sceneModePicker-iconColumbusView {
+  left: 200%;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-buttonColumbusView .cesium-sceneModePicker-icon3D {
+  left: -200%;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-buttonColumbusView .cesium-sceneModePicker-icon2D {
+  left: -100%;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-button2D .cesium-sceneModePicker-icon3D {
+  left: -100%;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-button2D .cesium-sceneModePicker-iconColumbusView {
+  left: 100%;
+}
+.cesium-sceneModePicker-wrapper .cesium-sceneModePicker-selected {
+  border-color: #2e2;
+  box-shadow: 0 0 8px #fff, 0 0 8px #fff;
+}
+
+/* packages/widgets/Source/ProjectionPicker/ProjectionPicker.css */
+span.cesium-projectionPicker-wrapper {
+  display: inline-block;
+  position: relative;
+  margin: 0 3px;
+}
+.cesium-projectionPicker-visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.25s linear;
+}
+.cesium-projectionPicker-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.25s, opacity 0.25s linear;
+}
+.cesium-projectionPicker-wrapper .cesium-projectionPicker-none {
+  display: none;
+}
+.cesium-projectionPicker-wrapper .cesium-projectionPicker-dropDown-icon {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 3px 0;
+}
+.cesium-projectionPicker-wrapper .cesium-projectionPicker-buttonPerspective,
+.cesium-projectionPicker-wrapper .cesium-projectionPicker-buttonOrthographic {
+  margin: 0 0 3px 0;
+}
+.cesium-projectionPicker-wrapper .cesium-projectionPicker-buttonPerspective .cesium-projectionPicker-iconOrthographic {
+  left: 100%;
+}
+.cesium-projectionPicker-wrapper .cesium-projectionPicker-buttonOrthographic .cesium-projectionPicker-iconPerspective {
+  left: -100%;
+}
+.cesium-projectionPicker-wrapper .cesium-projectionPicker-selected {
+  border-color: #2e2;
+  box-shadow: 0 0 8px #fff, 0 0 8px #fff;
+}
+
+/* packages/widgets/Source/PerformanceWatchdog/PerformanceWatchdog.css */
+.cesium-performance-watchdog-message-area {
+  position: relative;
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+}
+.cesium-performance-watchdog-message {
+  margin-right: 30px;
+}
+.cesium-performance-watchdog-message-dismiss {
+  position: absolute;
+  right: 0;
+  margin: 0 10px 0 0;
+}
+
+/* packages/widgets/Source/NavigationHelpButton/NavigationHelpButton.css */
+.cesium-navigationHelpButton-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.cesium-navigation-help {
+  visibility: hidden;
+  position: absolute;
+  top: 38px;
+  right: 2px;
+  width: 250px;
+  border-radius: 10px;
+  transform: scale(0.01);
+  transform-origin: 234px -10px;
+  transition: visibility 0s 0.25s, transform 0.25s ease-in;
+}
+.cesium-navigation-help-visible {
+  visibility: visible;
+  transform: scale(1);
+  transition: transform 0.25s ease-out;
+}
+.cesium-navigation-help-instructions {
+  border: 1px solid #444;
+  background-color: rgba(38, 38, 38, 0.75);
+  padding-bottom: 5px;
+  border-radius: 0 0 10px 10px;
+}
+.cesium-click-navigation-help {
+  display: none;
+}
+.cesium-touch-navigation-help {
+  display: none;
+  padding-top: 5px;
+}
+.cesium-click-navigation-help-visible {
+  display: block;
+}
+.cesium-touch-navigation-help-visible {
+  display: block;
+}
+.cesium-navigation-help-pan {
+  color: #66ccff;
+  font-weight: bold;
+}
+.cesium-navigation-help-zoom {
+  color: #65fd00;
+  font-weight: bold;
+}
+.cesium-navigation-help-rotate {
+  color: #ffd800;
+  font-weight: bold;
+}
+.cesium-navigation-help-tilt {
+  color: #d800d8;
+  font-weight: bold;
+}
+.cesium-navigation-help-details {
+  color: #ffffff;
+}
+.cesium-navigation-button {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: none;
+  border-top: 1px solid #444;
+  border-right: 1px solid #444;
+  margin: 0;
+  width: 50%;
+  cursor: pointer;
+}
+.cesium-navigation-button-icon {
+  vertical-align: middle;
+  padding: 5px 1px;
+}
+.cesium-navigation-button:focus {
+  outline: none;
+}
+.cesium-navigation-button-left {
+  border-radius: 10px 0 0 0;
+  border-left: 1px solid #444;
+}
+.cesium-navigation-button-right {
+  border-radius: 0 10px 0 0;
+  border-left: none;
+}
+.cesium-navigation-button-selected {
+  background-color: rgba(38, 38, 38, 0.75);
+}
+.cesium-navigation-button-unselected {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.cesium-navigation-button-unselected:hover {
+  background-color: rgba(76, 76, 76, 0.75);
+}
+
+/* packages/widgets/Source/SelectionIndicator/SelectionIndicator.css */
+.cesium-selection-wrapper {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.2s, opacity 0.2s ease-in;
+}
+.cesium-selection-wrapper-visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+}
+.cesium-selection-wrapper svg {
+  fill: #2e2;
+  stroke: #000;
+  stroke-width: 1.1px;
+}
+
+/* packages/widgets/Source/Timeline/Timeline.css */
+.cesium-timeline-main {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  border: solid 1px #888;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cesium-timeline-trackContainer {
+  width: 100%;
+  overflow: auto;
+  border-top: solid 1px #888;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.cesium-timeline-tracks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.cesium-timeline-needle {
+  position: absolute;
+  left: 0;
+  top: 1.7em;
+  bottom: 0;
+  width: 1px;
+  background: #f00;
+}
+.cesium-timeline-bar {
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  height: 1.7em;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(116, 117, 119, 0.8) 0%,
+      rgba(58, 68, 82, 0.8) 11%,
+      rgba(46, 50, 56, 0.8) 46%,
+      rgba(53, 53, 53, 0.8) 81%,
+      rgba(53, 53, 53, 0.8) 100%);
+}
+.cesium-timeline-ruler {
+  visibility: hidden;
+  white-space: nowrap;
+  font-size: 80%;
+  z-index: -200;
+}
+.cesium-timeline-highlight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #08f;
+}
+.cesium-timeline-ticLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  font-size: 80%;
+  color: #eee;
+}
+.cesium-timeline-ticMain {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 50%;
+  background: #eee;
+}
+.cesium-timeline-ticSub {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 33%;
+  background: #aaa;
+}
+.cesium-timeline-ticTiny {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 25%;
+  background: #888;
+}
+.cesium-timeline-icon16 {
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url(data:text/plain;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9sIDBITKIVzLEMAAAKNSURBVEjHxdXNSxRhHAfw7zzrqhuoWJnSkrippUVSEKsHI9BTUYdAJA/RoYMREV26rAdn6tAfUARi16hQqkOBQRgUEYFWEC3OwczMjdZd92VmdWfmeelgTjO7q7gb0VzmmZnn85vvPPPMM8B/3qTcE2PPpuTZKB1eWuUQACgXYACYwVFbCTTVeZXB/i55o4LFelcAZfStYD4vpAoPGAGo4GBcQEgSOAUMQyAezwK6iQfDPXnhS/FkHZ+/8VLMWxxqWkfH3gbMRNOYi2roavbja0zHQmoFPYf8ED4Ko4aivm9MOG/u9I8mwrafeK7a/tVrNc/bARYN5noadeq7q0342vXw9CIMU6BmW8rVP9cPBPe52uu+v3O/y9sB4gkTWs6Qsk0mj5ExXMelejvA8WafYmkmGPHanTijdtvif8rx5RiCjdWKs2Cp3jWRDl96KhrbqlBeJqBOLyLQXg0IgbkZDS0dO8EZxZfPSTA9jvDDK3mT0OmP1FXh3XwEEAKdTX5MRWLgjCK4pwH3xt/YnjgLHAv4lHTCAKMMu/wV+KZGob6PoKyMQ0+sgBpZVJZn0NterxQaVqef/DRn+/EXYds/mZx2eVeAW9d65dhCEsaKCb7K8HH0gqTevyh9GDkn0VULRiaLzJKGBu9swfdaiie5RVo9ESURN8E8BE0n7ggACJy8KzghSCzp6DmwWxkaCm24EBXr8wI8Hrkq06QBiRC0t24HALS11IBTCyJl4vb1AXmzpbVYTwoVOXN0h7L8Mwtm8bXPybIQ/5FCX3dA2cr6XowvGCA02CvztAnz9+JiZk1AMxG6fEreSoBiPNmoyNnuWiWVzAIAtISO08E6pZi/3N96AIDn4E3h3P8L/wshP+txtEs4JAAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+}
+
+/* packages/widgets/Source/Viewer/Viewer.css */
+.cesium-viewer {
+  font-family: sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cesium-viewer-cesiumWidgetContainer {
+  width: 100%;
+  height: 100%;
+}
+.cesium-viewer-bottom {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-right: 5px;
+}
+.cesium-viewer .cesium-widget-credits {
+  display: inline;
+  position: static;
+  bottom: auto;
+  left: auto;
+  padding-right: 0;
+  color: #ffffff;
+  font-size: 10px;
+  text-shadow: 0 0 2px #000000;
+}
+.cesium-viewer-timelineContainer {
+  position: absolute;
+  bottom: 0;
+  left: 169px;
+  right: 29px;
+  height: 27px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-size: 14px;
+}
+.cesium-viewer-animationContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  width: 169px;
+  height: 112px;
+}
+.cesium-viewer-fullscreenContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  width: 29px;
+  height: 29px;
+  overflow: hidden;
+}
+.cesium-viewer-vrContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  width: 29px;
+  height: 29px;
+  overflow: hidden;
+}
+.cesium-viewer-toolbar {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.cesium-viewer-cesiumInspectorContainer {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+.cesium-viewer-geocoderContainer {
+  position: relative;
+  display: inline-block;
+  margin: 0 3px;
+}
+.cesium-viewer-cesium3DTilesInspectorContainer {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  max-height: calc(100% - 120px);
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.cesium-viewer-voxelInspectorContainer {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  max-height: calc(100% - 120px);
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* packages/widgets/Source/I3SBuildingSceneLayerExplorer/I3SBuildingSceneLayerExplorer.css */
+.cesium-viewer-i3s-explorer ul {
+  list-style-type: none;
+}
+.cesium-viewer-i3s-explorer .layersList {
+  padding: 0;
+}
+.cesium-viewer-i3s-explorer input {
+  margin: 0 3px 0 0;
+}
+.cesium-viewer-i3s-explorer .expandItem {
+  cursor: pointer;
+  user-select: none;
+  width: 20px;
+}
+.cesium-viewer-i3s-explorer .nested,
+.cesium-viewer-i3s-explorer #bsl-wrapper {
+  display: none;
+}
+.cesium-viewer-i3s-explorer .active {
+  display: block;
+}
+.cesium-viewer-i3s-explorer .li-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+/* packages/widgets/Source/widgets.css */
+
+@charset "UTF-8";
+.react-datepicker__navigation-icon::before, .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 3px 3px 0 0;
+  content: "";
+  display: block;
+  height: 9px;
+  position: absolute;
+  top: 6px;
+  width: 9px;
+}
+.react-datepicker__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+}
+
+.react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-block;
+  position: relative;
+  line-height: initial;
+}
+
+.react-datepicker--time-only .react-datepicker__time-container {
+  border-left: 0;
+}
+.react-datepicker--time-only .react-datepicker__time,
+.react-datepicker--time-only .react-datepicker__time-box {
+  border-bottom-left-radius: 0.375em;
+  border-bottom-right-radius: 0.375em;
+}
+
+.react-datepicker-popper {
+  z-index: 1;
+  line-height: 0;
+}
+.react-datepicker-popper .react-datepicker__triangle {
+  stroke: #aeaeae;
+}
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+  fill: #f0f0f0;
+  color: #f0f0f0;
+}
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle {
+  fill: #fff;
+  color: #fff;
+}
+.react-datepicker-popper--header-middle[data-placement^=bottom] .react-datepicker__triangle, .react-datepicker-popper--header-bottom[data-placement^=bottom] .react-datepicker__triangle {
+  fill: #fff;
+  color: #fff;
+}
+.react-datepicker-popper--header-bottom[data-placement^=top] .react-datepicker__triangle {
+  fill: #f0f0f0;
+  color: #f0f0f0;
+}
+
+.react-datepicker__header {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #aeaeae;
+  border-top-left-radius: 0.3rem;
+  padding: 8px 0;
+  position: relative;
+}
+.react-datepicker__header--time {
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.react-datepicker__header--time:not(.react-datepicker__header--time--only) {
+  border-top-left-radius: 0;
+}
+.react-datepicker__header:not(.react-datepicker__header--has-time-select, .react-datepicker__header--middle, .react-datepicker__header--bottom) {
+  border-top-right-radius: 0.3rem;
+}
+.react-datepicker__header--middle {
+  border-top: 1px solid #aeaeae;
+  border-radius: 0;
+  margin-top: 4px;
+}
+.react-datepicker__header--bottom {
+  border-bottom: none;
+  border-top: 1px solid #aeaeae;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.react-datepicker__header-wrapper {
+  position: relative;
+}
+.react-datepicker__header-wrapper .react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+  right: 2px;
+}
+
+.react-datepicker__year-dropdown-container--select,
+.react-datepicker__month-dropdown-container--select,
+.react-datepicker__month-year-dropdown-container--select,
+.react-datepicker__year-dropdown-container--scroll,
+.react-datepicker__month-dropdown-container--scroll,
+.react-datepicker__month-year-dropdown-container--scroll {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.react-datepicker__month-select,
+.react-datepicker__year-select,
+.react-datepicker__month-year-select {
+  background-color: transparent;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  margin-top: 5px;
+  padding: 2px 5px;
+}
+.react-datepicker__month-select:focus-visible,
+.react-datepicker__year-select:focus-visible,
+.react-datepicker__month-year-select:focus-visible {
+  outline: auto 1px;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  margin-top: 0;
+  color: #000;
+  font-weight: bold;
+  font-size: 0.944rem;
+}
+
+h2.react-datepicker__current-month {
+  padding: 0;
+  margin: 0;
+}
+
+.react-datepicker-time__header {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.react-datepicker__navigation {
+  align-items: center;
+  background: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  padding: 0;
+  border: none;
+  z-index: 1;
+  height: 32px;
+  width: 32px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+.react-datepicker__navigation--previous {
+  left: 2px;
+}
+.react-datepicker__navigation--next {
+  right: 2px;
+}
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+  right: 85px;
+}
+.react-datepicker__navigation--years {
+  position: relative;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.react-datepicker__navigation--years-previous {
+  top: 4px;
+}
+.react-datepicker__navigation--years-upcoming {
+  top: -4px;
+}
+.react-datepicker__navigation:hover *::before {
+  border-color: rgb(165.75, 165.75, 165.75);
+}
+
+.react-datepicker__navigation-icon {
+  position: relative;
+  top: -1px;
+  font-size: 20px;
+  width: 0;
+}
+.react-datepicker__navigation-icon--next {
+  left: -2px;
+}
+.react-datepicker__navigation-icon--next::before {
+  transform: rotate(45deg);
+  left: -7px;
+}
+.react-datepicker__navigation-icon--previous {
+  right: -2px;
+}
+.react-datepicker__navigation-icon--previous::before {
+  transform: rotate(225deg);
+  right: -7px;
+}
+
+.react-datepicker__month-container {
+  float: left;
+}
+
+.react-datepicker__year {
+  margin: 0.5em;
+  text-align: center;
+}
+.react-datepicker__year-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px;
+}
+.react-datepicker__year .react-datepicker__year-text {
+  display: inline-block;
+  width: 5em;
+  margin: 2px;
+}
+
+.react-datepicker__month {
+  margin: 0.5em;
+  text-align: center;
+}
+.react-datepicker__month .react-datepicker__month-text,
+.react-datepicker__month .react-datepicker__quarter-text {
+  display: inline-block;
+  width: 5em;
+  margin: 2px;
+}
+
+.react-datepicker__input-time-container {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin: 5px 0 10px 15px;
+  text-align: left;
+}
+.react-datepicker__input-time-container .react-datepicker-time__caption {
+  display: inline-block;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container {
+  display: inline-block;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input {
+  display: inline-block;
+  margin-left: 10px;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input {
+  width: auto;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type=time]::-webkit-inner-spin-button,
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type=time]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type=time] {
+  -moz-appearance: textfield;
+}
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__delimiter {
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.react-datepicker__time-container {
+  float: right;
+  border-left: 1px solid #aeaeae;
+  width: 85px;
+}
+.react-datepicker__time-container--with-today-button {
+  display: inline;
+  border: 1px solid #aeaeae;
+  border-radius: 0.375em;
+  position: absolute;
+  right: -87px;
+  top: 0;
+}
+.react-datepicker__time-container .react-datepicker__time {
+  position: relative;
+  background: white;
+  border-bottom-right-radius: 0.375em;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+  width: 85px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom-right-radius: 0.375em;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+  list-style: none;
+  margin: 0;
+  height: calc(195px + 2.125em / 2);
+  overflow-y: scroll;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  box-sizing: content-box;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+  height: 30px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+  background-color: #216ba5;
+  color: white;
+  font-weight: bold;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover {
+  background-color: #216ba5;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled {
+  color: #ccc;
+}
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled:hover {
+  cursor: default;
+  background-color: transparent;
+}
+
+.react-datepicker__week-number {
+  color: #ccc;
+  display: inline-block;
+  width: 2.125em;
+  line-height: 2.125em;
+  text-align: center;
+  margin: 0.208em;
+}
+.react-datepicker__week-number.react-datepicker__week-number--clickable {
+  cursor: pointer;
+}
+.react-datepicker__week-number.react-datepicker__week-number--clickable:not(.react-datepicker__week-number--selected):hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+}
+.react-datepicker__week-number--selected {
+  border-radius: 0.3rem;
+  background-color: #216ba5;
+  color: #fff;
+}
+.react-datepicker__week-number--selected:hover {
+  background-color: rgb(28.75, 93.2196969697, 143.75);
+}
+
+.react-datepicker__day-names {
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: -8px;
+}
+
+.react-datepicker__week {
+  white-space: nowrap;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: #000;
+  display: inline-block;
+  width: 2.125em;
+  line-height: 2.125em;
+  text-align: center;
+  margin: 0.208em;
+}
+.react-datepicker__day-name--disabled,
+.react-datepicker__day--disabled,
+.react-datepicker__time-name--disabled {
+  cursor: default;
+  color: #ccc;
+}
+
+.react-datepicker__day,
+.react-datepicker__month-text,
+.react-datepicker__quarter-text,
+.react-datepicker__year-text {
+  cursor: pointer;
+}
+.react-datepicker__day:not([aria-disabled=true]):hover,
+.react-datepicker__month-text:not([aria-disabled=true]):hover,
+.react-datepicker__quarter-text:not([aria-disabled=true]):hover,
+.react-datepicker__year-text:not([aria-disabled=true]):hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+}
+.react-datepicker__day--today,
+.react-datepicker__month-text--today,
+.react-datepicker__quarter-text--today,
+.react-datepicker__year-text--today {
+  font-weight: bold;
+}
+.react-datepicker__day--highlighted,
+.react-datepicker__month-text--highlighted,
+.react-datepicker__quarter-text--highlighted,
+.react-datepicker__year-text--highlighted {
+  border-radius: 0.3rem;
+  background-color: #3dcc4a;
+  color: #fff;
+}
+.react-datepicker__day--highlighted:not([aria-disabled=true]):hover,
+.react-datepicker__month-text--highlighted:not([aria-disabled=true]):hover,
+.react-datepicker__quarter-text--highlighted:not([aria-disabled=true]):hover,
+.react-datepicker__year-text--highlighted:not([aria-disabled=true]):hover {
+  background-color: rgb(49.8551020408, 189.6448979592, 62.5632653061);
+}
+.react-datepicker__day--highlighted-custom-1,
+.react-datepicker__month-text--highlighted-custom-1,
+.react-datepicker__quarter-text--highlighted-custom-1,
+.react-datepicker__year-text--highlighted-custom-1 {
+  color: magenta;
+}
+.react-datepicker__day--highlighted-custom-2,
+.react-datepicker__month-text--highlighted-custom-2,
+.react-datepicker__quarter-text--highlighted-custom-2,
+.react-datepicker__year-text--highlighted-custom-2 {
+  color: green;
+}
+.react-datepicker__day--holidays,
+.react-datepicker__month-text--holidays,
+.react-datepicker__quarter-text--holidays,
+.react-datepicker__year-text--holidays {
+  position: relative;
+  border-radius: 0.3rem;
+  background-color: #ff6803;
+  color: #fff;
+}
+.react-datepicker__day--holidays .overlay,
+.react-datepicker__month-text--holidays .overlay,
+.react-datepicker__quarter-text--holidays .overlay,
+.react-datepicker__year-text--holidays .overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease-in-out;
+}
+.react-datepicker__day--holidays:not([aria-disabled=true]):hover,
+.react-datepicker__month-text--holidays:not([aria-disabled=true]):hover,
+.react-datepicker__quarter-text--holidays:not([aria-disabled=true]):hover,
+.react-datepicker__year-text--holidays:not([aria-disabled=true]):hover {
+  background-color: rgb(207, 82.9642857143, 0);
+}
+.react-datepicker__day--holidays:hover .overlay,
+.react-datepicker__month-text--holidays:hover .overlay,
+.react-datepicker__quarter-text--holidays:hover .overlay,
+.react-datepicker__year-text--holidays:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--in-range {
+  border-radius: 0.3rem;
+  background-color: #216ba5;
+  color: #fff;
+}
+.react-datepicker__day--selected:not([aria-disabled=true]):hover, .react-datepicker__day--in-selecting-range:not([aria-disabled=true]):hover, .react-datepicker__day--in-range:not([aria-disabled=true]):hover,
+.react-datepicker__month-text--selected:not([aria-disabled=true]):hover,
+.react-datepicker__month-text--in-selecting-range:not([aria-disabled=true]):hover,
+.react-datepicker__month-text--in-range:not([aria-disabled=true]):hover,
+.react-datepicker__quarter-text--selected:not([aria-disabled=true]):hover,
+.react-datepicker__quarter-text--in-selecting-range:not([aria-disabled=true]):hover,
+.react-datepicker__quarter-text--in-range:not([aria-disabled=true]):hover,
+.react-datepicker__year-text--selected:not([aria-disabled=true]):hover,
+.react-datepicker__year-text--in-selecting-range:not([aria-disabled=true]):hover,
+.react-datepicker__year-text--in-range:not([aria-disabled=true]):hover {
+  background-color: rgb(28.75, 93.2196969697, 143.75);
+}
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  border-radius: 0.3rem;
+  background-color: rgb(186.25, 217.0833333333, 241.25);
+  color: rgb(0, 0, 0);
+}
+.react-datepicker__day--keyboard-selected:not([aria-disabled=true]):hover,
+.react-datepicker__month-text--keyboard-selected:not([aria-disabled=true]):hover,
+.react-datepicker__quarter-text--keyboard-selected:not([aria-disabled=true]):hover,
+.react-datepicker__year-text--keyboard-selected:not([aria-disabled=true]):hover {
+  background-color: rgb(28.75, 93.2196969697, 143.75);
+  color: #fff;
+}
+.react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-range),
+.react-datepicker__month-text--in-selecting-range:not(.react-datepicker__day--in-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-range),
+.react-datepicker__quarter-text--in-selecting-range:not(.react-datepicker__day--in-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-range),
+.react-datepicker__year-text--in-selecting-range:not(.react-datepicker__day--in-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--in-range) {
+  background-color: rgba(33, 107, 165, 0.5);
+}
+.react-datepicker__month--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range), .react-datepicker__year--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__month--selecting-range .react-datepicker__month-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__year--selecting-range .react-datepicker__month-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__month--selecting-range .react-datepicker__quarter-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__year--selecting-range .react-datepicker__quarter-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__month--selecting-range .react-datepicker__year-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range),
+.react-datepicker__year--selecting-range .react-datepicker__year-text--in-range:not(.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range) {
+  background-color: #f0f0f0;
+  color: #000;
+}
+.react-datepicker__day--disabled,
+.react-datepicker__month-text--disabled,
+.react-datepicker__quarter-text--disabled,
+.react-datepicker__year-text--disabled {
+  cursor: default;
+  color: #ccc;
+}
+.react-datepicker__day--disabled .overlay,
+.react-datepicker__month-text--disabled .overlay,
+.react-datepicker__quarter-text--disabled .overlay,
+.react-datepicker__year-text--disabled .overlay {
+  position: absolute;
+  bottom: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease-in-out;
+}
+
+.react-datepicker__input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.react-datepicker__input-container .react-datepicker__calendar-icon {
+  position: absolute;
+  padding: 0.625em;
+  box-sizing: content-box;
+}
+
+.react-datepicker__view-calendar-icon input {
+  padding: 6px 10px 5px 25px;
+}
+
+.react-datepicker__year-read-view,
+.react-datepicker__month-read-view,
+.react-datepicker__month-year-read-view {
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  position: relative;
+}
+.react-datepicker__year-read-view:hover,
+.react-datepicker__month-read-view:hover,
+.react-datepicker__month-year-read-view:hover {
+  cursor: pointer;
+}
+.react-datepicker__year-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__year-read-view:hover .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view:hover .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-year-read-view:hover .react-datepicker__month-read-view--down-arrow {
+  border-top-color: rgb(178.5, 178.5, 178.5);
+}
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow {
+  transform: rotate(135deg);
+  right: -16px;
+  top: 0;
+}
+
+.react-datepicker__year-dropdown,
+.react-datepicker__month-dropdown,
+.react-datepicker__month-year-dropdown {
+  background-color: #f0f0f0;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 30px;
+  z-index: 1;
+  text-align: center;
+  border-radius: 0.3rem;
+  border: 1px solid #aeaeae;
+}
+.react-datepicker__year-dropdown:hover,
+.react-datepicker__month-dropdown:hover,
+.react-datepicker__month-year-dropdown:hover {
+  cursor: pointer;
+}
+.react-datepicker__year-dropdown--scrollable,
+.react-datepicker__month-dropdown--scrollable,
+.react-datepicker__month-year-dropdown--scrollable {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.react-datepicker__year-option,
+.react-datepicker__month-option,
+.react-datepicker__month-year-option {
+  line-height: 20px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.react-datepicker__year-option:first-of-type,
+.react-datepicker__month-option:first-of-type,
+.react-datepicker__month-year-option:first-of-type {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+.react-datepicker__year-option:last-of-type,
+.react-datepicker__month-option:last-of-type,
+.react-datepicker__month-year-option:last-of-type {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+.react-datepicker__year-option:hover,
+.react-datepicker__month-option:hover,
+.react-datepicker__month-year-option:hover {
+  background-color: #ccc;
+}
+.react-datepicker__year-option:hover .react-datepicker__navigation--years-upcoming,
+.react-datepicker__month-option:hover .react-datepicker__navigation--years-upcoming,
+.react-datepicker__month-year-option:hover .react-datepicker__navigation--years-upcoming {
+  border-bottom-color: rgb(178.5, 178.5, 178.5);
+}
+.react-datepicker__year-option:hover .react-datepicker__navigation--years-previous,
+.react-datepicker__month-option:hover .react-datepicker__navigation--years-previous,
+.react-datepicker__month-year-option:hover .react-datepicker__navigation--years-previous {
+  border-top-color: rgb(178.5, 178.5, 178.5);
+}
+.react-datepicker__year-option--selected,
+.react-datepicker__month-option--selected,
+.react-datepicker__month-year-option--selected {
+  position: absolute;
+  left: 15px;
+}
+
+.react-datepicker__close-icon {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0 6px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.react-datepicker__close-icon::after {
+  cursor: pointer;
+  background-color: #216ba5;
+  color: #fff;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  content: "×";
+}
+.react-datepicker__close-icon--disabled {
+  cursor: default;
+}
+.react-datepicker__close-icon--disabled::after {
+  cursor: default;
+  background-color: #ccc;
+}
+
+.react-datepicker__today-button {
+  background: #f0f0f0;
+  border-top: 1px solid #aeaeae;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0;
+  clear: left;
+}
+
+.react-datepicker__portal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2147483647;
+}
+
+.react-datepicker__children-container {
+  width: 17.25em;
+  margin: 0.5em;
+  padding-right: 0.25em;
+  padding-left: 0.25em;
+  height: auto;
+}
+
+.react-datepicker__aria-live {
+  position: absolute;
+  clip-path: circle(0);
+  border: 0;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.react-datepicker__calendar-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.react-datepicker-popper-offset {
+  margin-top: -0.7em;
+}
+

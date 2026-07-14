@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="noscript" lang="en">
+
+<head id="mainHeader">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="msvalidate.01" content="01C32A13DE639A310AEB4183F110402F" />
+	<meta name="google-site-verification" content="5I5LqvBtyH6DkMhxWn7elvFG49s_UD6jJa4fE2MVFZo" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<title data-i18n='TITLE'></title>
+	<script type="application/json">{"utility": "cck","url": "https://commission.europa.eu/cookies-policy_{lang}"}</script>
+	<script type="application/json">{"utility": "analytics","siteID": "586","sitePath": ["emodnet.ec.europa.eu"],"is404": false,"is403": false,"instance": "ec.europa.eu"}</script>
+	<script async src="//webtools.europa.eu/load.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="./css/ecl-ec-preset-website.css" media="screen" />
+	<link rel="stylesheet" href="./css/ecl-ec-preset-website-print.css" media="print" />
+
+	<link rel="preload" href="./assets/cesium/Cesium.js" as="script">
+    <link rel="stylesheet" href="./assets/cesium/Widgets/widgets.css">
+    <script defer src="./assets/cesium/Cesium.js"></script>
+
+	<!-- Piwik -->
+	<script type="text/javascript">
+		function trackLayerLoaded(layerName, categories) {
+			let category = 'Layers';
+			let action = 'Loaded';
+			let value = null;
+			let dimensions = {
+				'Layer name': layerName,
+				'Theme': categories[0] || undefined,
+				'Sub-theme': categories[1] || undefined,
+				'Sub-sub-theme': categories[2] || undefined,
+			};
+			_paq.push(['trackEvent', category, action, name, value, dimensions]);
+		}
+
+		function trackFileDownloaded(layerName, linkAddress, downloadType, categories) {
+			let linkType = 'download';
+			let dimensions = {
+				'Layer name': layerName,
+				'Theme': categories[0] || undefined,
+				'Sub-theme': categories[1] || undefined,
+				'Sub-sub-theme': categories[2] || undefined,
+				'Type of download': downloadType,
+			};
+			_paq.push(['trackLink', linkAddress, linkType, dimensions]);
+		}
+	</script>
+	<!-- End Piwik Code -->	
+<link rel="icon" href="assets/favicons/favicon.png"><script defer src="282.bundle.js?21fd12bf88d0bec4d5c4"></script><script defer src="app.bundle.js?21fd12bf88d0bec4d5c4"></script><link href="282.5db467fefc79dca84a62.css?21fd12bf88d0bec4d5c4" rel="stylesheet"><link href="app.677609b80efc458cd9be.css?21fd12bf88d0bec4d5c4" rel="stylesheet"></head>
+
+<body id="body">
+	<div id="output_loading">
+		<div id="loader_gif_container">
+			<!-- loading.io -->
+			<div class="loadingio-spinner-spin-r8bz4lho9g">
+				<div class="ldio-4x7xtf3wqy">
+					<div>
+						<div></div>
+					</div>
+					<div>
+						<div></div>
+					</div>
+					<div>
+						<div></div>
+					</div>
+					<div>
+						<div></div>
+					</div>
+					<div>
+						<div></div>
+					</div>
+					<div>
+						<div></div>
+					</div>
+					<div>
+						<div></div>
+					</div>
+					<div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<header id="head">
+		<div class="header-container">
+			<div class="header-left">
+				<a class="ecl-link ecl-link--standalone ecl-site-header-harmonised__logo-link"  target="_blank" rel="noreferrer"
+					href="https://www.ioc.unesco.org/" data-i18n="[title]TITLE_INTERGOVERNMENTAL_OCEANOGRAPHIC_COMMISSION;[aria-label]TITLE_INTERGOVERNMENTAL_OCEANOGRAPHIC_COMMISSION"></a>
+				<a href="https://oceandecade.org" class="header-site-name"
+					data-i18n="[title]TITLE;[aria-label]TITLE" target="_blank">
+					<span data-i18n="TITLE" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div class="header-right">
+				<a id="faq-link" href="/" class="header-site-name" target="_blank" 
+					data-bind="attr: { href: faq_url }" data-i18n="[title]HELP;[aria-label]HELP">
+					<span data-i18n="HELP" aria-hidden="true"></span>
+				</a>
+				<div style="display: none;" id="language-selector"></div><!--EP-519. Replace language selector by link to FAQ-->
+				<!-- ko foreach: headerActions -->
+				<div class="ecl-site-header-harmonised__action">
+					<a class="ecl-link ecl-link--standalone ecl-site-header-harmonised__help" href="#" target="_blank"
+						data-bind="css: $data.style, title: $data.description, icon: $data.icon, click: function(e) { $root.layerAction(e) }">
+						<span class="label" data-bind="text: $data.name"></span>
+					</a>
+				</div>
+				<!-- /ko -->
+			</div>
+		</div>
+	</header>
+	<div id="body-content">
+		<nav id="left-nav">
+			<div id="active-layer" data-bind="css: {expandedLayer: expandedLayer}">
+				<ul class="list-control">
+					<li>
+						<button class="tooltip" href="#expand" tabindex="0"
+							data-i18n="[title]TOOLTIP_EXPAND_LAYER;[aria-label]TOOLTIP_EXPAND_LAYER"
+							data-bind="css: $data.style, icon: $data.iconLayer, click: expandLayer"></button>
+						<span class="tooltiptext" data-i18n="TOOLTIP_EXPAND_LAYER"></span>
+					</li>
+				</ul>
+				<div id="layerAdministratorPanel">
+					<!-- shrink/grow panel button for mobile only -->
+					<div id="shrinkLayerPanelMobile" class="mobile-fab shrinkPanelFabMobile"
+						data-bind="click: shrinkLayer">
+						<i id="shrinkLayerPanelMobileIcon" class="fa fa-chevron-down shrinkPanelIconMobile"></i>
+					</div>
+
+					<!-- close panel button for mobile only -->
+					<div id="closeLayerPanelMobile" class="closePanelMobile" data-bind="click: expandLayer">
+						<i class="fa fa-times closePanelIconMobile"></i>
+					</div>
+
+					<div class="layerAdministradorBody">
+						<div class="tab">
+							<button id="visibleLayersTab" class="tablinks active" disabled
+								data-bind="click: toggleTab.bind($data, 'visibleLayersPanel')"
+								data-i18n="LAYERS"></button>
+							<button id="layersCatalogueTab" class="tablinks"
+								data-bind="click: toggleTab.bind($data,'layerCataloguePanel')"
+								data-i18n="LAYER_CATALOGUE"></button>
+						</div>
+						<div id="visibleLayersPanel" class="tabcontent active" style="display:block;">
+							<ul class="layerManager-container" id="layerVisible-container">
+								<!-- ko if: visibleLayers().length-->
+								<li class="layerManager-header">
+									<span class="active" data-i18n="[title]TITLE_ACTIVE;[aria-label]ACTIVE;ACTIVE"></span>
+									<span class="visible" data-i18n="[title]TITLE_ACTIONS;[aria-label]ACTIONS;ACTIONS"></span>
+								</li>
+								<!-- /ko -->
+								<!-- ko foreach: visibleLayers -->
+								<li class="layerManager-entry" draggable="true"
+									data-bind="attr: {layerId: $data.id, layerIndex: $data.index,  id: 'layerLi-' + $data.id}, css: { 'entryActive': $data.active }">
+
+									<input class="layer-active" name="layer-active" type="radio" tabindex="0"
+										data-bind="attr: {id: 'layer-active-' + $data.id, name: 'layer-active-' + $data.id, value: $data.id, 'title': $data.getSelectLayerText, 'aria-label': $data.getSelectLayerText}, checked: $root.activeLayerId"
+									/>
+									<i data-i18n="[title]TOOLTIP_MOVE_LAYER;[aria-label]TOOLTIP_MOVE_LAYER" data-bind="icon: $data.layerMoveIcon" class="move-layer-icon"></i>
+									<label class="name"
+										data-bind="text: $data.name, title: $data.name, attr: {value: $data.id, for: 'layer-active-' + $data.id}"
+										aria-hidden="true">
+									</label>
+
+									<div class="actions">
+										<button class="action"
+											data-i18n="[title]TOOLTIP_LAYER_DESCRIPTION;[aria-label]TOOLTIP_LAYER_DESCRIPTION"
+											data-bind="click: $root.getLayerInfo.bind($data.description)">
+											<i data-bind="icon: $data.layerInfoIcon" aria-hidden="true"></i>
+										</button>
+										<input max="100" min="0" type="range" class="opacitySlider action"
+											data-bind=" value: $data.opacity, valueUpdate: 'input', attr:{ id:'layer-opacity-'+ $data.id, 'title': $data.getOpacityText}" />
+										<!-- ko if: $data.filter_animation-->
+										<button class="action custom-action"
+											style="width: 35px;"
+											data-i18n="[title]FILTER_ANIMATION_OPEN;[aria-label]FILTER_ANIMATION_OPEN"
+											data-bind="click: $root.openAnimationDialog">
+											<i class="layerAnimationIcon" data-bind="icon: $data.layerAnimationIcon, css: { 'animationApplied': $data.layerAnimationApplied }, " aria-hidden="true"></i>
+											<i class="layerFilterIcon" data-bind="icon: $data.layerFilterIcon, css: { 'filterApplied': $data.layerFilterApplied }" aria-hidden="true"></i>
+										</button>
+										<!-- /ko -->
+										<!-- ko if: $data.animation-->
+										<button class="action custom-action"
+											style="width: 20px; margin-right: 15px;"
+											data-i18n="[title]ANIMATION_OPEN;[aria-label]ANIMATION_OPEN"
+											data-bind="click: $root.openAnimationDialog">
+											<i class="layerAnimationIcon" data-bind="icon: $data.layerAnimationIcon, css: { 'animationApplied': $data.layerAnimationApplied }" aria-hidden="true"></i>
+										</button>
+										<!-- /ko -->
+										<!-- ko if: $data.filter-->
+										<button class="action custom-action"
+											style="width: 20px; margin-right: 15px;"
+											data-i18n="[title]TOOLTIP_LAYER_FILTER;[aria-label]TOOLTIP_LAYER_FILTER"
+											data-bind="click: $root.openFilterDialog">
+											<i class="layerFilterIcon" data-bind="icon: $data.layerFilterIcon, css: { 'filterApplied': $data.layerFilterApplied }" aria-hidden="true"></i>
+										</button>
+										<!-- /ko -->
+										<!-- ko if: $data.emptyDiv-->
+										<button class="action custom-action" style="margin-right: 35px;" disabled aria-hidden="true"></button>
+										<!-- /ko -->
+										<button class="action"
+											data-i18n="[title]TOOLTIP_ZOOM_LAYER;[aria-label]TOOLTIP_ZOOM_LAYER"
+											data-bind="click: $root.zoomExtentLayer, attr: {disabled: $data.disableLayerZoomExtent}"">
+											<i class="zoomExtLayer"
+												data-bind="icon: $data.layerZoomExtentIcon,
+															css: {'disabledLayerZoomExtent': $data.disableLayerZoomExtent}"
+												aria-hidden="true"></i>
+										</button>
+										<button class="action"
+											data-i18n="[title]TOOLTIP_CHANGE_VISIBILITY;[aria-label]TOOLTIP_CHANGE_VISIBILITY"
+											data-bind="click: $root.toogleLayerVisible">
+											<!-- ko if: $data.visible-->
+											<i class="visible fa fa-eye" aria-hidden="true"></i>
+											<!-- /ko -->
+											<!-- ko ifnot: $data.visible-->
+											<i class="visible fa fa-eye-slash" aria-hidden="true"></i>
+											<!-- /ko -->
+										</button>
+										<button class="action"
+											data-i18n="[title]TOOLTIP_DELETE_LAYER;[aria-label]TOOLTIP_DELETE_LAYER"
+											data-bind="click: $root.removeLayer">
+											<i data-bind="icon: $data.layerRemoveIcon"></i>
+										</button>
+									</div>
+								</li>
+								<!-- /ko -->
+								<!-- ko if: visibleLayers().length-->
+
+								<!-- /ko -->
+							</ul>
+						</div>
+
+						<div id="layerCataloguePanel" class="tabcontent">
+							<div id="layerSearchContainer">
+								<i class="fa fa-search"></i>
+								<input type="search" id="searchInput" autocomplete="off"
+									data-i18n="[placeholder]SEARCH_LAYER; ACTIONS">
+							</div>
+							<div class="layerManager">
+								<ul class="layerManager-container" id="layerManager-container">
+									<!-- ko foreach: layersByGroup -->
+									<!-- ko ifnot: $data.class -->
+									<div class="accordion panel_head" tabindex="0"
+										data-bind="text: $data.group,  attr: {value: $data.group}"></div>
+									<!-- /ko -->
+									<!-- ko if: $data.class -->
+									<div data-bind="text: $data.group, class: $data.class, attr: {value: $data.group, 'data-i18n':$data.i18n}">
+									</div>
+									<!-- /ko -->
+									<div class="panel_body panel-contracted">
+										<!-- ko foreach: layers -->
+										<!-- ko if: $data.id -->
+										<li class="layerManager-entry" data-bind="attr: {layerId: $data.id, layerIndex: $data.index}">
+											<input class="visible" type="checkbox" value="on"
+												data-bind="checked: $data.selected.newValue || $data.selected, attr: {id: 'Option-' + $data.id}" />
+											<label class="checkbox name"
+												data-bind="attr: {for: 'Option-' + $data.id, 'title': $data.getSelectLayerText, 'aria-label': $data.getSelectLayerText}">
+												<span data-bind="text: $data.name" aria-hidden="true"></span>
+											</label>
+
+											<div class="actions">
+												<!-- ko if: $data.animation-->
+												<i title="Layer animation" data-i18n="[title]ANIMATION;[aria-label]ANIMATION" class="noClicable"
+													data-bind="icon: $data.layerAnimationIcon"></i>
+												<!-- /ko -->
+												<!-- ko if: $data.filter-->
+												<i title="Filter layer" data-i18n="[title]TOOLTIP_LAYER_FILTER;[aria-label]TOOLTIP_LAYER_FILTER"
+													class="noClicable" data-bind="icon: $data.layerFilterIcon"></i>
+												<!-- /ko -->
+												<!-- ko if: $data.filter_animation-->
+												<i class="noClicable" data-i18n="[title]FILTER_ANIMATION;[aria-label]FILTER_ANIMATION">
+													<i class="noClicable" data-bind="icon: $data.layerFilterIcon" aria-hidden="true"></i>
+													<i class="noClicable" data-bind="icon: $data.layerAnimationIcon" aria-hidden="true"></i>
+												</i>
+												<!-- /ko -->
+												<button class="action"
+													data-i18n="[title]TOOLTIP_LAYER_DESCRIPTION;[aria-label]TOOLTIP_LAYER_DESCRIPTION"
+													data-bind="click: $root.getLayerInfo.bind($data.description)">
+													<i data-bind="icon: $data.layerInfoIcon" aria-hidden="true"></i>
+												</button>
+											</div>
+										</li>
+										<!-- /ko -->
+										<!-- ko ifnot: $data.id -->
+										<div class="accordion panel_head subgroup" tabindex="0"
+											data-bind="text: $data.group,  attr: {value: $data.group}"></div>
+										<div class="panel_body panel-contracted subgroup">
+											<!-- ko foreach: layers -->
+											<!-- ko if: $data.id -->
+											<li class="layerManager-entry" data-bind="attr: {layerId: $data.id, layerIndex: $data.index}, css: { 'entryActive': $data.active }">
+												<input class="visible" type="checkbox" value="on"
+													data-bind="checked: $data.selected, attr: {id: 'Option-' + $data.id}" />
+												<label class="checkbox name"
+													data-bind="attr: {for: 'Option-' + $data.id, 'title': $data.getSelectLayerText, 'aria-label': $data.getSelectLayerText}">
+													<span data-bind="text: $data.name"></span>
+												</label>
+
+												<div class="actions">
+													<!-- ko if: $data.animation-->
+													<i title="Layer animation" data-i18n="[title]ANIMATION;[aria-label]ANIMATION"
+														class="noClicable" data-bind="icon: $data.layerAnimationIcon"></i>
+													<!-- /ko -->
+													<!-- ko if: $data.filter-->
+													<i title="Filter layer" data-i18n="[title]TOOLTIP_LAYER_FILTER;[aria-label]TOOLTIP_LAYER_FILTER"
+														class="noClicable" data-bind="icon: $data.layerFilterIcon"></i>
+													<!-- /ko -->
+													<!-- ko if: $data.filter_animation-->
+													<i class="noClicable" data-i18n="[title]FILTER_ANIMATION;[aria-label]FILTER_ANIMATION">
+														<i class="noClicable" data-bind="icon: $data.layerFilterIcon" aria-hidden="true"></i>
+														<i class="noClicable" data-bind="icon: $data.layerAnimationIcon" aria-hidden="true"></i>
+													</i>
+													<!-- /ko -->
+													<!-- ko if: $data.id.indexOf('user_')>-1 -->
+													<button class="action"
+														data-i18n="[title]TOOLTIP_DELETE_LAYER;[aria-label]TOOLTIP_DELETE_LAYER"
+														data-bind="click: $root.removeOGCLayer">
+														<i data-bind="icon: $data.layerRemoveIcon" aria-hidden="true"></i>
+													</button>
+													<!-- /ko -->
+
+													<button class="action"
+														data-i18n="[title]TOOLTIP_LAYER_DESCRIPTION;[aria-label]TOOLTIP_LAYER_DESCRIPTION"
+														data-bind="click: $root.getLayerInfo.bind($data.description)">
+														<i data-bind="icon: $data.layerInfoIcon" aria-hidden="true"></i>
+													</button>
+												</div>
+											</li>
+											<!-- /ko -->
+											<!-- ko ifnot: $data.id -->
+											<div class="accordion panel_head subgroup subgroupThirdLevel" tabindex="0"
+												data-bind="text: $data.group,  attr: {value: $data.group}"></div>
+											<div class="panel_body panel-contracted subgroup subgroupThirdLevel">
+												<!-- ko foreach: layers -->
+												<li class="layerManager-entry" data-bind="attr: {layerId: $data.id, layerIndex: $data.index}">
+													<input class="visible" type="checkbox" value="on"
+														data-bind="checked: $data.selected.newValue || $data.selected, attr: {id: 'Option-' + $data.id}" />
+													<label class="checkbox name"
+														data-bind="attr: {for: 'Option-' + $data.id, 'title': $data.getSelectLayerText, 'aria-label': $data.getSelectLayerText}">
+														<span data-bind="text: $data.name"></span>
+													</label>
+
+													<div class="actions">
+													<!-- ko if: $data.animation-->
+														<i title="Layer animation" data-i18n="[title]ANIMATION;[aria-label]ANIMATION" class="noClicable"
+															data-bind="icon: $data.layerAnimationIcon"></i>
+														<!-- /ko -->
+														<!-- ko if: $data.filter_animation-->
+														<i class="noClicable" data-i18n="[title]FILTER_ANIMATION;[aria-label]FILTER_ANIMATION">
+															<i class="noClicable" data-bind="icon: $data.layerFilterIcon" aria-hidden="true"></i>
+															<i class="noClicable" data-bind="icon: $data.layerAnimationIcon" aria-hidden="true"></i>
+														</i>
+														<!-- /ko -->
+														<!-- ko if: $data.filter-->
+														<i title="Filter layer" data-i18n="[title]TOOLTIP_LAYER_FILTER;[aria-label]TOOLTIP_LAYER_FILTER"
+															class="noClicable" data-bind="icon: $data.layerFilterIcon"></i>
+														<!-- /ko -->
+
+														<button class="action"
+															data-i18n="[title]TOOLTIP_LAYER_DESCRIPTION;[aria-label]TOOLTIP_LAYER_DESCRIPTION"
+															data-bind="click: $root.getLayerInfo.bind($data.description)">
+															<i data-bind="icon: $data.layerInfoIcon" aria-hidden="true"></i>
+														</button>
+													</div>
+												</li>
+												<!-- /ko -->
+											</div>
+											<!-- /ko -->
+											<!-- /ko -->
+										</div>
+										<!-- /ko -->
+										<!-- /ko -->
+									</div>
+									<!-- /ko -->
+									<div id="no-data-message"></div>
+								</ul>
+							</div>
+						</div>
+
+
+						<!-- CLEAR ALL LAYERS -->
+						<div id="layerManagerDeleteAllContainer">
+							<ul>
+								<li class="layerManager-action-delete hideAllLayers">
+									<button data-bind="click: $root.hideAllLayers">
+										<i data-bind="css: $data.style, icon: $data.layerHideIcon"></i>
+										<span data-i18n="HIDE_ALL_LAYERS_BUTTON"></span>
+									</button>
+								</li>
+								<li class="layerManager-action-delete showAllLayers" style="display: none;">
+									<button data-bind="click: $root.showAllLayers">
+										<i data-bind="css: $data.style, icon: $data.layerShowIcon"></i>
+										<span data-i18n="SHOW_ALL_LAYERS_BUTTON"></span>
+									</button>
+								</li>
+								<li class="layerManager-action-delete clearAllLayers">
+									<button data-bind="click: $root.clearLayers">
+										<i data-bind="css: $data.style, icon: $data.layerClearIcon"></i>
+										<span data-i18n="CLEAR_ALL_LAYERS_BUTTON"></span>
+									</button>
+								</li>
+							</ul>
+						</div>
+
+						<!-- ADD EXTERNAL LAYERS -->
+						<div id="layerManagerAddExternalContainer">
+							<ul>
+								<li class="layerManager-action-add">
+									<button data-bind="click: addLayer">
+										<i class="fa fa-plus"></i>
+										<span data-i18n="ADD_LAYER_BUTTON"></span>
+									</button>
+								</li>
+							</ul>
+							<div class="disclaimer">
+								 <span>More datasets are available in the <a href="https://emodnet.ec.europa.eu/geonetwork/srv/eng/catalog.search#/search" aria-hidden="true" target="_blank">catalogue</a></span>
+							</div>
+						</div>
+
+						<div class="divThemes">
+							<hr class="hrThemesFirst">
+						</div>
+						<div id="marineRegionsContainer">
+							<label for="react-select-2-input" data-i18n="MARINE_REGIONS"></label>
+							<div id="search-marine-regions"></div>
+						</div>
+						<div class="divThemes">
+							<hr class="hrThemesSecond">
+						</div>
+						<div id="changeBasemapContainer">
+							<label for="changeBasemapSelect" data-i18n="CHANGE_BASEMAP_LAYER"></label>
+							<div id="changeBasemap">
+								<div class="select-wrapper">
+									<select
+										id="changeBasemapSelect"
+										data-bind="value: activeBasemapId, options: basemaps, optionsText: 'name', optionsValue: 'id'">
+									</select>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+					</div>
+
+
+				</div>
+			</div>
+			<div id="top-controls">
+				<ul class="list-control">
+					<!-- ko foreach: mapActions -->
+					<li data-bind="css: $data.style, attr: {'id': $data.id + 'button'}">
+						<button class="tooltip" href="#" tabindex="0"
+							data-i18n="[title]data.getTranslatedText;[aria-label]data.getTranslatedText"
+							data-bind="css: $data.style, icon: $data.icon, click: function(e) { $root.layerAction(e) },
+								attr: {'title': $data.getTranslatedText, 'aria-label': $data.getTranslatedText }"
+							></button>
+						<span class="tooltiptext"
+							data-bind="attr: {'id': $data.id, 'data-i18n':$data.i18n}, text:$data.getTranslatedText"></span>
+					</li>
+					<!-- /ko -->
+				</ul>
+				<ul class="list-control">
+					<!-- ko if: activeLayer()-->
+					<!-- ko foreach: activeLayer().actions -->
+					<li data-bind="css: $data.style">
+						<button class="tooltip" href="#" tabindex="0"
+							data-bind="css: $data.style, icon: $data.icon, click: function(e) { $root.layerAction(e) }, attr: {'title': $data.getTranslatedText, 'aria-label': $data.getTranslatedText }"></button>
+						<span class="tooltiptext"
+							data-bind="attr: {'id':  $data.id, 'data-i18n':$data.i18n}, text:$data.getTranslatedText"></span>
+					</li>
+					<!-- /ko -->
+					<!-- /ko -->
+				</ul>
+			</div>
+		</nav>
+
+		<div id="dialogs"></div>
+
+		<div id="map-content">
+		</div>
+
+		<div id="right-nav">
+			<div id="generalFunctionalities-controls">
+				<ul class="list-controlGeneralFunctionalities">
+					<!-- ko foreach: generalFunctionalitiesActions -->
+					<li data-bind="css: $data.style, attr: {'id':  $data.id + 'button'}">
+						<a class="tooltipLeft_link_generalFunctionalities" href="#"
+							data-bind="css: $data.style, click: function(e) { $root.layerAction(e) },
+								event: { keypress: function(data, event) { if (event.keyCode === 32 || event.keyCode === 13) { $root.layerAction(data) } } },
+								attr: {'title': $data.getTranslatedText, 'aria-label': $data.getTranslatedText }">
+							<div class="tooltipLeft_generalFunctionalities" data-bind="icon: $data.icon"></div>
+						</a>
+						<span class="tooltiptextLeft"
+							data-bind="attr: {'id':  $data.id, 'data-i18n':$data.i18n}, text:$data.getTranslatedText"></span>
+					</li>
+					<!-- /ko -->
+				</ul>
+			</div>
+		</div>
+
+		<div class="logo-emodnet">
+			<a class="logo" href="https://emodnet.ec.europa.eu/" title="EMODnet" target="_blank" data-i18n="[title]TITLE;[aria-label]TITLE"></a>
+		</div>
+
+		<div id="download-pane"></div>
+
+		<div id="tooltip-actions"></div>
+
+	</div>
+
+	<noscript class="content">
+		<div id="warning">
+			<h3 data-i18n="WARNING_H3"></h3>
+			<p data-i18n="TEXT_JAVASCRIPT_START"><a href="http://www.enable-javascript.com/" target="_blank"
+					data-i18n="TEXT_JAVASCRIPT_END"></a>.</p>
+		</div>
+	</noscript>
+</body>
+
+</html>
