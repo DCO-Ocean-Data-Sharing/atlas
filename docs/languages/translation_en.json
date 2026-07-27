@@ -35,7 +35,7 @@
     "MESSAGE_NO_DATA_FOUND": "No data found",
     "MESSAGE_MEASURE": "Click on the map to measure distances",
     "TITLE_EUROPEAN_COMMISION": "European Commision",
-    "ADD_LAYER_BUTTON": "Add external layers",
+    "ADD_LAYER_BUTTON": "",
     "CHANGE_BASEMAP_LAYER": "Change basemap (for presentation clarity)",
     "DEFAULT_EXTENT_TOOTIP": "Default extent",
     "LAYER_ZOOM_EXTENT_TOOTIP": "Zoom to layers extent",
