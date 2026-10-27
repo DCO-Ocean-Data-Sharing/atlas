@@ -1,0 +1,1483 @@
+{
+    "appName": "UNOceanDecadeDigitalAtlas",
+    "lang": "en",
+    "map": {
+        "center": [0, 0],
+        "initialZoom": 4,
+        "minZoom": 1,
+        "maxZoom": 16,
+        "projection": "EPSG:3857"
+    },
+    "baseLayers": [
+        "ebwbl", "esri-imagery"
+    ],
+    "stickyLayers": [],
+    "faq_url": "",
+    "layerCatalog": {
+        "name": "root",
+        "visible": false,
+        "children": [
+            {
+                "name": "UN Ocean Decade Coordination",
+                "children": [{
+                    "name": "National Decade Committees (NDCs)",
+                    "id": 1,
+                    "defaultName": "National Decade Committees (NDCs)",
+                    "mapType": null,
+                    "abstractFull": "This layer shows the location of the National Decade Committees (NDCs), its host institution and the number of Decade Actions (projects, programmes and contributions endorsed by the Decade) in the country.  NDCs play an important role to increase national participation in the Decade by promoting the calls for Decade Actions and strengthening collaboration between science, policy, industry, civil society and local communities. They also connect Decade activity with other ocean stakeholders at a national level.<br/><br/>Last updated: 30th June 2026",
+                    "abstractEN": "This layer shows the location of the National Decade Committees (NDCs), its host institution and the number of Decade Actions (projects, programmes and contributions endorsed by the Decade) in the country.  NDCs play an important role to increase national participation in the Decade by promoting the calls for Decade Actions and strengthening collaboration between science, policy, industry, civil society and local communities. They also connect Decade activity with other ocean stakeholders at a national level.<br/><br/>Last updated: 30th June 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "National_Decade_Committees (NDCs)",
+                            "VERSION": "1.1.1"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "National Decade Committees (NDCs)",
+                        "content": "Data last updated: 30th June 2026<br/><br/>This layer shows the location of the National Decade Committees (NDCs), its host institution and the number of Decade Actions (projects, programmes and contributions endorsed by the Decade) in the country.  NDCs play an important role to increase national participation in the Decade by promoting the calls for Decade Actions and strengthening collaboration between science, policy, industry, civil society and local communities. They also connect Decade activity with other ocean stakeholders at a national level.",
+                        "links": {"metadata": "https://oceandecade.org/national-ocean-decade-ecosystem/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },{
+                    "name": "Decade Collaborative Centres (DCCs)",
+                    "id": 2,
+                    "defaultName": "Decade Collaborative Centres (DCCs)",
+                    "mapType": null,
+                    "abstractFull": "This layer shows the location of the UN Ocean Decade Collaborative Centres (DCCs), their host country and institution. DCCs provide long-term regional or thematic coordination for the UN Ocean Decade and are hosted outside the United Nations system. They help coordinate existing Decade Actions, catalyse new initiatives and partnerships, support communications and capacity development, mobilise resources and strengthen the co-design and uptake of ocean science. They connect communities working on shared ocean basins, regions or Decade Challenges so that knowledge, expertise and resources can be used more effectively. Decade Collaborative Centres presents institutions that provide long-term regional or thematic coordination for the UN Ocean Decade while being hosted outside the United Nations system. Decade Collaborative Centres help coordinate existing Decade Actions, catalyse new initiatives and partnerships, support communications and capacity development, mobilise resources and strengthen the co-design and uptake of ocean science. Their role is to connect communities working on shared ocean basins, regions or Decade Challenges so that knowledge, expertise and resources can be used more effectively. For each centre, the Ocean Decade directory records its name, host institution, country, coordination location and available website. The location marks the institutional base from which the centre operates and helps viewers connect the centre with its wider regional or thematic mandate.<br/><br/>Last updated: 30th June 2026",
+                    "abstractEN": "This layer shows the location of the UN Ocean Decade Collaborative Centres (DCCs), their host country and institution. DCCs provide long-term regional or thematic coordination for the UN Ocean Decade and are hosted outside the United Nations system. They help coordinate existing Decade Actions, catalyse new initiatives and partnerships, support communications and capacity development, mobilise resources and strengthen the co-design and uptake of ocean science. They connect communities working on shared ocean basins, regions or Decade Challenges so that knowledge, expertise and resources can be used more effectively. Decade Collaborative Centres presents institutions that provide long-term regional or thematic coordination for the UN Ocean Decade while being hosted outside the United Nations system. Decade Collaborative Centres help coordinate existing Decade Actions, catalyse new initiatives and partnerships, support communications and capacity development, mobilise resources and strengthen the co-design and uptake of ocean science. Their role is to connect communities working on shared ocean basins, regions or Decade Challenges so that knowledge, expertise and resources can be used more effectively. For each centre, the Ocean Decade directory records its name, host institution, country, coordination location and available website. The location marks the institutional base from which the centre operates and helps viewers connect the centre with its wider regional or thematic mandate.<br/><br/>Last updated: 30th June 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "DCCs_layer___Digital_Atlas",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Decade Collaborative Centres (DCCs)",
+                        "content": "Data last updated: 30th June 2026<br/><br/>This layer shows the location of the UN Ocean Decade Collaborative Centres (DCCs), their host country and institution. DCCs provide long-term regional or thematic coordination for the UN Ocean Decade and are hosted outside the United Nations system. They help coordinate existing Decade Actions, catalyse new initiatives and partnerships, support communications and capacity development, mobilise resources and strengthen the co-design and uptake of ocean science. They connect communities working on shared ocean basins, regions or Decade Challenges so that knowledge, expertise and resources can be used more effectively. Decade Collaborative Centres presents institutions that provide long-term regional or thematic coordination for the UN Ocean Decade while being hosted outside the United Nations system. Decade Collaborative Centres help coordinate existing Decade Actions, catalyse new initiatives and partnerships, support communications and capacity development, mobilise resources and strengthen the co-design and uptake of ocean science. Their role is to connect communities working on shared ocean basins, regions or Decade Challenges so that knowledge, expertise and resources can be used more effectively. For each centre, the Ocean Decade directory records its name, host institution, country, coordination location and available website. The location marks the institutional base from which the centre operates and helps viewers connect the centre with its wider regional or thematic mandate.",
+                        "links": {"metadata": "https://oceandecade.org/decade-collaborative-centres/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },{
+                    "name": "Decade Coordination Offices (DCOs)",
+                    "id": 3,
+                    "defaultName": "Decade Coordination Offices (DCOs)",
+                    "mapType": null,
+                    "abstractFull": "This layer shows the location of the UN Ocean Decade Coordination Offices (DCOs) their host country and institution and available website. DCOs provide long-term regional or thematic coordination for the UN Ocean Decade from within United Nations entities. They support Decade Actions through coordination and catalysis, helping to connect partners, identify gaps and opportunities, strengthen collaboration, promote co-design and scientific uptake, support capacity development and communications, and improve the use of available expertise and resources. They can focus on a particular ocean region or on a cross-cutting theme such as ocean observing, data sharing or the relationship between people and the ocean.<br/><br/>Last updated: 30th June 2026",
+                    "abstractEN": "This layer shows the location of the UN Ocean Decade Coordination Offices (DCOs) their host country and institution and available website. DCOs provide long-term regional or thematic coordination for the UN Ocean Decade from within United Nations entities. They support Decade Actions through coordination and catalysis, helping to connect partners, identify gaps and opportunities, strengthen collaboration, promote co-design and scientific uptake, support capacity development and communications, and improve the use of available expertise and resources. They can focus on a particular ocean region or on a cross-cutting theme such as ocean observing, data sharing or the relationship between people and the ocean.<br/><br/>Last updated: 30th June 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "Decade_Coordination_Offices__DCOs",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Decade Coordination Offices (DCOs)",
+                        "content": "Data last updated: 30th June 2026<br/><br/>This layer shows the location of the UN Ocean Decade Coordination Offices (DCOs) their host country and institution and available website. DCOs provide long-term regional or thematic coordination for the UN Ocean Decade from within United Nations entities. They support Decade Actions through coordination and catalysis, helping to connect partners, identify gaps and opportunities, strengthen collaboration, promote co-design and scientific uptake, support capacity development and communications, and improve the use of available expertise and resources. They can focus on a particular ocean region or on a cross-cutting theme such as ocean observing, data sharing or the relationship between people and the ocean.",
+                        "links": {"metadata": "https://oceandecade.org/decade-collaborative-centres/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },{
+                    "name": "Decade Implementing Partners (DIPs)",
+                    "id": 4,
+                    "defaultName": "Decade Implementing Partners (DIPs)",
+                    "mapType": null,
+                    "abstractFull": "This layer shows the location of the UN Ocean Decade Implementing Partners (DIPs), their host country and institution and available website. DIPs include institutions, networks and organisations formally recognised for making sustained contributions to the implementation of the UN Ocean Decade. Their vision, mission or mandate aligns with the priorities of the Decade, and their support can include coordinating existing Decade Actions, catalysing new initiatives, convening communities, leading targeted communications and outreach, supporting co-design and capacity development, and mobilising expertise, partnerships or resources. They help connect scientific knowledge with policy, practice and society.<br/><br/>Last updated: 30th June 2026",
+                    "abstractEN": "This layer shows the location of the UN Ocean Decade Implementing Partners (DIPs), their host country and institution and available website. DIPs include institutions, networks and organisations formally recognised for making sustained contributions to the implementation of the UN Ocean Decade. Their vision, mission or mandate aligns with the priorities of the Decade, and their support can include coordinating existing Decade Actions, catalysing new initiatives, convening communities, leading targeted communications and outreach, supporting co-design and capacity development, and mobilising expertise, partnerships or resources. They help connect scientific knowledge with policy, practice and society.<br/><br/>Last updated: 30th June 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "DIPs_layer___Digital_Atlas",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Decade Implementing Partners (DIPs)",
+                        "content": "Data last updated: 30th June 2026<br/><br/>This layer shows the location of the UN Ocean Decade Implementing Partners (DIPs), their host country and institution and available website. DIPs include institutions, networks and organisations formally recognised for making sustained contributions to the implementation of the UN Ocean Decade. Their vision, mission or mandate aligns with the priorities of the Decade, and their support can include coordinating existing Decade Actions, catalysing new initiatives, convening communities, leading targeted communications and outreach, supporting co-design and capacity development, and mobilising expertise, partnerships or resources. They help connect scientific knowledge with policy, practice and society.",
+                        "links": {"metadata": "https://oceandecade.org/decade-implementing-partners/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },{
+                    "name": "Countries implementing endorsed Decade Actions",
+                    "id": 396852,
+                    "defaultName": "Countries implementing endorsed Decade Actions",
+                    "mapType": null,
+                    "abstractFull": "This layer shows a country-level overview of projects, programmes and contributions endorsed by the UN Ocean Decade (Decade Actions), showcasing where leadership, partnership and institutional involvement in the Decade have been recorded. Decade Actions are the concrete initiatives carried out globally to fulfil the Decade’s vision of “the science we need for the ocean we want”. Decade Programmes are global or regional in scale and contribute to the achievement of one or more Decade Challenges. They are long-term, interdisciplinary and include Decade projects. Decade projects are targeted regional, national or subnational initiatives that contribute to a Decade programme, and Decade Contributions support the Decade through provision of funding or in-kind contributions, they can support the implementation of a Decade Action or coordination costs of the Ocean Decade.<br/><br/>Last updated: 16th July 2026",
+                    "abstractEN": "This layer shows a country-level overview of projects, programmes and contributions endorsed by the UN Ocean Decade (Decade Actions), showcasing where leadership, partnership and institutional involvement in the Decade have been recorded. Decade Actions are the concrete initiatives carried out globally to fulfil the Decade’s vision of “the science we need for the ocean we want”. Decade Programmes are global or regional in scale and contribute to the achievement of one or more Decade Challenges. They are long-term, interdisciplinary and include Decade projects. Decade projects are targeted regional, national or subnational initiatives that contribute to a Decade programme, and Decade Contributions support the Decade through provision of funding or in-kind contributions, they can support the implementation of a Decade Action or coordination costs of the Ocean Decade.<br/><br/>Last updated: 16th July 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "countries_of_implementation_of_decade_actions",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Countries implementing endorsed Decade Actions",
+                        "content": "Data last updated: 16th July 2026<br/><br/>This layer shows a country-level overview of projects, programmes and contributions endorsed by the UN Ocean Decade (Decade Actions), showcasing where leadership, partnership and institutional involvement in the Decade have been recorded. Decade Actions are the concrete initiatives carried out globally to fulfil the Decade’s vision of “the science we need for the ocean we want”. Decade Programmes are global or regional in scale and contribute to the achievement of one or more Decade Challenges. They are long-term, interdisciplinary and include Decade projects. Decade projects are targeted regional, national or subnational initiatives that contribute to a Decade programme, and Decade Contributions support the Decade through provision of funding or in-kind contributions, they can support the implementation of a Decade Action or coordination costs of the Ocean Decade.",
+                        "links": {"metadata": "https://oceandecade.org/decade-actions/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }]},{
+                "name": "Challenge 2: Protect and restore ecosystems and biodiversity",
+                "children": [
+                    {
+                    "name": "Protected Seas Navigator - All Sites",
+                    "id": 321654987,
+                    "defaultName": "Protected Seas Navigator - All Sites",
+                    "mapType": null,
+                    "abstractFull": "This layer is provided by ProtectedSeas and is used under a Creative Commons CC-BY-4.0 license.<br/><br/>This layer shows the marine protected areas and other marine managed areas from around the world, together with information on the legal rules that apply within each area, this layer is extracted from the ProtectedSeas Navigator. It indicates mapped boundaries and summaries of restrictions on fishing and other human activities, helping to understand how marine areas are managed and protected. Each site is assigned a Level of Fishing Protection (LFP) score from 1 to 5. Lower scores indicate limited restrictions on the extraction of marine life, while higher scores indicate stronger legal protection, with the highest score representing no-take areas. This provides a consistent way to compare the strength of fishing restrictions across different countries and management systems. The information includes both formally designated marine protected areas and other types of marine managed areas. Some restrictions may also be seasonal, activity-specific or dependent on fishing gear.<br/><br/>Last updated 16th July 2026.",
+                    "abstractEN": "This layer is provided by ProtectedSeas and is used under a Creative Commons CC-BY-4.0 license.<br/><br/>This layer shows the marine protected areas and other marine managed areas from around the world, together with information on the legal rules that apply within each area, this layer is extracted from the ProtectedSeas Navigator. It indicates mapped boundaries and summaries of restrictions on fishing and other human activities, helping to understand how marine areas are managed and protected. Each site is assigned a Level of Fishing Protection (LFP) score from 1 to 5. Lower scores indicate limited restrictions on the extraction of marine life, while higher scores indicate stronger legal protection, with the highest score representing no-take areas. This provides a consistent way to compare the strength of fishing restrictions across different countries and management systems. The information includes both formally designated marine protected areas and other types of marine managed areas. Some restrictions may also be seasonal, activity-specific or dependent on fishing gear.<br/><br/>Last updated 16th July 2026.",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Protected Seas Navigator", "role": "resourceProvider"},
+                        {"name": "Protected Seas Navigator", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "Protected_seas_fixed___modified_geometry",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Protected Seas Navigator - All sites",
+                        "content": "Data last updated 16th July 2026.<br /><br/>This layer is provided by ProtectedSeas and is used under a Creative Commons CC-BY-4.0 license.<br/><br/>This layer shows the marine protected areas and other marine managed areas from around the world, together with information on the legal rules that apply within each area, this layer is extracted from the ProtectedSeas Navigator. It indicates mapped boundaries and summaries of restrictions on fishing and other human activities, helping to understand how marine areas are managed and protected. Each site is assigned a Level of Fishing Protection (LFP) score from 1 to 5. Lower scores indicate limited restrictions on the extraction of marine life, while higher scores indicate stronger legal protection, with the highest score representing no-take areas. This provides a consistent way to compare the strength of fishing restrictions across different countries and management systems. The information includes both formally designated marine protected areas and other types of marine managed areas. Some restrictions may also be seasonal, activity-specific or dependent on fishing gear.",
+                        "links": {"metadata": "https://navigatormap.org"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }, {"name": "Global ocean low and mid trophic levels biomass content hindcast",
+                    "children": [
+                         {
+                    "name": "Ocean wet mass content of epipelagic micronekton (g/m^2)",
+                    "id": 2113,
+                    "defaultName": "Ocean wet mass content of epipelagic micronekton     (g/m^2)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmstiled",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/",
+                        "params": {
+                            "LAYERS": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_epi",
+                            "VERSION": "1.3.0",
+                            "STYLES": "cmap:dense",
+                            "TIME": "2025-06-30T00:00:00Z",
+                            "TILEMATRIXSET": "EPSG:3857",
+        "TILEMATRIX": "{z}",
+        "TILEROW": "{y}",
+        "TILECOL": "{x}"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Ocean wet mass content of epipelagic micronekton (g/m^2)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": true,
+                    "animationProperties": {
+                        "dimension": null,
+                        "dimensionComponent": "TIME",
+                        "dimensionProperties": {
+                            "minBounds": "1998-01-01T00:00:00Z",
+                            "maxBounds": "2025-11-30T00:00:00Z",
+                            "interval": "P1D",
+                            "initMinBounds": "2025-06-30T00:00:00.000Z",
+                            "initMaxBounds": "2025-06-30T00:00:00.000Z"
+                        }
+                    },
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }, {
+                    "name": "Ocean wet mass content of highly migrant lower mesopelagic micronekton (g/m^2)",
+                    "id": 2114,
+                    "defaultName": "Ocean wet mass content of highly migrant lower mesopelagic micronekton (g/m^2)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmts",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_hmlmeso&STYLE=cmap:viridis&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",
+                        "params": {
+                            "LAYER": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_hmlmeso",
+                            "VERSION": "1.0.0",
+                            "STYLES": "cmap:viridis",
+                            "TILEMATRIXSET": "EPSG:3857"
+                        },
+                        "crossOrigin": "anonymous",
+                        "url_cache": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_hmlmeso&STYLE=cmap:viridis&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",     
+                        "params_cache": [
+                        {
+                            "EPSG": 3857,
+                            "tileMatrix": "EPSG:3857",
+                            "levels": 6
+                        }]
+                    }, "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Ocean wet mass content of highly migrant lower mesopelagic micronekton (g/m^2)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }, {
+                    "name": "Ocean wet mass content of lower mesopelagic micronekton (g/m^2)",
+                    "id": 2115,
+                    "defaultName": "Ocean wet mass content of lower mesopelagic micronekton (g/m^2)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmts",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_lmeso&STYLE=cmap:dense&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",
+                        "params": {
+                            "LAYER": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_lmeso",
+                            "VERSION": "1.0.0",
+                            "STYLES": "cmap:dense",
+                            "TILEMATRIXSET": "EPSG:3857"
+                        },
+                        "crossOrigin": "anonymous",
+                        "url_cache": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_lmeso&STYLE=cmap:dense&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",     
+                        "params_cache": [
+                        {
+                            "EPSG": 3857,
+                            "tileMatrix": "EPSG:3857",
+                            "levels": 6
+                        }]
+                    },
+                        "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Ocean wet mass content of lower mesopelagic micronekton (g/m^2)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },
+                        {
+                    "name": "Ocean wet mass content of migrant lower mesopelagic micronekton (g/m^2)",
+                    "id": 2116,
+                    "defaultName": "Ocean wet mass content of migrant lower mesopelagic micronekton (g/m^2)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmts",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_mlmeso&STYLE=cmap:viridis&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",
+                        "params": {
+                            "LAYER": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_mlmeso",
+                            "VERSION": "1.0.0",
+                            "STYLES": "cmap:viridis",
+                            "TILEMATRIXSET": "EPSG:3857"
+                        },
+                        "crossOrigin": "anonymous",
+                        "url_cache": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_mlmeso&STYLE=cmap:viridis&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",     
+                        "params_cache": [
+                        {
+                            "EPSG": 3857,
+                            "tileMatrix": "EPSG:3857",
+                            "levels": 6
+                        }]
+                    },
+                        "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Ocean wet mass content of migrant lower mesopelagic micronekton (g/m^2)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },
+                         {
+                    "name": "Ocean wet mass content of migrant upper mesopelagic micronekton (g/m^2)",
+                    "id": 2117,
+                    "defaultName": "Ocean wet mass content of migrant upper mesopelagic micronekton (g/m^2)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmts",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_mumeso&STYLE=cmap:viridis&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",
+                        "params": {
+                            "LAYER": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_mumeso",
+                            "VERSION": "1.0.0",
+                            "STYLES": "cmap:viridis",
+                            "TILEMATRIXSET": "EPSG:3857"
+                        },
+                        "crossOrigin": "anonymous",
+                        "url_cache": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_mumeso&STYLE=cmap:viridis&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",     
+                        "params_cache": [
+                        {
+                            "EPSG": 3857,
+                            "tileMatrix": "EPSG:3857",
+                            "levels": 6
+                        }]
+                    },
+                        "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Ocean wet mass content of migrant upper mesopelagic micronekton (g/m^2)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }, {
+                    "name": "Ocean wet mass content of upper mesopelagic micronekton (g/m^2)",
+                    "id": 2118,
+                    "defaultName": "Ocean wet mass content of upper mesopelagic micronekton (g/m^2)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmts",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_umeso&STYLE=cmap:dense&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",
+                        "params": {
+                            "LAYER": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_umeso",
+                            "VERSION": "1.0.0",
+                            "STYLES": "cmap:dense",
+                            "TILEMATRIXSET": "EPSG:3857"
+                        },
+                        "crossOrigin": "anonymous",
+                        "url_cache": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/mnkc_umeso&STYLE=cmap:dense&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",     
+                        "params_cache": [
+                        {
+                            "EPSG": 3857,
+                            "tileMatrix": "EPSG:3857",
+                            "levels": 6
+                        }]
+                    },
+                        "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Ocean wet mass content of upper mesopelagic micronekton (g/m^2)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },
+                        {
+                    "name": "Net primary productivity of biomass expressed as carbon in sea water (mg/m^2/day)",
+                    "id": 2119,
+                    "defaultName": "Net primary productivity of biomass expressed as carbon in sea water (mg/m^2/day)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmts",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/npp&STYLE=cmap:viridis&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",
+                        "params": {
+                            "LAYER": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/npp",
+                            "VERSION": "1.0.0",
+                            "STYLES": "cmap:viridis",
+                            "TILEMATRIXSET": "EPSG:3857"
+                        },
+                        "crossOrigin": "anonymous",
+                        "url_cache": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/npp&STYLE=cmap:viridis&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",     
+                        "params_cache": [
+                        {
+                            "EPSG": 3857,
+                            "tileMatrix": "EPSG:3857",
+                            "levels": 6
+                        }]
+                    },
+                        "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Net primary productivity of biomass expressed as carbon in sea water (mg/m^2/day)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },
+                        {
+                    "name": "Euphotic zone depth (m)",
+                    "id": 2120,
+                    "defaultName": "Euphotic zone depth (m)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmts",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/zeu&STYLE=cmap:plasma&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",
+                        "params": {
+                            "LAYER": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/zeu",
+                            "VERSION": "1.0.0",
+                            "STYLES": "cmap:plasma",
+                            "TILEMATRIXSET": "EPSG:3857"
+                        },
+                        "crossOrigin": "anonymous",
+                        "url_cache": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/zeu&STYLE=cmap:plasma&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",     
+                        "params_cache": [
+                        {
+                            "EPSG": 3857,
+                            "tileMatrix": "EPSG:3857",
+                            "levels": 6
+                        }]
+                    },
+                        "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Euphotic zone depth (m)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },{
+                    "name": "Mass content of zooplankton expressed as carbon in sea water (g/m^2)",
+                    "id": 2121,
+                    "defaultName": "Mass content of zooplankton expressed as carbon in sea water (g/m^2)",
+                    "mapType": null,
+                    "abstractFull" : "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractEN": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                    "abstractNL" : null,
+                    "minZoom": 1,
+                    "maxZoom": 16,
+                    "bbox": {
+                        "left": -180,
+                        "bottom": -80,
+                        "right": 179.92,
+                        "top": 89.92
+                    },
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": "2026-07-07 00:00:00.000000",
+                    "spatialResolutoinEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Copernicus Marine Service", "role": "resourceProvider"},
+                        {"name": "Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wmts",
+                    "properties": {
+                        "url": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/zooc&STYLE=cmap:matter&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",
+                        "params": {
+                            "LAYER": "GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/zooc",
+                            "VERSION": "1.0.0",
+                            "STYLES": "cmap:matter",
+                            "TILEMATRIXSET": "EPSG:3857"
+                        },
+                        "crossOrigin": "anonymous",
+                        "url_cache": "https://wmts.marine.copernicus.eu/teroWmts/?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GLOBAL_MULTIYEAR_BGC_001_033/cmems_mod_glo_bgc_my_0.083deg-lmtl_P1D-i_202511/zooc&STYLE=cmap:matter&FORMAT=image/png&TILEMATRIXSET={TileMatrixSet}&TILEMATRIX={TileMatrix}&TILEROW={TileRow}&TILECOL={TileCol}",     
+                        "params_cache": [
+                        {
+                            "EPSG": 3857,
+                            "tileMatrix": "EPSG:3857",
+                            "levels": 6
+                        }]
+                    },
+                        "isGetFeatureInfoOn": true,
+                        "getFeatureInfoWFSurl": null,
+                        "ogcOutputType": "text/html",
+                        "isZoomToLayerExtentEnabled": false,
+                        "info": {
+                            "title": "Mass content of zooplankton expressed as carbon in sea water (g/m^2)",
+                            "content": "The Low and Mid-Trophic Levels (LMTL) reanalysis for global ocean is produced at CLS on behalf of Global Ocean Marine Forecasting Center. It provides 2D fields of biomass content of zooplankton and six functional groups of micronekton. It uses the LMTL component of SEAPODYM dynamical population model (http://www.seapodym.eu). No data assimilation has been done. This product also contains forcing data: net primary production, euphotic depth, depth of each pelagic layers zooplankton and micronekton inhabit, average temperature and currents over pelagic layers.<br/><br/><b>Forcings sources:</b><br/><ul><li>Ocean currents and temperature (CMEMS multiyear product)</li><li>Net Primary Production computed from chlorophyll a, Sea Surface Temperature and Photosynthetically Active Radiation observations (chlorophyll from CMEMS multiyear product, SST from NOAA NCEI AVHRR-only Reynolds, PAR from INTERIM) and relaxed by model outputs at high latitudes (CMEMS biogeochemistry multiyear product)</li></ul><br/><b>Vertical coverage:</b><br/><ul><li>Epipelagic layer</li><li>Upper mesopelagic layer</li><li>Lower mesopelagic layer (max. 1000m)</li></ul><br/><b>References:</b><br/><br/>Lehodey P., Murtugudde R., Senina I. (2010). Bridging the gap from ocean models to population dynamics of large marine predators: a model of mid-trophic functional groups. Progress in Oceanography, 84, p. 69-84.<br/>Lehodey, P., Conchon, A., Senina, I., Domokos, R., Calmettes, B., Jouanno, J., Hernandez, O., Kloser, R. (2015) Optimization of a micronekton model with acoustic data. ICES Journal of Marine Science, 72(5), p. 1399-1412.<br/>Conchon A. (2016). Modélisation du zooplancton et du micronecton marins. Thèse de Doctorat, Université de La Rochelle, 136 p.",
+                            "links": {
+                                "metadata": "https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_BGC_001_033/description"
+                            }
+                        },
+                    "active": 0,
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }]  }]}, {
+                    "name": "Challenge 6: Resilient & health coastal human communities & ecosystems",
+                    "children": [{
+                    "name": "Observational and model sites of the CoastPredict programme",
+                    "id": 1001,
+                    "defaultName": "Observational and model sites of the CoastPredict programme",
+                    "mapType": null,
+                    "abstractFull": "This layer is provided by the CoastPredict programme.<br/><br/>This layer provides an overview of Pilot Site locations and some insights into the priorities and needs at Pilot Sites. The CoastPredict Programme has established an initial network of potential GlobalCoast Pilot Sites where activities will be implemented.<br/><br/>Last updated 16th July 2026.",
+                    "abstractEN":"This layer is provided by the CoastPredict programme.<br/><br/>This layer provides an overview of Pilot Site locations and some insights into the priorities and needs at Pilot Sites. The CoastPredict Programme has established an initial network of potential GlobalCoast Pilot Sites where activities will be implemented.<br/><br/>Last updated 16th July 2026.",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Decade Collaborative Centre for Coastal Resilience", "role": "resourceProvider"},
+                        {"name": "Decade Collaborative Centre for Coastal Resilience", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "Observational_and_model_sites_of_the_CoastPredict_programme_style",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous",
+                        "params_cache": {}
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Observational and model sites of the CoastPredict programme",
+                        "content": "Data last updated 16th July 2026.<br/><br/>This layer is provided by the CoastPredict programme.<br/><br/>This layer provides an overview of Pilot Site locations and some insights into the priorities and needs at Pilot Sites. The CoastPredict Programme has established an initial network of potential GlobalCoast Pilot Sites where activities will be implemented.",
+                        "links": {"metadata": "https://www.google.com/maps/d/u/0/viewer?mid=19lpleSC_rJs0dyVT3Btg0ZDgW5BpqTM"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }]
+                },{
+		"name": "Challenge 7: Sustainably expand the global ocean observing system",
+		"children": [
+			{
+                    "name": "Latest Argo profiling float locations",
+                    "id": 7001,
+                    "defaultName": "Latest Argo profiling foat locations",
+                    "mapType": null,
+                    "abstractFull": "This layer is provided by the Coriolis Global Data Assembly Centre.<br/><br/>This layer shows the positions over the last 10 days of autonomous profiling floats (Argo) operating as part of the international Argo observing programme. This layer is extracted from IFREMER’s Global Data Assembly Centres (GDAC), which manage and distribute data from these instruments in real time. Argo floats repeatedly descend, drift and rise through the ocean while measuring pressure, temperature and salinity; specialised Deep Argo and Biogeochemical Argo floats can observe deeper waters or additional biological and chemical properties. The observations are transmitted once a float reaches the surface and contribute to understanding ocean heat, freshwater, circulation, climate variability and change, as well as to ocean analysis and forecasting.<br/><br/>Last updated 16th July 2026.",
+                    "abstractEN": "This layer is provided by the Coriolis Global Data Assembly Centre.<br/><br/>This layer shows the positions over the last 10 days of autonomous profiling floats (Argo) operating as part of the international Argo observing programme. This layer is extracted from IFREMER’s Global Data Assembly Centres (GDAC), which manage and distribute data from these instruments in real time. Argo floats repeatedly descend, drift and rise through the ocean while measuring pressure, temperature and salinity; specialised Deep Argo and Biogeochemical Argo floats can observe deeper waters or additional biological and chemical properties. The observations are transmitted once a float reaches the surface and contribute to understanding ocean heat, freshwater, circulation, climate variability and change, as well as to ocean analysis and forecasting.<br/><br/>Last updated 16th July 2026.",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "World Meteorological Organisation (WMO)-Intergovernmental Oceanographic Commission (IOC) Joint Centre for Oceanography and Marine Meteorology in situ Observations Programmes Support (OceanOPS)", "role": "resourceProvider"},
+                        {"name": "World Meteorological Organisation (WMO)-Intergovernmental Oceanographic Commission (IOC) Joint Centre for Oceanography and Marine Meteorology in situ Observations Programmes Support (OceanOPS)", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "Argo_Float_Measurements",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Latest Argo profiling float locations",
+                        "content": "Data last updated 16th July 2026.<br/><br/>This layer is provided by the Coriolis Global Data Assembly Centre.<br/><br/>This layer shows the positions over the last 10 days of autonomous profiling floats (Argo) operating as part of the international Argo observing programme. This layer is extracted from IFREMER’s Global Data Assembly Centres (GDAC), which manage and distribute data from these instruments in real time. Argo floats repeatedly descend, drift and rise through the ocean while measuring pressure, temperature and salinity; specialised Deep Argo and Biogeochemical Argo floats can observe deeper waters or additional biological and chemical properties. The observations are transmitted once a float reaches the surface and contribute to understanding ocean heat, freshwater, circulation, climate variability and change, as well as to ocean analysis and forecasting.",
+                        "links": {"metadata": "https://erddap.ifremer.fr/erddap/info/ArgoFloats/index.html"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                },
+			{
+                    "name": "Ocean Networks Canada (ONC) - Observatories",
+                    "id": 7002,
+                    "defaultName": "Ocean Networks Canada (ONC) - Observatories",
+                    "mapType": null,
+                    "abstractFull": "This layer is provided by Ocean Networks Canada, an initiative of the University of Victoria and a Decade Implementing Partner.<br/><br/>This layer shows the locations of subsea observatories operated by Ocean Networks Canada.",
+                    "abstractEN": "This layer is provided by Ocean Networks Canada, an initiative of the University of Victoria and a Decade Implementing Partner.<br/><br/>This layer shows the locations of subsea observatories operated by Ocean Networks Canada.",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Ocean Networks Canada", "role": "resourceProvider"},
+                        {"name": "Ocean Networks Canada", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "Ocean_Networks_Canada_Observatories",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Ocean Networks Canada (ONC) - Observatories",
+                        "content": "Data last updated 14th August 2026.<br/><br/>This map shows the location of the ocean observatories deployed by Ocean Networks Canada (ONC). This network collects data on physical, chemical, biological, and geological aspects of the Pacific, Arctic, and Atlantic oceans. These observatories support research on complex Earth processes in ways not previously possible, providing scientists, communities, and decision-makers with access to free, open, continuous, long-time series data from anywhere in the world, in real-time.",
+                        "links": {"metadata": "https://www.oceannetworks.ca/observatories/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }
+		]
+		},
+                {
+                "name": "Challenge 8: Digital Representation of the Ocean",
+                "children": [{
+                    "name": "National Oceanographic Data Centres (NODCs)",
+                    "id": 5,
+                    "defaultName": "National Oceanographic Data Centres (NODCs)",
+                    "mapType": null,
+                    "abstractFull": "This layer shows the locations of National Oceanographic Data Centres (NODCs) within the International Oceanographic Data and Information Exchange (IODE) network. This information is intended to help users find the relevant data centre. NODCs are institutions officially designated by IOC Member States to provide access to and stewardship of national oceanographic data resources. They receive data from research, monitoring and operational programmes, apply quality-control procedures and agreed standards, preserve the data and the information needed to interpret it, and make national ocean data available for science, services, assessments and decision-making. They support data management planning, exchange data internationally and contribute to products such as statistical summaries and ocean atlases.<br/><br/>Last updated 30th June 2026.",
+                    "abstractEN": "This layer shows the locations of National Oceanographic Data Centres (NODCs) within the International Oceanographic Data and Information Exchange (IODE) network. This information is intended to help users find the relevant data centre. NODCs are institutions officially designated by IOC Member States to provide access to and stewardship of national oceanographic data resources. They receive data from research, monitoring and operational programmes, apply quality-control procedures and agreed standards, preserve the data and the information needed to interpret it, and make national ocean data available for science, services, assessments and decision-making. They support data management planning, exchange data internationally and contribute to products such as statistical summaries and ocean atlases.<br/><br/>Last updated 30th June 2026.",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "National_Oceanographic_Data_Centres__NODCs",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "National Oceanographic Data Centres (NODCs)",
+                        "content": "Data last updated 30th June 2026.<br/><br/>This layer shows the locations of National Oceanographic Data Centres (NODCs) within the International Oceanographic Data and Information Exchange (IODE) network. This information is intended to help users find the relevant data centre. NODCs are institutions officially designated by IOC Member States to provide access to and stewardship of national oceanographic data resources. They receive data from research, monitoring and operational programmes, apply quality-control procedures and agreed standards, preserve the data and the information needed to interpret it, and make national ocean data available for science, services, assessments and decision-making. They support data management planning, exchange data internationally and contribute to products such as statistical summaries and ocean atlases.",
+                        "links": {"metadata": "https://iode.org/about/community/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }, {
+                    "name": "International Oceanographic Data and Information Exchange (IODE) Associated Data Units (ADUs)",
+                    "id": 6,
+                    "defaultName": "International Oceanographic Data and Information Exchange (IODE) Associated Data Units (ADUs)",
+                    "mapType": null,
+                    "abstractFull": "This layer shows the locations of the Associate Data Units (ADUs). ADUs are projects, programmes, institutions and organisations formally recognised by the International Oceanographic Data and Information Exchange (IODE) for their role in managing, preserving and sharing ocean data. They contribute to the use of common standards and best practices, participate in training and technical cooperation, and support the long-term accessibility and preservation of ocean data and metadata. ADUs extend the IODE network beyond national data centres by connecting specialised research programmes, observing systems and institutions that operate their own data services.<br/><br/>Last updated 1st June 2026",
+                    "abstractEN": "This layer shows the locations of the Associate Data Units (ADUs). ADUs are projects, programmes, institutions and organisations formally recognised by the International Oceanographic Data and Information Exchange (IODE) for their role in managing, preserving and sharing ocean data. They contribute to the use of common standards and best practices, participate in training and technical cooperation, and support the long-term accessibility and preservation of ocean data and metadata. ADUs extend the IODE network beyond national data centres by connecting specialised research programmes, observing systems and institutions that operate their own data services.<br/><br/>Last updated 1st June 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "ADUs_layer___Digital_Atlas",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Associated Data Units (ADUs)",
+                        "content": "Data last updated 1st June 2026<br/><br/>This layer shows the locations of the Associate Data Units (ADUs). ADUs are projects, programmes, institutions and organisations formally recognised by the International Oceanographic Data and Information Exchange (IODE) for their role in managing, preserving and sharing ocean data. They contribute to the use of common standards and best practices, participate in training and technical cooperation, and support the long-term accessibility and preservation of ocean data and metadata. ADUs extend the IODE network beyond national data centres by connecting specialised research programmes, observing systems and institutions that operate their own data services.",
+                        "links": {"metadata": "https://iode.org/about/community/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+            },
+        {
+                    "name": "UN Ocean Decade endorsed Actions - Geographic extent of data collection",
+                    "id": 8,
+                    "defaultName": "UN Ocean Decade endorsed Actions - Geographic extent of data collection",
+                    "mapType": null,
+                    "abstractFull": "This map shows the geographic extent and various other information about the data collected by endorsed Actions (projects and programmes) under the UN Ocean Decade. Some global Actions are excluded from this map as they are shown in other layers, for example the Argo programme and the Seabed 2030 programme.",
+                    "abstractEN": "This map shows the geographic extent and various other information about the data collected by endorsed Actions (projects and programmes) under the UN Ocean Decade. Some global Actions are excluded from this map as they are shown in other layers, for example the Argo programme and the Seabed 2030 programme.",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "Data_Collection_decade_actions",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "UN Ocean Decade endorsed Actions - Geographic extent of data collection",
+                        "content": "This map shows the geographic extent and various other information about the data collected by endorsed Actions (projects and programmes) under the UN Ocean Decade. Some global Actions are excluded from this map as they are shown in other layers, for example the Argo programme and the Seabed 2030 programme.",
+                        "links": {"metadata": "https://oceandecade.org/decade-actions/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+            },{
+                    "name": "Ocean Forecasting Systems",
+                    "id": 123456789,
+                    "defaultName": "Ocean Forecasting Systems",
+                    "mapType": null,
+                    "abstractFull": "This layer is provided by the Decade Collaborative Centre for Ocean Prediciton, Mecator Ocean International.<br/><br/>This map shows the Ocean Forecasting Systems that provide ocean prediction services and modelling. It allows viewers to compare the distribution and characteristics of forecasting capacity around the world and to identify systems relevant to specific ocean regions or uses. It indicates the system title, responsible organisations, data policy, numerical and atmospheric models, main applications, variables used, and related links where available. This layer is extracted from the Atlas produced by the DCC for Ocean Prediction and its community in support of the Ocean Decade goal of a predicted ocean. Operational ocean forecasting combines observations from satellites, buoys, floats, ships and other platforms with numerical models and data assimilation methods to describe the present state of the ocean and estimate how conditions may evolve.<br/><br/>Last updated 15th July 2026",
+                    "abstractEN": "This layer is provided by the Decade Collaborative Centre for Ocean Prediciton, Mecator Ocean International.<br/><br/>This map shows the Ocean Forecasting Systems that provide ocean prediction services and modelling. It allows viewers to compare the distribution and characteristics of forecasting capacity around the world and to identify systems relevant to specific ocean regions or uses. It indicates the system title, responsible organisations, data policy, numerical and atmospheric models, main applications, variables used, and related links where available. This layer is extracted from the Atlas produced by the DCC for Ocean Prediction and its community in support of the Ocean Decade goal of a predicted ocean. Operational ocean forecasting combines observations from satellites, buoys, floats, ships and other platforms with numerical models and data assimilation methods to describe the present state of the ocean and estimate how conditions may evolve.<br/><br/>Last updated 15th July 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Decade Collaborative Centre for Ocean Prediction, Mercator Ocean International", "role": "resourceProvider"},
+                        {"name": "Decade Collaborative Centre for Ocean Prediction, Mercator Ocean International", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "forecasting_systems_gpk___forecasting_systemsforecasting_systemsshp",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Ocean Forecasting Systems",
+                        "content": "Data last updated 15th July 2026<br/><br/>This layer is provided by the Decade Collaborative Centre for Ocean Prediciton, Mecator Ocean International.<br/><br/>This map shows the Ocean Forecasting Systems that provide ocean prediction services and modelling. It allows viewers to compare the distribution and characteristics of forecasting capacity around the world and to identify systems relevant to specific ocean regions or uses. It indicates the system title, responsible organisations, data policy, numerical and atmospheric models, main applications, variables used, and related links where available. This layer is extracted from the Atlas produced by the DCC for Ocean Prediction and its community in support of the Ocean Decade goal of a predicted ocean. Operational ocean forecasting combines observations from satellites, buoys, floats, ships and other platforms with numerical models and data assimilation methods to describe the present state of the ocean and estimate how conditions may evolve.",
+                        "links": {"metadata": "https://cartography.unoceanprediction.org/"}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+                }]},
+            {
+                "name": "Challenge 10: Capacity Development and Ocean Literacy for all",
+                "children": [{
+                    "name": "Capacity development facilitated by the UN Ocean Decade",
+                    "id": 7,
+                    "defaultName": "Capacity development facilitated by the UN Ocean Decade",
+                    "mapType": null,
+                    "abstractFull": "This layer shows the number of trainees per country that have participated in different capacity development initiatives facilitated by the UN Ocean Decade.  It includes a total number of trainings lead by the DCO for Ocean Data Sharing, DCC for Coastal Resilience, Capacity Development Fund and Ocean Networks Canada. Capacity development is a cross-cutting area of the Ocean Decade because producing and applying ocean knowledge depends on people and institutions having the skills, technologies, networks and opportunities needed to participate.<br/><br/>Last updated 1st June 2026",
+                    "abstractEN": "This layer shows the number of trainees per country that have participated in different capacity development initiatives facilitated by the UN Ocean Decade.  It includes a total number of trainings lead by the DCO for Ocean Data Sharing, DCC for Coastal Resilience, Capacity Development Fund and Ocean Networks Canada. Capacity development is a cross-cutting area of the Ocean Decade because producing and applying ocean knowledge depends on people and institutions having the skills, technologies, networks and opportunities needed to participate.<br/><br/>Last updated 1st June 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "Trainings_layer_final___Digital_Atlas",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "Capacity development facilitated by the UN Ocean Decade",
+                        "content": "Last updated 1st June 2026<br/><br/>This layer shows the number of trainees per country that have participated in different capacity development initiatives facilitated by the UN Ocean Decade.  It includes a total number of trainings lead by the DCO for Ocean Data Sharing, DCC for Coastal Resilience, Capacity Development Facility and Ocean Networks Canada. Capacity development is a cross-cutting area of the Ocean Decade because producing and applying ocean knowledge depends on people and institutions having the skills, technologies, networks and opportunities needed to participate.",
+                        "links": {"metadata": ""}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+            },{
+                    "name": "UN Ocean Decade Capacity Development Fund (CDF) partners",
+                    "id": 9876,
+                    "defaultName": "UN Ocean Decade Capacity Development Facility (CDF) partners",
+                    "mapType": null,
+                    "abstractFull": "This layer map shows the lead institutions and the trainings and capacity building initiatives supported or coordinated through the Ocean Decade Capacity Development Facility (CDF). The CDF seeks to strengthen skills, expertise, networks and access to opportunities, with particular attention to groups and regions that face persistent barriers to participation, including Small Island Developing States, Least Developed Countries and Early Career Ocean Professionals. It responds to the needs of individuals and institutions so they can participate in the co-design, co-delivery and use of ocean science and knowledge for sustainable development.<br/><br/>Last updated 15th July 2026",
+                    "abstractEN": "This layer shows the lead institutions and the trainings and capacity building initiatives supported or coordinated through the Ocean Decade Capacity Development Facility (CDF). The CDF seeks to strengthen skills, expertise, networks and access to opportunities, with particular attention to groups and regions that face persistent barriers to participation, including Small Island Developing States, Least Developed Countries and Early Career Ocean Professionals. It responds to the needs of individuals and institutions so they can participate in the co-design, co-delivery and use of ocean science and knowledge for sustainable development.<br/><br/>Last updated 15th July 2026",
+                    "abstractNL": null,
+                    "region": null,
+                    "temporalCentury": null,
+                    "temporalDatesExtent": null,
+                    "dateLastRevision": null,
+                    "spatialResolutionEquivalentScales": null,
+                    "languages": {},
+                    "responsibleParties": [
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "resourceProvider"},
+                        {"name": "Intergovernmental Oceanographic Commission of UNESCO", "role": "originator"}
+                    ],
+                    "metadataSources": [],
+                    "bbox": {},
+                    "temporalExtentIntervals": {},
+                    "url_erddap": null,
+                    "max_getfeatureinfo": 50,
+                    "wfs_server": null,
+                    "wfs_version": null,
+                    "wfs_output": null,
+                    "wfs_layername": null,
+                    "type": "wms",
+                    "properties": {
+                        "url": "https://atlas.iode.org/api/resource/59/wms",
+                        "params": {
+                            "LAYERS": "CDF_partner_institutions_and_trainings",
+                            "VERSION": "1.3.0"
+                        },
+                        "crossOrigin": "anonymous"
+                    },
+                    "active": 0,
+                    "isGetFeatureInfoOn": true,
+                    "getFeatureInfoWFSurl": null,
+                    "ogcOutputType": "text/html",
+                    "isZoomToLayerExtentEnabled": false,
+                    "info":
+                    {
+                        "title": "UN Ocean Decade Capacity Development Facility (CDF) partners",
+                        "content": "Last updated 15th July 2026<br/><br/>This layer shows the lead institutions and the trainings and capacity building initiatives supported or coordinated through the Ocean Decade Capacity Development Facility (CDF). The CDF seeks to strengthen skills, expertise, networks and access to opportunities, with particular attention to groups and regions that face persistent barriers to participation, including Small Island Developing States, Least Developed Countries and Early Career Ocean Professionals. It responds to the needs of individuals and institutions so they can participate in the co-design, co-delivery and use of ocean science and knowledge for sustainable development.",
+                        "links": {"metadata": ""}
+                    },
+                    "arcgis": 0,
+                    "isAnimated": false,
+                    "animationProperties": {},
+                    "isLayerGroup": 0,
+                    "filterOn": null,
+                    "filter": null
+            }]
+            }
+        ]
+    }
+}
